@@ -1,5 +1,5 @@
 html {
-	font: 14px/150% "Open Sans";
+	font: 14px/150% "Open Sans", sans-serif;
 }
 
 body {
@@ -11,7 +11,7 @@ header {
 }
 
 header h1 {
-	font: 18px/150% "Open Sans";
+	font: 18px/150% "Open Sans", sans-serif;
 	margin-top: 0;
 	margin-bottom: 0;
 	font-weight: normal;
@@ -19,9 +19,8 @@ header h1 {
 }
 
 header nav {
-	font: 22px/150% "Open Sans";
+	font: 22px/150% "Open Sans", sans-serif;
 	margin: 4px 0;
-	color: white;
 }
 
 .page {
@@ -40,21 +39,21 @@ main {
 }
 
 main h1 {
-	font: 22px/150% "Open Sans";
+	font: 22px/150% "Open Sans", sans-serif;
 	font-weight: bold;
 	margin-top: 27px;
 	margin-bottom: 9px;
 }
 
 main h2 {
-	font: 16px/150% "Open Sans";
+	font: 16px/150% "Open Sans", sans-serif;
 	font-weight: bold;
 	margin-top: 18px;
 	margin-bottom: 6px;
 }
 
 main h3 {
-	font: 14px/150% "Open Sans";
+	font: 14px/150% "Open Sans", sans-serif;
 	font-weight: bold;
 	margin-top: 12px;
 	margin-bottom: 4px;
