@@ -45,7 +45,7 @@ Kuma et al. (2017), [Shipborne and ground-based observations of clouds in the Su
 
 [COSPv1 (Surface Lidar Fork)](https://github.com/peterkuma/COSPv1) – COSP (CFMIP Observation Simulator Package) experimental surface lidar fork
 
-[ALCF](https://github.com/peterkuma/alcf) (in development) – Automatic Lidar and Ceilometer Processing Framework
+[ALCF](http://alcf.peterkuma.net) (beta) – Automatic Lidar and Ceilometer Processing Framework
 
 ## Theses
 
