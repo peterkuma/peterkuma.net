@@ -72,7 +72,7 @@ main ul li {
 	margin: 8px 0;
 }
 
-main img {
+main > img {
 	width: 800px;
 	margin-left: -50px;
 	margin-top: 4px;
