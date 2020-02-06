@@ -29,6 +29,8 @@ Kuma et al. (2017), [Assessment of Southern Ocean clouds and aerosols in the New
 
 ## Posters
 
+Kuma et al. (2020), [Ground-based lidar processing and simulator framework for comparing models and observations](https://github.com/peterkuma/research/raw/master/posters/Kuma%20et%20al.%20(2020),%20Ground-based%20lidar%20processing%20and%20simulator%20framework%20for%20comparing%20models%20and%20observations.pdf) (Gateway Antarctica Conference, Christchurch, New Zealand, 30–31 January 2020)
+
 Kuma et al. (2019), [Automatic Lidar and Ceilometer Framework (ALCF)](https://github.com/peterkuma/research/raw/master/posters/Kuma%20et%20al.%20(2019)%2C%20Automatic%20Lidar%20and%20Ceilometer%20Framework%20(ALCF).pdf) (CFMIP 2019 Meeting, Mykonos, Greece, 30 September–4 October 2019)
 
 Kuma et al. (2019), [Evaluation of Southern Ocean cloud in the HadGEM3 general circulation model and MERRA-2 reanalysis using ship-based observations](https://github.com/peterkuma/research/raw/master/posters/Kuma%20et%20al.%20(2019)%2C%20Evaluation%20of%20Southern%20Ocean%20cloud%20in%20the%20HadGEM3%20general%20circulation%20model%20and%20MERRA-2%20reanalysis%20using%20ship-based%20observations.pdf) (Deep South Challenge Conference, Auckland, New Zealand, 6–8 May 2019)
