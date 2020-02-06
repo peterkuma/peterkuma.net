@@ -1,5 +1,5 @@
 html {
-	font: 14px/150% "Open Sans", sans-serif;
+	font: 16px/150% "Open Sans", sans-serif;
 }
 
 body {
@@ -9,10 +9,11 @@ body {
 header {
 	text-align: center;
 	padding-bottom: 8px;
+	border-bottom: 1px solid #aaaaaa;
 }
 
 header h1 {
-	font: 18px/150% "Open Sans", sans-serif;
+	font: 20px/150% "Open Sans", sans-serif;
 	margin-top: 0;
 	margin-bottom: 0;
 	font-weight: normal;
@@ -26,7 +27,7 @@ header nav {
 
 .page {
 	margin: 0 auto;
-	width: 700px;
+	width: 800px;
 }
 
 a {
@@ -35,7 +36,7 @@ a {
 }
 
 main {
-	width: 700px;
+	width: 800px;
 	margin-top: 10px;
 }
 

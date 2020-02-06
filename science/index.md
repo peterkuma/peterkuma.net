@@ -68,5 +68,5 @@ Supervisor: Ivan Bašták-Ďurán, [Comenius University](https://uniba.sk/en)
 Kuma (2010), [Visualising Data from CloudSat and CALIPSO Satellites](https://github.com/peterkuma/research/raw/master/theses/Kuma%20(2010)%2C%20Visualising%20Data%20from%20CloudSat%20and%20CALIPSO%20Satellites.pdf) (Comenius University, Bratislava, Slovakia)
 
 <div style="margin: 32px 0">
-<img src="/img/open-access.png" width="16" style="vertical-align: middle; margin-right: 8px" />Please support <a href="https://www.coalition-s.org/">Plan S</a>
+<img src="/img/open-access.png" width="16" style="vertical-align: middle; margin-right: 8px" />Please support <a href="https://www.coalition-s.org/">open access publishing</a>.
 </div>
