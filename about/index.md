@@ -9,6 +9,4 @@ I am an open source software developer focusing on development on unix-like oper
 
 **E-mail:** peter<span>&#0064;</span>peterkuma.net ([PGP key](/pgp/peterkuma.asc))
 
-**E-mail (University of Canterbury):** peter.kuma<span>&#0064;</span>pg.canterbury.ac.nz ([PGP key](/pgp/canterbury.asc))
-
 **[Software signing PGP key](/pgp/fastmail.asc)**
