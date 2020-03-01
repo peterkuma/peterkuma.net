@@ -5,13 +5,13 @@ layout: default
 
 # Science
 
-## Publications
+## Papers
 
-Kuma et al. (2020), Ground-based lidar processing and simulator framework for comparing models and observations (submitted to Geoscientific Model Development)
+Kuma et al. (2020), [Ground-based lidar processing and simulator framework for comparing models and observations](papers/kuma_et_al_2020/) (submitted to Geoscientific Model Development)
 
 Hartery et al. (2020), [Constraining the Surface Flux of Sea Spray Particles from the Southern Ocean](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JD032026) (Journal of Geophysical Research: Atmospheres)
 
-Kuma et al. (2019), [Evaluation of Southern Ocean cloud in the HadGEM3 general circulation model and MERRA-2 reanalysis using ship-based observations](https://www.atmos-chem-phys-discuss.net/acp-2019-201/) (Atmospheric Chemistry and Physics Discussion)
+Kuma et al. (2019), [Evaluation of Southern Ocean cloud in the HadGEM3 general circulation model and MERRA-2 reanalysis using ship-based observations](papers/kuma_et_al_2019/) (Atmospheric Chemistry and Physics Discussion)
 
 Klekociuk et al. (2019), [The state of the atmosphere in the 2016 southern Kerguelen Axis campaign region](https://www.sciencedirect.com/science/article/pii/S0967064518301395) (Deep-Sea Research Part II: Topical Studies in Oceanography)
 
