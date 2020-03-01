@@ -5,15 +5,15 @@ title: Ground-based lidar processing and simulator framework for comparing model
 
 # Ground-based lidar processing and simulator framework for comparing models and observations
 
-Peter Kuma<sup>1</sup>, Adrian J. McDonald <sup>1</sup>, Olaf Morgenstern <sup>2</sup>, Richard Querel <sup>3</sup>, Israel Silber <sup>4</sup>, and Connor
-J. Flynn <sup>5</sup>
+Peter Kuma<sup>1</sup>, Adrian J. McDonald<sup>1</sup>, Olaf Morgenstern<sup>2</sup>, Richard Querel<sup>3</sup>, Israel Silber<sup>4</sup>, and Connor
+J. Flynn<sup>5</sup>
 
 <small>
-<sup>1</sup> University of Canterbury, Christchurch, New Zealand<br />
-<sup>2</sup> National Institute of Water & Atmospheric Research (NIWA), Wellington, New Zealand<br />
-<sup>3</sup> National Institute of Water & Atmospheric Research (NIWA), Lauder, New Zealand<br />
-<sup>4</sup> Department of Meteorology and Atmospheric Science, Pennsylvania State University, PA, USA<br />
-<sup>5</sup> School of Meteorology, University of Oklahoma, Norman, OK, USA
+<sup>1</sup>University of Canterbury, Christchurch, New Zealand<br />
+<sup>2</sup>National Institute of Water & Atmospheric Research (NIWA), Wellington, New Zealand<br />
+<sup>3</sup>National Institute of Water & Atmospheric Research (NIWA), Lauder, New Zealand<br />
+<sup>4</sup>Department of Meteorology and Atmospheric Science, Pennsylvania State University, PA, USA<br />
+<sup>5</sup>School of Meteorology, University of Oklahoma, Norman, OK, USA
 </small>
 
 ## Abstract

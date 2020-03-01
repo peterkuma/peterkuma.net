@@ -10,12 +10,12 @@ Sally Garrett<sup>5</sup>, Jamie Halla<sup>5</sup>, Sean Hartery<sup>1</sup>, Mi
 Vidya Varma<sup>2</sup>, and Jonny Williams<sup>2</sup>
 
 <small>
-<sup>1</sup> School of Physical and Chemical Sciences, University of Canterbury, Christchurch, New Zealand<br />
-<sup>2</sup> National Institute of Water and Atmospheric Research, Wellington, New Zealand<br />
-<sup>3</sup> Australian Antarctic Division, Kingston, Australia<br />
-<sup>4</sup> Cooperative Institute for Research in Environmental Sciences and Department of Atmospheric and Oceanic Sciences,<br />
+<sup>1</sup>School of Physical and Chemical Sciences, University of Canterbury, Christchurch, New Zealand<br />
+<sup>2</sup>National Institute of Water and Atmospheric Research, Wellington, New Zealand<br />
+<sup>3</sup>Australian Antarctic Division, Kingston, Australia<br />
+<sup>4</sup>Cooperative Institute for Research in Environmental Sciences and Department of Atmospheric and Oceanic Sciences,<br />
 University of Colorado, Boulder, Colorado, US<br />
-<sup>5</sup> New Zealand Defence Force, Wellington, New Zealand
+<sup>5</sup>New Zealand Defence Force, Wellington, New Zealand
 </small>
 
 ## Abstract
