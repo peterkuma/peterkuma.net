@@ -24,6 +24,8 @@ Automatic lidars and ceilometers provide valuable information on cloud and aeros
 
 Submitted to Geoscientific Model Development (GMD)
 
+Submitted: 26 January 2020
+
 ## Download
 
 [Revision 2019-01-28 (PDF)](https://github.com/peterkuma/research/raw/master/papers/Kuma%20et%20al.%20(2020),%20Ground-based%20lidar%20processing%20and%20simulator%20framework%20for%20comparing%20models%20and%20observations%20[2020-01-28].pdf)

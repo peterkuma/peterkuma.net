@@ -24,7 +24,10 @@ Southern Ocean (SO) shortwave (SW) radiation biases are a common problem in cont
 
 ## Journal
 
-[Atmospheric Chemistry and Physics Discussion (ACPD)](https://www.atmos-chem-phys-discuss.net/acp-2019-201/)
+In review in [Atmospheric Chemistry and Physics Discussion (ACPD)](https://www.atmos-chem-phys-discuss.net/acp-2019-201/)
+
+Submitted: 1 March 2019<br />
+DOI: [10.5194/acp-2019-201](https://doi.org/10.5194/acp-2019-201)
 
 ## Download
 
