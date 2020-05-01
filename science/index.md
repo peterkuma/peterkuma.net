@@ -7,11 +7,13 @@ layout: default
 
 ## Papers
 
+Hartery et al. (2020), [Quantification of Boundary Layer Mixing over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements] (submitted to Geophysical Research Letters)
+
 Kuma et al. (2020), [Ground-based lidar processing and simulator framework for comparing models and observations](papers/kuma_et_al_2020/) (submitted to Geoscientific Model Development)
 
 Hartery et al. (2020), [Constraining the Surface Flux of Sea Spray Particles from the Southern Ocean](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JD032026) (Journal of Geophysical Research: Atmospheres)
 
-Kuma et al. (2019), [Evaluation of Southern Ocean cloud in the HadGEM3 general circulation model and MERRA-2 reanalysis using ship-based observations](papers/kuma_et_al_2019/) (Atmospheric Chemistry and Physics Discussion)
+Kuma et al. (2019), [Evaluation of Southern Ocean cloud in the HadGEM3 general circulation model and MERRA-2 reanalysis using ship-based observations](papers/kuma_et_al_2019/) (Atmospheric Chemistry and Physics, accepted)
 
 Klekociuk et al. (2019), [The state of the atmosphere in the 2016 southern Kerguelen Axis campaign region](https://www.sciencedirect.com/science/article/pii/S0967064518301395) (Deep-Sea Research Part II: Topical Studies in Oceanography)
 
@@ -70,7 +72,3 @@ Kuma (2015), [Broadband approach as a framework for implementation of radiative 
 Supervisor: Ivan Bašták-Ďurán, [Comenius University](https://uniba.sk/en)
 
 Kuma (2010), [Visualising Data from CloudSat and CALIPSO Satellites](https://github.com/peterkuma/research/raw/master/theses/Kuma%20(2010)%2C%20Visualising%20Data%20from%20CloudSat%20and%20CALIPSO%20Satellites.pdf) (Comenius University, Bratislava, Slovakia)
-
-<div style="margin: 32px 0">
-<img src="/img/open-access.png" width="16" style="vertical-align: middle; margin-right: 8px" />Please support <a href="https://www.coalition-s.org/">open access publishing</a>.
-</div>
