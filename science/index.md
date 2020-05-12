@@ -9,7 +9,7 @@ layout: default
 
 Hartery et al. (2020), [Quantification of Boundary Layer Mixing over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements](https://www.essoar.org/doi/abs/10.1002/essoar.10502904.1) (submitted to Geophysical Research Letters)
 
-Kuma et al. (2020), [Ground-based lidar processing and simulator framework for comparing models and observations](https://zenodo.org/record/3785715) (submitted to Geoscientific Model Development)
+Kuma et al. (2020), [Ground-based lidar processing and simulator framework for comparing models and observations (ALCF 1.0)](https://zenodo.org/record/3785715) (Geoscientific Model Development Discussions, in review)
 
 Hartery et al. (2020), [Constraining the Surface Flux of Sea Spray Particles from the Southern Ocean](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JD032026) (Journal of Geophysical Research: Atmospheres)
 
