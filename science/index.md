@@ -7,7 +7,7 @@ layout: default
 
 ## Papers
 
-Hartery et al. (2020), [Quantification of Boundary Layer Mixing over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements](https://www.essoar.org/doi/abs/10.1002/essoar.10502904.1) (submitted to Geophysical Research Letters)
+Hartery et al. (2020), [Quantification of Boundary Layer Mixing over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements](https://www.essoar.org/doi/abs/10.1002/essoar.10502904.1) (Geophysical Research Letters, in review)
 
 Kuma et al. (2020), [Ground-based lidar processing and simulator framework for comparing models and observations (ALCF 1.0)](https://www.geosci-model-dev-discuss.net/gmd-2020-25/) (Geoscientific Model Development Discussions, in review)
 
