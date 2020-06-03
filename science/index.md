@@ -65,7 +65,7 @@ Kuma et al. (2017), [Shipborne and ground-based observations of clouds in the Su
 
 Supervisor: Adrian McDonald, University of Canterbury, Christchurch, New Zealand; Olaf Morgenstern, National Institute of Water & Atmospheric Research, Wellington, New Zealand
 
-Kuma (2020), [Comparing remotely sensed observations of clouds and aerosols in the Southern Ocean with climate model simulations](https://zenodo.org/record/3865850) (submitted; University of Canterbury, Bratislava, Slovakia)
+Kuma (2020), [Comparing remotely sensed observations of clouds and aerosols in the Southern Ocean with climate model simulations](https://zenodo.org/record/3865850) (submitted; University of Canterbury, Christchurch, New Zealand)
 
 ### Master's Thesis
 
