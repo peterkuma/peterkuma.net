@@ -27,4 +27,5 @@ supervisors:
     affil: 2
     orcid: 0000-0002-9967-9740
 archive_url: https://zenodo.org/record/3865850
+file: "Kuma (2020), Comparing remotely sensed observations of clouds and aerosols in the Southern Ocean with climate model simulations.pdf"
 ---

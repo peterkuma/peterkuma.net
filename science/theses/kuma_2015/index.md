@@ -22,4 +22,5 @@ supervisors:
     affil: 2
     orcid: 0000-0002-9385-2506
 archive_url: https://zenodo.org/record/3764236
+file: "Kuma (2015), Broadband approach as a framework for implementation of radiative transfer scheme with selective intermittency: Cost versus accuracy study simulations.pdf"
 ---

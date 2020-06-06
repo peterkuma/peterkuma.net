@@ -84,7 +84,7 @@ layout: default
 {% if page.file %}
 <dt>PDF:</dt>
 <dd>
-<a href="{{page.file }}">{{ page.file }}</a>
+<a href="{{ page.file | uri_escape }}">PDF document</a>
 </dd>
 {% endif %}
 </dl>
