@@ -43,6 +43,7 @@ layout: default
 <dt>Journal: </dt>
 <dd>
 <a href="{{ page._url }}">{{ page.journal }}</a>{% if page.note %} ({{ page.note }}){% endif %}
+</dd>
 {% if page.volume %}
 <dt>Volume: </dt>
 <dd>
@@ -61,7 +62,6 @@ layout: default
 {{ page.pages[0] }}–{{ page.pages[1] }}
 </dd>
 {% endif %}
-</dd>
 {% endif %}
 {% if page.school %}
 <dt>School: </dt>
