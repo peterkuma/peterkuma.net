@@ -9,11 +9,11 @@ layout: default
 
 Hartery et al. (2020), [Quantification of Boundary Layer Mixing over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements](https://www.essoar.org/doi/abs/10.1002/essoar.10502904.1) (Geophysical Research Letters, in review)
 
-Kuma et al. (2020), [Ground-based lidar processing and simulator framework for comparing models and observations (ALCF 1.0)](https://www.geosci-model-dev-discuss.net/gmd-2020-25/) (Geoscientific Model Development Discussions, in review)
+Kuma et al. (2020), [Ground-based lidar processing and simulator framework for comparing models and observations (ALCF 1.0)](papers/kuma_et_al_2020b/) (Geoscientific Model Development Discussions, in review)
 
 Hartery et al. (2020), [Constraining the Surface Flux of Sea Spray Particles from the Southern Ocean](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JD032026) (Journal of Geophysical Research: Atmospheres)
 
-Kuma et al. (2019), [Evaluation of Southern Ocean cloud in the HadGEM3 general circulation model and MERRA-2 reanalysis using ship-based observations](https://zenodo.org/record/3774659) (Atmospheric Chemistry and Physics, accepted)
+Kuma et al. (2020), [Evaluation of Southern Ocean cloud in the HadGEM3 general circulation model and MERRA-2 reanalysis using ship-based observations](papers/kuma_et_al_2020a/) (Atmospheric Chemistry and Physics)
 
 Klekociuk et al. (2020), [The state of the atmosphere in the 2016 southern Kerguelen Axis campaign region](https://authors.elsevier.com/c/1bAqI3Ruf15fRJ) (Deep-Sea Research Part II: Topical Studies in Oceanography)
 
@@ -65,16 +65,16 @@ Kuma et al. (2017), [Shipborne and ground-based observations of clouds in the Su
 
 Supervisor: Adrian McDonald, University of Canterbury, Christchurch, New Zealand; Olaf Morgenstern, National Institute of Water & Atmospheric Research, Wellington, New Zealand
 
-Kuma (2020), [Comparing remotely sensed observations of clouds and aerosols in the Southern Ocean with climate model simulations](https://zenodo.org/record/3865850) (submitted; University of Canterbury, Christchurch, New Zealand)
+Kuma (2020), [Comparing remotely sensed observations of clouds and aerosols in the Southern Ocean with climate model simulations](theses/kuma_2020/) (submitted; University of Canterbury, Christchurch, New Zealand)
 
 ### Master's Thesis
 
 Supervisor: Ján Mašek, [Czech Hydrometeorological Institute](http://portal.chmi.cz/?l=en), Prague, Czech Republic
 
-Kuma (2015), [Broadband approach as a framework for implementation of radiative transfer scheme with selective intermittency: Cost versus accuracy study](https://zenodo.org/record/3764236) (Comenius University, Bratislava, Slovakia)
+Kuma (2015), [Broadband approach as a framework for implementation of radiative transfer scheme with selective intermittency: Cost versus accuracy study](theses/kuma_2015/) (Comenius University, Bratislava, Slovakia)
 
 ### Bachelor's Thesis
 
 Supervisor: Ivan Bašták-Ďurán, [Comenius University](https://uniba.sk/en), Bratislava, Slovakia
 
-Kuma (2010), [Visualising Data from CloudSat and CALIPSO Satellites](https://zenodo.org/record/3764234) (Comenius University, Bratislava, Slovakia)
+Kuma (2010), [Visualising Data from CloudSat and CALIPSO Satellites](theses/kuma_2010/) (Comenius University, Bratislava, Slovakia)

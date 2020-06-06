@@ -79,3 +79,17 @@ main > img {
 	margin-top: 4px;
 	margin-bottom: 4px;
 }
+
+main dl {
+	display: grid;
+	grid-template-columns: max-content auto;
+}
+
+main dt {
+	font-weight: bold;
+	grid-column-start: 1;
+}
+
+main dd {
+	grid-column-start: 2;
+}
