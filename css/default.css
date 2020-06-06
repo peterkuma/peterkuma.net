@@ -93,3 +93,7 @@ main dt {
 main dd {
 	grid-column-start: 2;
 }
+
+main summary {
+	font-weight: bold;
+}

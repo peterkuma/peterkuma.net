@@ -66,7 +66,7 @@ layout: default
 {% if page.school %}
 <dt>School: </dt>
 <dd>
-{{ page.school }}</a>{% if page.note %} ({{ page.note }}){% endif %}
+{{ page.school }}{% if page.address %}, {{ page.address }}{% endif %}{% if page.note %} ({{ page.note }}){% endif %}
 </dd>
 {% endif %}
 {% if page.archive %}
@@ -106,3 +106,23 @@ layout: default
 </dd>
 {% endif %}
 </dl>
+
+<details>
+<summary>BibTeX:</summary>
+<code><small>
+@{{ page.type }}{% raw %}{{% endraw %}{{ page.code }},<br />
+{% if page.journal %}&nbsp;&nbsp;journal: {% raw %}{{% endraw %}{{ page.journal }}{% raw %}}{% endraw %},<br />{% endif %}
+{% if page.school %}&nbsp;&nbsp;school: {% raw %}{{% endraw %}{{ page.school }}{% raw %}}{% endraw %},<br />{% endif %}
+{% if page.address %}&nbsp;&nbsp;address: {% raw %}{{% endraw %}{{ page.address }}{% raw %}}{% endraw %},<br />{% endif %}
+{% if page.date %}&nbsp;&nbsp;year: {% raw %}{{% endraw %}{{ page.date | date: "%Y" }}{% raw %}}{% endraw %},<br />{% endif %}
+{% if page.note %}&nbsp;&nbsp;note: {% raw %}{{% endraw %}{{ page.note }}{% raw %}}{% endraw %},<br />{% endif %}
+{% if page.volume %}&nbsp;&nbsp;volume: {% raw %}{{% endraw %}{{ page.volume }}{% raw %}}{% endraw %},<br />{% endif %}
+{% if page.issue %}&nbsp;&nbsp;issue: {% raw %}{{% endraw %}{{ page.issue }}{% raw %}}{% endraw %},<br />{% endif %}
+{% if page.pages %}&nbsp;&nbsp;pages: {% raw %}{{% endraw %}{{ page.pages[0] }}-{{ page.pages[1] }}{% raw %}}{% endraw %},<br />{% endif %}
+{% if page.doi %}&nbsp;&nbsp;doi: {% raw %}{{% endraw %}{{ page.doi }}{% raw %}}{% endraw %},<br />{% endif %}
+{% if page.doi %}&nbsp;&nbsp;url: {% raw %}{{% endraw %}https://doi.org/{{ page.doi }}{% raw %}}{% endraw %},<br />{% endif %}
+&nbsp;&nbsp;author: {% raw %}{{% endraw %}{% for a in page.authors %}{{ a.last }}, {{ a.first }}{% if a != page.authors.last %} and {% endif %}{% endfor %}{% raw %}}{% endraw %},<br />
+&nbsp;&nbsp;title: {% raw %}{{% endraw %}{{ page.title }}{% raw %}}{% endraw %}<br />
+{% raw %}}{% endraw %}
+</small></code>
+</details>

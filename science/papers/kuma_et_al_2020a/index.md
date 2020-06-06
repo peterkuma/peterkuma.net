@@ -1,5 +1,7 @@
 ---
 layout: paper
+type: article
+code: kuma2020a
 title: Evaluation of Southern Ocean cloud in the HadGEM3 general circulation model and MERRA-2 reanalysis using ship-based observations
 authors:
   - first: Peter
