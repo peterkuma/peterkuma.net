@@ -23,12 +23,12 @@
 <meta name="citation_journal_title" content="{{ page.journal }}" />
 {% endif %}
 {% if page.school %}
-<meta name="citation_journal_title" content="{{ page.school }}" />
+<meta name="citation_dissertation_institution" content="{{ page.school }}" />
 {% endif %}
 {% if page.volume %}<meta name="citation_volume" content="{{ page.volume }}" />{% endif %}
 {% if page.issue %}<meta name="citation_issue" content="{{ page.issue }}" />{% endif %}
-{% if page.page_first %}<meta name="citation_firstpage" content="{{ page.page_first }}" />{% endif %}
-{% if page.page_last %}<meta name="citation_lastpage" content="{{ page.page_last }}" />{% endif %}
+{% if page.pages %}<meta name="citation_firstpage" content="{{ page.pages[0] }}" />{% endif %}
+{% if page.pages %}<meta name="citation_lastpage" content="{{ page.pages[1] }}" />{% endif %}
 {% if page.file %} <meta name="citation_pdf_url" content="{{ page.file | uri_escape }}" />{% endif %}
 {% endif %}
 </head>

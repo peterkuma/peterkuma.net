@@ -43,6 +43,24 @@ layout: default
 <dt>Journal: </dt>
 <dd>
 <a href="{{ page._url }}">{{ page.journal }}</a>{% if page.note %} ({{ page.note }}){% endif %}
+{% if page.volume %}
+<dt>Volume: </dt>
+<dd>
+{{ page.volume }}
+</dd>
+{% endif %}
+{% if page.issue %}
+<dt>Issue: </dt>
+<dd>
+{{ page.issue}}
+</dd>
+{% endif %}
+{% if page.pages %}
+<dt>Pages: </dt>
+<dd>
+{{ page.pages[0] }}–{{ page.pages[1] }}
+</dd>
+{% endif %}
 </dd>
 {% endif %}
 {% if page.school %}
