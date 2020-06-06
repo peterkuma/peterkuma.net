@@ -42,7 +42,7 @@ layout: default
 {% if page.journal %}
 <dt>Journal: </dt>
 <dd>
-<a href="{{ page._url }}">{{ page.journal }}</a>{% if page.note %}({{ page.note }}){% endif %}
+<a href="{{ page._url }}">{{ page.journal }}</a>{% if page.note %} ({{ page.note }}){% endif %}
 </dd>
 {% endif %}
 {% if page.school %}
