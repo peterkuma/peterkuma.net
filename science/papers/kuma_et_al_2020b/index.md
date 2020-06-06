@@ -1,5 +1,7 @@
 ---
 layout: paper
+code: kuma2020b
+type: article
 title: Ground-based lidar processing and simulator framework for comparing models and observations
 authors:
   - first: Peter
