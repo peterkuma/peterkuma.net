@@ -30,7 +30,10 @@
 {% if page.pages %}<meta name="citation_firstpage" content="{{ page.pages[0] }}" />{% endif %}
 {% if page.pages %}<meta name="citation_lastpage" content="{{ page.pages[1] }}" />{% endif %}
 {% if page.doi %}<meta name="citation_doi" content="{{ page.doi }}" />{% endif %}
-{% if page.file %} <meta name="citation_pdf_url" content="{{ page.file | uri_escape }}" />{% endif %}
+{% if page.file %}<meta name="citation_pdf_url" content="{{ page.url | absolute_url }}{{ page.file | uri_escape }}" />{% endif %}
+{% if page.publisher %}<meta name="citation_publisher" content="{{ page.publisher }}" />{% endif %}
+<meta name="citation_abstract_html_url" content="{{ page.url | absolute_url }}" />
+<meta name="citation_language" content="en" />
 {% endif %}
 </head>
 <body lang="en">

@@ -65,6 +65,7 @@ accepted: 2020-04-28
 published: 2020-06-05
 date: 2020-06-05
 journal: Atmospheric Chemistry and Physics
+publisher: Copernicus GmbH
 volume: 20
 issue: 11
 pages:
