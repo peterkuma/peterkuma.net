@@ -17,6 +17,7 @@
 <meta name="citation_title" content="{{ page.title }}" />
 {% for a in page.authors %}
 <meta name="citation_author" content="{{ a.last }}, {{ a.first }}" />
+{% if a.orcid %}<meta name="citation_author_orcid" content="{{ a.orcid }}" />{% endif %}
 {% endfor %}
 <meta name="citation_publication_date" content="{{ page.date | date: "%Y" }}/{{ page.date | date: "%m" }}/{{ page.date | date: "%d" }}" />
 {% if page.journal %}
@@ -30,6 +31,7 @@
 {% if page.pages %}<meta name="citation_firstpage" content="{{ page.pages[0] }}" />{% endif %}
 {% if page.pages %}<meta name="citation_lastpage" content="{{ page.pages[1] }}" />{% endif %}
 {% if page.doi %}<meta name="citation_doi" content="{{ page.doi }}" />{% endif %}
+{% if page.issn %}<meta name="citation_issn" content="{{ page.issn }}" />{% endif %}
 {% if page.file %}<meta name="citation_pdf_url" content="{{ page.url | absolute_url }}{{ page.file | uri_escape }}" />{% endif %}
 {% if page.publisher %}<meta name="citation_publisher" content="{{ page.publisher }}" />{% endif %}
 <meta name="citation_abstract_html_url" content="{{ page.url | absolute_url }}" />
