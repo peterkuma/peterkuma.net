@@ -97,3 +97,11 @@ main dd {
 main summary {
 	font-weight: bold;
 }
+
+main figure {
+	margin: 12px 0;
+}
+
+main figure img {
+	display: block;
+}

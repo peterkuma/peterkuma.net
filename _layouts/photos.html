@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% for p in page.photos %}
+<figure>
+<img src="{{ p }}" width="800" />
+</figure>
+{% endfor %}
+
