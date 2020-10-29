@@ -7,7 +7,7 @@ layout: default
 
 ## Papers
 
-Dale et al. (2020), The winter 2019 air pollution (PM<sub>2.5</sub>) measurement campaign in Christchurch, New Zealand (submitted to Earth System Science Data)
+Dale et al. (2020), [The winter 2019 air pollution (PM<sub>2.5</sub>) measurement campaign in Christchurch, New Zealand](https://essd.copernicus.org/preprints/essd-2020-276/) (Earth System Science Data, in review)
 
 Hartery et al. (2020), [Quantification of Boundary Layer Mixing over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements](https://www.essoar.org/doi/abs/10.1002/essoar.10502904.1) (Geophysical Research Letters, in review)
 
