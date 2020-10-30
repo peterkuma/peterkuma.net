@@ -27,6 +27,10 @@ Geleyn et al. (2017), [Single interval longwave radiation scheme based on the ne
 
 Mašek et al. (2015), [Single interval shortwave radiation scheme with parameterized optical saturation and spectral overlaps](https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/qj.2653) (Quarterly Journal of the Royal Meteorological Society)
 
+## Datasets
+
+Kermser et al. (2020) [Southern Ocean Cloud and Aerosol data set: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](https://zenodo.org/record/4060237) (Zenodo)
+
 ## Presentations
 
 Kuma (2020), [Doctoral thesis presentation: Comparing remotely sensed observations of clouds and aerosols in the Southern Ocean with climate model simulations](https://github.com/peterkuma/research/raw/master/presentations/Kuma%20(2020)%2C%20Doctoral%20thesis%20presentation:%20Comparing%20remotely%20sensed%20observations%20of%20clouds%20and%20aerosols%20in%20the%20Southern%20Ocean%20with%20climate%20model%20simulations.pdf) (University of Canterbury, Christchurch, New Zealand, 7 October 2020)
@@ -36,10 +40,6 @@ Kuma et al. (2018), [Evaluation of HadGEM3 Southern Ocean cloud using observatio
 Kuma (2018), [Doctoral Confirmation Presentation: Assessment of Southern Ocean Clouds and Aerosol in General Circulation Models](https://github.com/peterkuma/research/raw/master/presentations/Kuma%20(2018)%2C%20Doctoral%20Confirmation%20Presentation:%20Assessment%20of%20Southern%20Ocean%20Clouds%20and%20Aerosol%20in%20General%20Circulation%20Models.pdf) (University of Canterbury, Christchurch, New Zealand, 9 April 2018)
 
 Kuma et al. (2017), [Assessment of Southern Ocean clouds and aerosols in the New Zealand Earth System Model using shipborne and ground-based observations](https://github.com/peterkuma/research/raw/master/presentations/Kuma%20et%20al.%20(2017)%2C%20Assessment%20of%20Southern%20Ocean%20clouds%20and%20aerosols%20in%20the%20New%20Zealand%20Earth%20System%20Model%20using%20shipborne%20and%20ground-based%20observations.pdf) (Meteorological Society of New Zealand Annual Conference, Dunedin, New Zealand, 13–15 November 2017)
-
-## Datasets
-
-Kermser et al. (2020) [Southern Ocean Cloud and Aerosol data set: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](https://zenodo.org/record/4060237) (Zenodo)
 
 ## Posters
 
