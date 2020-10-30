@@ -29,7 +29,7 @@ Mašek et al. (2015), [Single interval shortwave radiation scheme with parameter
 
 ## Datasets
 
-Kermser et al. (2020) [Southern Ocean Cloud and Aerosol data set: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](https://zenodo.org/record/4060237) (Zenodo)
+Kremser et al. (2020) [Southern Ocean Cloud and Aerosol data set: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](https://zenodo.org/record/4060237) (Zenodo)
 
 ## Presentations
 
