@@ -37,6 +37,10 @@ Kuma (2018), [Doctoral Confirmation Presentation: Assessment of Southern Ocean C
 
 Kuma et al. (2017), [Assessment of Southern Ocean clouds and aerosols in the New Zealand Earth System Model using shipborne and ground-based observations](https://github.com/peterkuma/research/raw/master/presentations/Kuma%20et%20al.%20(2017)%2C%20Assessment%20of%20Southern%20Ocean%20clouds%20and%20aerosols%20in%20the%20New%20Zealand%20Earth%20System%20Model%20using%20shipborne%20and%20ground-based%20observations.pdf) (Meteorological Society of New Zealand Annual Conference, Dunedin, New Zealand, 13–15 November 2017)
 
+## Datasets
+
+Kermser et al. (2020) [Southern Ocean Cloud and Aerosol data set: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](https://zenodo.org/record/4060237) (Zenodo)
+
 ## Posters
 
 Kuma et al. (2020), [Ground-based lidar processing and simulator framework for comparing models and observations](https://zenodo.org/record/3764299) (Gateway Antarctica Conference, Christchurch, New Zealand, 30–31 January 2020)
