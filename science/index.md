@@ -7,7 +7,7 @@ layout: default
 
 ## Papers
 
-Kremser et al. (2020), Southern Ocean Cloud and Aerosol data: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage (submitted to Earth System Science Data)
+Kremser et al. (2020), [Southern Ocean Cloud and Aerosol data: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](https://essd.copernicus.org/preprints/essd-2020-321/) (Earth System Science Data, in review)
 
 Dale et al. (2020), [The winter 2019 air pollution (PM<sub>2.5</sub>) measurement campaign in Christchurch, New Zealand](https://essd.copernicus.org/preprints/essd-2020-276/) (Earth System Science Data, in review)
 
