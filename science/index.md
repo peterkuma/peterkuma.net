@@ -7,15 +7,13 @@ layout: default
 
 ## Papers
 
+Kuma et al. (2021), [Ground-based lidar processing and simulator framework for comparing models and observations (ALCF 1.0)](papers/kuma_et_al_2021/) (Geoscientific Model Development)
+
 Kremser et al. (2020), [Southern Ocean Cloud and Aerosol data: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](https://essd.copernicus.org/preprints/essd-2020-321/) (Earth System Science Data, in review)
 
 Dale et al. (2020), [The winter 2019 air pollution (PM<sub>2.5</sub>) measurement campaign in Christchurch, New Zealand](https://essd.copernicus.org/preprints/essd-2020-276/) (Earth System Science Data, in review)
 
 Hartery et al. (2020), [Quantification of Boundary Layer Mixing over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements](https://www.essoar.org/doi/abs/10.1002/essoar.10502904.1) (Geophysical Research Letters, in review)
-
-Kuma et al. (2020), [Ground-based lidar processing and simulator framework for
-comparing models and observations (ALCF 1.0)](papers/kuma_et_al_2020b/)
-(Geoscientific Model Development, accepted)
 
 Hartery et al. (2020), [Constraining the Surface Flux of Sea Spray Particles from the Southern Ocean](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JD032026) (Journal of Geophysical Research: Atmospheres)
 
