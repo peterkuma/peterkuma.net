@@ -7,6 +7,8 @@ layout: default
 
 ## Papers
 
+Revell et al. (2021), Direct radiative effects of airborne microplastics (in review in Nature)
+
 Kuma et al. (2021), [Ground-based lidar processing and simulator framework for comparing models and observations (ALCF 1.0)](papers/kuma_et_al_2021/) (Geoscientific Model Development)
 
 Kremser et al. (2020), [Southern Ocean Cloud and Aerosol data: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](https://essd.copernicus.org/preprints/essd-2020-321/) (Earth System Science Data, in review)
