@@ -50,6 +50,6 @@ accepted: 2020-11-10
 published: 2021-01-06
 date: 2021-01-06
 archive: Zenodo
-archive_url: https://zenodo.org/record/4089077
+archive_url: https://zenodo.org/record/4421532
 file: "Kuma et al. (2021), Ground-based lidar processing and simulator framework for comparing models and observations (ALCF 1.0).pdf"
 ---
