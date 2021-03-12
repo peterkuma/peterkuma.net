@@ -11,9 +11,9 @@ Revell et al. (2021), Direct radiative effects of airborne microplastics (in rev
 
 Kuma et al. (2021), [Ground-based lidar processing and simulator framework for comparing models and observations (ALCF 1.0)](papers/kuma_et_al_2021/) (Geoscientific Model Development)
 
-Kremser et al. (2020), [Southern Ocean Cloud and Aerosol data: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](https://essd.copernicus.org/preprints/essd-2020-321/) (in review in Earth System Science Data)
+Dale et al. (2021), [The winter 2019 air pollution (PM<sub>2.5</sub>) measurement campaign in Christchurch, New Zealand](https://essd.copernicus.org/preprints/essd-2020-276/) (accepted in Earth System Science Data)
 
-Dale et al. (2020), [The winter 2019 air pollution (PM<sub>2.5</sub>) measurement campaign in Christchurch, New Zealand](https://essd.copernicus.org/preprints/essd-2020-276/) (in review in Earth System Science Data)
+Kremser et al. (2020), [Southern Ocean Cloud and Aerosol data: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](https://essd.copernicus.org/preprints/essd-2020-321/) (in review in Earth System Science Data)
 
 Hartery et al. (2020), [Quantification of Boundary Layer Mixing over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements](https://www.essoar.org/doi/abs/10.1002/essoar.10502904.1) (in review in Geophysical Research Letters)
 
