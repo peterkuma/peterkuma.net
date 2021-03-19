@@ -7,7 +7,7 @@ layout: default
 
 ## Papers
 
-Hartery et al. (2021), Classification of the Below-Cloud Mixing State Over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements (submitted to Journal of Geophysical Research: Atmospheres)
+Hartery et al. (2021), [Classification of the Below-Cloud Mixing State Over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements](https://www.essoar.org/doi/abs/10.1002/essoar.10502904.2) (submitted to Journal of Geophysical Research: Atmospheres)
 
 Dale et al. (2021), [The winter 2019 air pollution (PM<sub>2.5</sub>) measurement campaign in Christchurch, New Zealand](https://essd.copernicus.org/preprints/essd-2020-276/) (accepted in Earth System Science Data)
 
