@@ -45,6 +45,8 @@ Kuma et al. (2017), [Assessment of Southern Ocean clouds and aerosols in the New
 
 ## Posters
 
+Kuma et al. (2021), [Climate sensitivity and the Southern Ocean: the effect of the "too few, too bright" model cloud problem](https://zenodo.org/record/4707302) (EGU General Assembly, 19–30 April 2021)
+
 Kuma et al. (2020), [Ground-based lidar processing and simulator framework for comparing models and observations](https://zenodo.org/record/3764299) (Gateway Antarctica Conference, Christchurch, New Zealand, 30–31 January 2020)
 
 Kuma et al. (2019), [Automatic Lidar and Ceilometer Framework (ALCF)](https://zenodo.org/record/3764287) (CFMIP 2019 Meeting, Mykonos, Greece, 30 September–4 October 2019)
