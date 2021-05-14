@@ -25,9 +25,27 @@ header nav {
 	margin: 4px 0;
 }
 
+@media (min-width: 600px) {
+	header .github {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		display: block;
+	}
+}
+
+@media (max-width: 600px) {
+	header .github {
+		display: block;
+	}
+	header .github img {
+		margin: 8px auto;
+	}
+}
+
 .page {
 	margin: 0 auto;
-	width: 800px;
+	max-width: 800px;
 }
 
 a {
@@ -36,7 +54,7 @@ a {
 }
 
 main {
-	width: 800px;
+	max-width: 800px;
 	margin-top: 10px;
 }
 
