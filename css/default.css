@@ -6,6 +6,12 @@ body {
 	margin: 30px;
 }
 
+@media (max-width: 600px) {
+	body {
+		margin: 16px;
+	}
+}
+
 header {
 	text-align: center;
 	padding-bottom: 8px;
