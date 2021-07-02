@@ -7,6 +7,8 @@ layout: default
 
 ## Papers
 
+Kremser et al. (2021), [Southern Ocean Cloud and Aerosol data: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](https://essd.copernicus.org/articles/13/3115/2021/) (Earth System Science Data)
+
 Dale et al. (2021), [The winter 2019 air pollution (PM<sub>2.5</sub>) measurement campaign in Christchurch, New Zealand](https://essd.copernicus.org/articles/13/2053/2021/) (Earth System Science Data)
 
 Revell et al. (2021), Direct radiative effects of airborne microplastics (in review in Nature)
