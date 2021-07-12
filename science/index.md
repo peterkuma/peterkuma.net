@@ -7,11 +7,11 @@ layout: default
 
 ## Papers
 
+Revell et al. (2021), Direct radiative effects of airborne microplastics (conditionally accepted in Nature)
+
 Kremser et al. (2021), [Southern Ocean Cloud and Aerosol data: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](https://essd.copernicus.org/articles/13/3115/2021/) (Earth System Science Data)
 
 Dale et al. (2021), [The winter 2019 air pollution (PM<sub>2.5</sub>) measurement campaign in Christchurch, New Zealand](https://essd.copernicus.org/articles/13/2053/2021/) (Earth System Science Data)
-
-Revell et al. (2021), Direct radiative effects of airborne microplastics (in review in Nature)
 
 Hartery et al. (2021), [Classification of the Below-Cloud Mixing State Over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements](https://www.essoar.org/doi/abs/10.1002/essoar.10502904.2) (manuscript in preparation)
 
