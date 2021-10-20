@@ -7,7 +7,7 @@ layout: default
 
 ## Papers
 
-Revell et al. (2021), Direct radiative effects of airborne microplastics (accepted in Nature)
+Revell et al. (2021), [Direct radiative effects of airborne microplastics](https://www.nature.com/articles/s41586-021-03864-x) (Nature)
 
 Kremser et al. (2021), [Southern Ocean Cloud and Aerosol data: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](https://essd.copernicus.org/articles/13/3115/2021/) (Earth System Science Data)
 
