@@ -35,7 +35,7 @@ Kremser et al. (2020) [Southern Ocean Cloud and Aerosol data set: a compilation 
 
 ## Presentations
 
-Kuma and Bender (2021), [Machine learning of cloud types for evaluation of climate models and constraining climate sensitivity](https://zenodo.org/record/5605014) (FORCeS Annual Meeting, Stockholm University, Stockholm, Sweden, 25 October 2021)
+Kuma and Bender (2021), [Machine learning of cloud types for evaluation of climate models and constraining climate sensitivity](https://zenodo.org/record/5605043) (FORCeS Annual Meeting, Stockholm University, Stockholm, Sweden, 25 October 2021)
 
 Kuma (2020), [Doctoral thesis presentation: Comparing remotely sensed observations of clouds and aerosols in the Southern Ocean with climate model simulations](https://github.com/peterkuma/research/raw/master/presentations/Kuma%20(2020)%2C%20Doctoral%20thesis%20presentation:%20Comparing%20remotely%20sensed%20observations%20of%20clouds%20and%20aerosols%20in%20the%20Southern%20Ocean%20with%20climate%20model%20simulations.pdf) (University of Canterbury, Christchurch, New Zealand, 7 October 2020)
 
