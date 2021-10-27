@@ -94,3 +94,13 @@ Kuma (2015), [Broadband approach as a framework for implementation of radiative 
 Supervisor: Ivan Bašták-Ďurán, [Comenius University](https://uniba.sk/en), Bratislava, Slovakia
 
 Kuma (2010), [Visualising Data from CloudSat and CALIPSO Satellites](theses/kuma_2010/) (Comenius University, Bratislava, Slovakia)
+
+## Media
+
+[How Airborne Microplastics Affect Climate Change](https://www.scientificamerican.com/article/how-airborne-microplastics-affect-climate-change1/) (Scientific American, 2021)
+
+Microplastics May Be Cooling—and Heating—Earth’s Climate ([WIRED](https://www.wired.com/story/microplastics-may-be-cooling-and-heating-earths-climate/), [Ars Technica](https://arstechnica.com/science/2021/10/microplastics-may-be-cooling-and-heating-earths-climate/), 2021)
+
+[Microplastics in the air have a small cooling effect on our climate](https://www.newscientist.com/article/2294440-microplastics-in-the-air-have-a-small-cooling-effect-on-our-climate/) (New Scientist, 2021)
+
+[Microplastics are in the air we breathe and in Earth’s atmosphere, and they affect the climate](https://theconversation.com/microplastics-are-in-the-air-we-breathe-and-in-earths-atmosphere-and-they-affect-the-climate-170093) (The Conversation, 2021)
