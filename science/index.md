@@ -108,3 +108,5 @@ Microplastics May Be Cooling—and Heating—Earth’s Climate ([WIRED](https://
 [Microplastics in the air have a small cooling effect on our climate](https://www.newscientist.com/article/2294440-microplastics-in-the-air-have-a-small-cooling-effect-on-our-climate/) (New Scientist, 2021)
 
 [Microplastics are in the air we breathe and in Earth’s atmosphere, and they affect the climate](https://theconversation.com/microplastics-are-in-the-air-we-breathe-and-in-earths-atmosphere-and-they-affect-the-climate-170093) (The Conversation, 2021)
+
+[New Zealand’s Next Top Model](https://www.nzgeo.com/stories/esm/) (New Zealand Geographic, 2018)
