@@ -43,7 +43,7 @@ Kuma (2020), [Doctoral thesis presentation: Comparing remotely sensed observatio
 
 Kuma et al. (2018), [Evaluation of HadGEM3 Southern Ocean cloud using observations and reanalyses](https://github.com/peterkuma/research/raw/master/presentations/Kuma%20et%20al.%20(2018),%20Evaluation%20of%20HadGEM3%20Southern%20Ocean%20cloud%20using%20observations%20and%20reanalyses.pdf) (NZ Hydrological Society & Meteorological Society of NZ Joint Conference, Christchurch, New Zealand, 4–7 December 2018)
 
-Kuma (2018), [Doctoral Confirmation Presentation: Assessment of Southern Ocean Clouds and Aerosol in General Circulation Models](https://github.com/peterkuma/research/raw/master/presentations/Kuma%20(2018)%2C%20Doctoral%20Confirmation%20Presentation:%20Assessment%20of%20Southern%20Ocean%20Clouds%20and%20Aerosol%20in%20General%20Circulation%20Models.pdf) (University of Canterbury, Christchurch, New Zealand, 9 April 2018)
+Kuma (2018), [Doctoral Confirmation Presentation: Assessment of Southern Ocean Clouds and Aerosol in General Circulation Models](https://zenodo.org/record/5635851) (University of Canterbury, Christchurch, New Zealand, 9 April 2018)
 
 Kuma et al. (2017), [Assessment of Southern Ocean clouds and aerosols in the New Zealand Earth System Model using shipborne and ground-based observations](https://zenodo.org/record/5635689) (Meteorological Society of New Zealand Annual Conference, Dunedin, New Zealand, 13–15 November 2017)
 
