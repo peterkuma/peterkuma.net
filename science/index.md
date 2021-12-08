@@ -111,6 +111,4 @@ Microplastics May Be Cooling—and Heating—Earth’s Climate ([WIRED](https://
 
 [Microplastics are in the air we breathe and in Earth’s atmosphere, and they affect the climate](https://theconversation.com/microplastics-are-in-the-air-we-breathe-and-in-earths-atmosphere-and-they-affect-the-climate-170093) (The Conversation, 2021)
 
-[Clouds over the Southern Ocean hold the key to better climate change predictions, study says](https://www.stuff.co.nz/national/education/122388835/clouds-over-the-southern-ocean-hold-the-key-to-better-climate-change-predictions-study-says) (stuff.co.nz, 2020)
-
 [New Zealand’s Next Top Model](https://www.nzgeo.com/stories/esm/) (New Zealand Geographic, 2018)
