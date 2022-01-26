@@ -85,7 +85,7 @@ Kuma et al. (2017), [Shipborne and ground-based observations of clouds in the Su
 
 [ALCF](https://alcf-lidar.github.io) – Automatic Lidar and Ceilometer Processing Framework
 
-[rstool](https://github.com/peterkuma/rstool) (beta) – Command-line program for converting native radiosonde data to NetCDF and calculation of derived quantities, supporting InterMet Systems (iMet) and Windsond radiosondes 
+[rstool](https://github.com/peterkuma/rstool) – Command-line program for converting native radiosonde data to NetCDF and calculation of derived quantities, supporting InterMet Systems (iMet) and Windsond radiosondes
 
 ## Theses
 
