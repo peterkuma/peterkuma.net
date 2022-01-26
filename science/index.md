@@ -49,6 +49,10 @@ Kuma et al. (2018), [Doctoral Confirmation Presentation: Assessment of Southern 
 
 Kuma et al. (2017), [Assessment of Southern Ocean clouds and aerosols in the New Zealand Earth System Model using shipborne and ground-based observations](https://zenodo.org/record/5635689) (Meteorological Society of New Zealand Annual Conference, Dunedin, New Zealand, 13–15 November 2017)
 
+## Lectures
+
+[Global Climate System: Clouds and aerosols in the climate system](https://zenodo.org/record/5905868) (Stockholm University, Stockholm, Sweden, 25 January 2022)
+
 ## Posters
 
 Kuma and Bender (2021), [Using deep learning cloud classiﬁcation in cloud feedback](https://zenodo.org/record/5605067) (FORCeS Annual Meeting, Stockholm University, Stockholm, Sweden, 27 October 2021)
