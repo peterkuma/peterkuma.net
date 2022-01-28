@@ -42,7 +42,7 @@ layout: default
 {% if page.journal %}
 <dt>Journal: </dt>
 <dd>
-<a href="{{ page._url }}">{{ page.journal }}</a>{% if page.note %} ({{ page.note }}){% endif %}
+<a href="{{ page._url | uri_escape }}">{{ page.journal }}</a>
 </dd>
 {% endif %}
 {% if page.volume %}
@@ -72,7 +72,7 @@ layout: default
 {% if page.archive %}
 <dt>Archive: </dt>
 <dd>
-<a href="{{ page.archive_url }}">{{ page.archive }}</a>
+<a href="{{ page.archive_url | uri_escape }}">{{ page.archive }}</a>
 </dd>
 {% endif %}
 {% if page.doi %}
@@ -97,6 +97,18 @@ layout: default
 <dt>Published:</dt>
 <dd>
 {{ page.published | date: "%d %B %Y" }}
+</dd>
+{% endif %}
+{% if page.supplementary_code %}
+<dt>Supplementary information:</dt>
+<dd>
+<a href="{{ page.supplementary_code }}">Code</a>
+</dd>
+{% endif %}
+{% if page.preview %}
+<dt>Preview:</dt>
+<dd>
+<a href="{{ page.preview | uri_escape }}">Article preview</a>
 </dd>
 {% endif %}
 {% if page.file %}
