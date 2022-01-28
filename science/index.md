@@ -25,7 +25,7 @@ Klekociuk et al. (2020), [The state of the atmosphere in the 2016 southern Kergu
 
 Jolly et al. (2018), [An analysis of the cloud environment over the Ross Sea and Ross Ice Shelf using CloudSat/CALIPSO satellite observations: The importance of synoptic forcing](https://www.atmos-chem-phys.net/18/9723/2018/acp-18-9723-2018.html) (Atmospheric Chemistry and Physics)
 
-Geleyn et al. (2017), [Single interval longwave radiation scheme based on the net exchanged rate decomposition with bracketing](https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/qj.3006) (Quarterly Journal of the Royal Meteorological Society)
+Geleyn et al. (2017), [Single interval longwave radiation scheme based on the net exchanged rate decomposition with bracketing](papers/geleyn_et_al_2017/) (Quarterly Journal of the Royal Meteorological Society)
 
 Mašek et al. (2015), [Single interval shortwave radiation scheme with parameterized optical saturation and spectral overlaps](papers/masek_et_al_2015/) (Quarterly Journal of the Royal Meteorological Society)
 
