@@ -27,7 +27,7 @@ Jolly et al. (2018), [An analysis of the cloud environment over the Ross Sea and
 
 Geleyn et al. (2017), [Single interval longwave radiation scheme based on the net exchanged rate decomposition with bracketing](https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/qj.3006) (Quarterly Journal of the Royal Meteorological Society)
 
-Mašek et al. (2015), [Single interval shortwave radiation scheme with parameterized optical saturation and spectral overlaps](https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/qj.2653) (Quarterly Journal of the Royal Meteorological Society)
+Mašek et al. (2015), [Single interval shortwave radiation scheme with parameterized optical saturation and spectral overlaps](papers/masek_et_al_2015/) (Quarterly Journal of the Royal Meteorological Society)
 
 ## Datasets
 
