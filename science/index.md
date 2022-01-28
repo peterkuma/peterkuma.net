@@ -23,7 +23,7 @@ Kuma et al. (2020), [Evaluation of Southern Ocean cloud in the HadGEM3 general c
 
 Klekociuk et al. (2020), [The state of the atmosphere in the 2016 southern Kerguelen Axis campaign region](https://www.sciencedirect.com/science/article/pii/S0967064518301395) (Deep-Sea Research Part II: Topical Studies in Oceanography)
 
-Jolly et al. (2018), [An analysis of the cloud environment over the Ross Sea and Ross Ice Shelf using CloudSat/CALIPSO satellite observations: The importance of synoptic forcing](https://www.atmos-chem-phys.net/18/9723/2018/acp-18-9723-2018.html) (Atmospheric Chemistry and Physics)
+Jolly et al. (2018), [An analysis of the cloud environment over the Ross Sea and Ross Ice Shelf using CloudSat/CALIPSO satellite observations: The importance of synoptic forcing](papers/jolly_et_al_2018/) (Atmospheric Chemistry and Physics)
 
 Geleyn et al. (2017), [Single interval longwave radiation scheme based on the net exchanged rate decomposition with bracketing](papers/geleyn_et_al_2017/) (Quarterly Journal of the Royal Meteorological Society)
 
