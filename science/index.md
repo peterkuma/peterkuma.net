@@ -21,7 +21,7 @@ Hartery et al. (2020), [Constraining the Surface Flux of Sea Spray Particles fro
 
 Kuma et al. (2020), [Evaluation of Southern Ocean cloud in the HadGEM3 general circulation model and MERRA-2 reanalysis using ship-based observations](papers/kuma_et_al_2020a/) (Atmospheric Chemistry and Physics)
 
-Klekociuk et al. (2020), [The state of the atmosphere in the 2016 southern Kerguelen Axis campaign region](https://www.sciencedirect.com/science/article/pii/S0967064518301395) (Deep-Sea Research Part II: Topical Studies in Oceanography)
+Klekociuk et al. (2020), [The state of the atmosphere in the 2016 southern Kerguelen Axis campaign region](papers/klekociuk_et_al_2020/) (Deep-Sea Research Part II: Topical Studies in Oceanography)
 
 Jolly et al. (2018), [An analysis of the cloud environment over the Ross Sea and Ross Ice Shelf using CloudSat/CALIPSO satellite observations: The importance of synoptic forcing](papers/jolly_et_al_2018/) (Atmospheric Chemistry and Physics)
 
