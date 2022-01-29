@@ -13,7 +13,7 @@ Kremser et al. (2021), [Southern Ocean Cloud and Aerosol data: a compilation of 
 
 Dale et al. (2021), [The winter 2019 air pollution (PM<sub>2.5</sub>) measurement campaign in Christchurch, New Zealand](https://essd.copernicus.org/articles/13/2053/2021/) (Earth System Science Data)
 
-Hartery et al. (2021), [Classification of the Below-Cloud Mixing State Over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements](https://www.essoar.org/doi/abs/10.1002/essoar.10502904.2) (manuscript in preparation)
+Hartery et al. (2021), [Classification of the Below-Cloud Mixing State Over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements](papers/hartery_et_al_2021) (manuscript in preparation)
 
 Kuma et al. (2021), [Ground-based lidar processing and simulator framework for comparing models and observations (ALCF 1.0)](papers/kuma_et_al_2021/) (Geoscientific Model Development)
 
