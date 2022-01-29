@@ -10,8 +10,9 @@ authors:
   - first: J.
     last: Mašek
     affil: 3, 4
-  - first: Brožková
-    last: R.
+    orcid: 0000-0002-9385-2506
+  - first: R.
+    last: Brožková
     affil: 3, 4
   - first: P.
     last: Kuma

@@ -25,6 +25,7 @@ authors:
   - first: Leroy J.
     last: Bird
     affil: 1
+    orcid: 0000-0002-7034-7064
   - first: Gustavo
     last: Olivares
     affil: 2
@@ -32,6 +33,7 @@ authors:
   - first: Guy
     last: Coulson
     affil: 2
+    orcid: 0000-0002-7615-6736
   - first: Elizabeth
     last: Somervell
     affil: 2

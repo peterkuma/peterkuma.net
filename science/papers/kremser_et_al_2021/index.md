@@ -23,6 +23,7 @@ authors:
   - first: Alexia
     last: Saint-Macary
     affil: 2, 10
+    orcid: 0000-0002-6958-6359
   - first: John
     last: McGregor
     affil: 2
