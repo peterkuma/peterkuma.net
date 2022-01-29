@@ -17,7 +17,7 @@ Hartery et al. (2021), [Classification of the Below-Cloud Mixing State Over the 
 
 Kuma et al. (2021), [Ground-based lidar processing and simulator framework for comparing models and observations (ALCF 1.0)](papers/kuma_et_al_2021/) (Geoscientific Model Development)
 
-Hartery et al. (2020), [Constraining the Surface Flux of Sea Spray Particles from the Southern Ocean](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JD032026) (Journal of Geophysical Research: Atmospheres)
+Hartery et al. (2020), [Constraining the Surface Flux of Sea Spray Particles from the Southern Ocean](papers/hartery_et_al_2020/) (Journal of Geophysical Research: Atmospheres)
 
 Kuma et al. (2020), [Evaluation of Southern Ocean cloud in the HadGEM3 general circulation model and MERRA-2 reanalysis using ship-based observations](papers/kuma_et_al_2020a/) (Atmospheric Chemistry and Physics)
 
