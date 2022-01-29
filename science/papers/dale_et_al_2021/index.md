@@ -3,6 +3,7 @@ layout: paper
 code: dale2021
 type: article
 title_html: The winter 2019 air pollution (PM<sub>2.5</sub>) measurement campaign in Christchurch, New Zealand
+title_tex: The winter 2019 air pollution (PM$_{2.5}$) measurement campaign in Christchurch, New Zealand
 title: The winter 2019 air pollution (PM2.5) measurement campaign in Christchurch, New Zealand 
 authors:
   - first: Ethan R.
