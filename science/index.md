@@ -7,6 +7,8 @@ layout: default
 
 ## Papers
 
+Guyot et al. (2022), Detection of supercooled liquid water clouds with ceilometers: Development and evaluation of deterministic and data-driven retrievals (in review in Atmospheric Measurement Techniques)
+
 Revell et al. (2021), [Direct radiative effects of airborne microplastics](papers/revell_et_al_2021/) (Nature)
 
 Kremser et al. (2021), [Southern Ocean Cloud and Aerosol data: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](papers/kremser_et_al_2021/) (Earth System Science Data)
