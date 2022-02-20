@@ -43,6 +43,12 @@ layout: default
 {% endif %}
 
 <dl>
+{% if page.note %}
+<dt>Note: </dt>
+<dd>
+{{ page.note }}
+</dd>
+{% endif %}
 {% if page.journal %}
 <dt>Journal: </dt>
 <dd>
