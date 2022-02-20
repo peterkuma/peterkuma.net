@@ -79,15 +79,17 @@ Kuma et al. (2017), [Shipborne and ground-based observations of clouds in the Su
 
 ## Open Source Software
 
-[ccplot](http://ccplot.org/) – Command-line application for visualizing data from CloudSat and CALIPSO satellites
+[ccplot](https://ccplot.org) – Command-line application for visualizing data from CloudSat and CALIPSO satellites
+
+[ccbrowse](https://browse.ccplot.org) – Web application for browsing data from atmospheric profiling satellites
+
+[ds-format](https://github.com/peterkuma/ds-format) – Python interface for reading and writing NetCDF and a custom dataset format
 
 [cl2nc](https://github.com/peterkuma/cl2nc) – Convert Vaisala CL51 and CL31 ceilometer dat files to NetCDF
 
 [mrr2c](https://github.com/peterkuma/mrr2c) – Convert Metek MRR-2 micro rain radar data files to HDF
 
 [mpl2nc](https://github.com/peterkuma/mpl2nc) – Convert Sigma Space Micro Pulse Lidar (MPL) data files to NetCDF
-
-[COSPv1 (Surface Lidar Fork)](https://github.com/peterkuma/COSPv1) – COSP (CFMIP Observation Simulator Package) experimental surface lidar fork
 
 [ALCF](https://alcf-lidar.github.io) – Automatic Lidar and Ceilometer Processing Framework
 
