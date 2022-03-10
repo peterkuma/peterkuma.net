@@ -81,7 +81,7 @@ Kuma et al. (2017), [Shipborne and ground-based observations of clouds in the Su
 
 [ccplot](https://ccplot.org) – Command-line application for visualizing data from CloudSat and CALIPSO satellites
 
-[ccbrowse](https://browse.ccplot.org) – Web application for browsing data from atmospheric profiling satellites
+[ccbrowse](https://browse.ccplot.org) – Web application for browsing data from active Earth observation satellites
 
 [ds-format](https://github.com/peterkuma/ds-format) – Python interface for reading and writing NetCDF and a custom dataset format
 
