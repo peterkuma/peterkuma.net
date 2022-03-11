@@ -34,6 +34,6 @@ doi: 10.5194/acp-2022-184
 submitted: 2022-03-07
 journal: Atmospheric Chemistry and Physics Discussions
 archive: Zenodo
-archive_url: https://zenodo.org/record/6336089
+archive_url: https://doi.org/10.5281/zenodo.6184907
 file: "Kuma et al. (2022), Machine learning of cloud types shows higher climate sensitivity is associated with lower cloud biases (in review, 9 March 2022).pdf"
 ---
