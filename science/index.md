@@ -39,7 +39,7 @@ Kremser et al. (2020) [Southern Ocean Cloud and Aerosol data set: a compilation 
 
 ## Presentations
 
-Kuma (2021), [Software in climate sciences](https://zenodo.org/record/6025116) (Research seminar, Stockholm University, Stockholm, Sweden, 9 February 2022)
+Kuma (2022), [Software in climate sciences](https://zenodo.org/record/6025116) (Research seminar, Stockholm University, Stockholm, Sweden, 9 February 2022)
 
 Kuma (2021), [Clouds in climate models and atmospheric observations](https://zenodo.org/record/5905775) (Research seminar, Stockholm University, Stockholm, Sweden, 14 December 2021); [video 1 (weather balloon launch)](https://files.peterkuma.net/media/svxde2yho3/radiosonde.webm), [video 2 (UAV flight)](https://files.peterkuma.net/media/3k146je3bn/uav.webm)
 
