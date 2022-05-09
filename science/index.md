@@ -83,7 +83,7 @@ Kuma et al. (2017), [Shipborne and ground-based observations of clouds in the Su
 
 [ccbrowse](https://browse.ccplot.org) – Web application for browsing data from active Earth observation satellites
 
-[ds-format](https://github.com/peterkuma/ds-format) – Python interface for reading and writing NetCDF and a custom dataset format
+[ds-format](https://peterkuma.net/ds-format/) – Python interface for reading and writing NetCDF and a custom dataset format
 
 [cl2nc](https://github.com/peterkuma/cl2nc) – Convert Vaisala CL51 and CL31 ceilometer dat files to NetCDF
 
