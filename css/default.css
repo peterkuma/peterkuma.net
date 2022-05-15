@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../font/open-sans/regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../font/open-sans/bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
 html {
 	font: 16px/150% "Open Sans", sans-serif;
 }
