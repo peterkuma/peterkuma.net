@@ -9,7 +9,7 @@ layout: default
 
 Kuma et al. (2022), [Machine learning of cloud types shows higher climate sensitivity is associated with lower cloud biases](papers/kuma_et_al_2022/) (in review in Atmospheric Chemistry and Physics)
 
-Guyot et al. (2022), [Detection of supercooled liquid water clouds with ceilometers: Development and evaluation of deterministic and data-driven retrievals](https://amt.copernicus.org/preprints/amt-2022-10/) (in review in Atmospheric Measurement Techniques)
+Guyot et al. (2022), [Detection of supercooled liquid water clouds with ceilometers: Development and evaluation of deterministic and data-driven retrievals](https://amt.copernicus.org/preprints/amt-2022-10/) (accepted in Atmospheric Measurement Techniques)
 
 Revell et al. (2021), [Direct radiative effects of airborne microplastics](papers/revell_et_al_2021/) (Nature)
 
