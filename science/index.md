@@ -7,7 +7,7 @@ layout: default
 
 ## Papers
 
-Kuma et al. (2022), [Machine learning of cloud types shows higher climate sensitivity is associated with lower cloud biases](papers/kuma_et_al_2022/) (in review in Atmospheric Chemistry and Physics)
+Kuma et al. (2022), [Machine learning of cloud types in satellite observations and climate models](papers/kuma_et_al_2022/) (in review in Atmospheric Chemistry and Physics)
 
 Guyot et al. (2022), [Detection of supercooled liquid water clouds with ceilometers: Development and evaluation of deterministic and data-driven retrievals](papers/guyot_et_al_2022/) (Atmospheric Measurement Techniques)
 
