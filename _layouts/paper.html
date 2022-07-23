@@ -133,6 +133,13 @@ layout: default
 <a href="{{ page.file | uri_escape }}">PDF document</a>
 </dd>
 {% endif %}
+{% if page.supplement %}
+<dt>Supplement:</dt>
+<dd>
+<a href="{{ page.supplement | uri_escape }}">Supplement</a>
+</dd>
+{% endif %}
+
 </dl>
 
 <details>
