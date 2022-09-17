@@ -85,6 +85,12 @@ main h1 {
 	margin-bottom: 9px;
 }
 
+main .document {
+	font: 18px/150% "Open Sans", sans-serif;
+	font-style: italic;
+	margin-bottom: -27px;
+}
+
 main h2 {
 	font: 16px/150% "Open Sans", sans-serif;
 	font-weight: bold;

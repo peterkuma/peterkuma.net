@@ -2,6 +2,7 @@
 layout: paper
 code: jolly2018
 type: article
+document: article
 title: "An analysis of the cloud environment over the Ross Sea and Ross Ice Shelf using CloudSat/CALIPSO satellite observations: The importance of synoptic forcing"
 authors:
   - first: Ben

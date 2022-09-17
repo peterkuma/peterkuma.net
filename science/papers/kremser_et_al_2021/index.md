@@ -2,6 +2,7 @@
 layout: paper
 code: kremser2021
 type: article
+document: article
 title: "Southern Ocean Cloud and Aerosol data: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage"
 authors:
   - first: Stefanie
@@ -35,7 +36,7 @@ authors:
     last: von Hobe
     affil: 5
     orcid: 0000-0001-6034-6562
-  - first: Sinikka T. 
+  - first: Sinikka T.
     last: Lennartz
     affil: 6
     orcid: 0000-0001-7040-149X

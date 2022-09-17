@@ -1,6 +1,7 @@
 ---
 layout: paper
 type: thesis
+document: thesis
 code: kuma2010
 title: Visualising Data from CloudSat and CALIPSO Satellites
 authors:
@@ -10,7 +11,7 @@ authors:
     orcid: 0000-0002-0910-8646
 affils:
   - Comenius University, Bratislava, Slovakia
-published: 2010-06-01 
+published: 2010-06-01
 date: 2010-06-01
 archive: Zenodo
 school: Comenius University

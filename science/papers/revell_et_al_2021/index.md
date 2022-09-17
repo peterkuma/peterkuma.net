@@ -2,6 +2,7 @@
 layout: paper
 code: revell2021
 type: article
+document: article
 title: Direct radiative effects of airborne microplastics
 authors:
   - first: Laura E.

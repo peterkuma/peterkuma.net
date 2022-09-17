@@ -2,6 +2,7 @@
 layout: paper
 code: klekociuk2020
 type: article
+document: article
 title: The state of the atmosphere in the 2016 southern Kerguelen Axis campaign region
 authors:
   - first: Andrew R.
@@ -11,7 +12,7 @@ authors:
   - first: W. John R.
     last: French
     affil: 1, 2
-    orcid: 0000-0001-9305-6190 
+    orcid: 0000-0001-9305-6190
   - first: Simon P.
     last: Alexander
     affil: 1, 2

@@ -2,6 +2,7 @@
 layout: paper
 code: hartery2021
 type: article
+document: article
 title: Classification of the Below-Cloud Mixing State Over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements
 authors:
   - first: Sean

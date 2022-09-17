@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% if page.document %}
+<div class="document">{{ page.document | capitalize }}</div>
+{% endif %}
+
 {% if page.title_html %}
 <h1>{{ page.title_html }}</h1>
 {% else %}

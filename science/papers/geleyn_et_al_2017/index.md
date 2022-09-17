@@ -2,6 +2,7 @@
 layout: paper
 code: geleyn2017
 type: article
+document: article
 title: Single interval longwave radiation scheme based on the net exchanged rate decomposition with bracketing
 authors:
   - first: J.-F.

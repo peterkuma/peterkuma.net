@@ -2,6 +2,7 @@
 layout: paper
 code: masek2015
 type: article
+document: article
 title: Single interval shortwave radiation scheme with parameterized optical saturation and spectral overlaps
 authors:
   - first: J.

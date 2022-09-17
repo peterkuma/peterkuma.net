@@ -2,6 +2,7 @@
 layout: paper
 code: kuma2022
 type: misc
+document: poster
 title:  Climate model code genealogy and its relation to sensitivity and feedbacks
 authors:
   - first: Peter

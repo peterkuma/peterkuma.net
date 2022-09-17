@@ -2,6 +2,7 @@
 layout: paper
 code: hartery2020
 type: article
+document: article
 title: Constraining the Surface Flux of Sea Spray Particles from the Southern Ocean
 authors:
   - first: S.

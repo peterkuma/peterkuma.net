@@ -2,6 +2,7 @@
 layout: paper
 code: guyot2022
 type: article
+document: article
 title: "Detection of supercooled liquid water containing clouds with ceilometers: development and evaluation of deterministic and data-driven retrievals"
 authors:
   - first: Adrien
