@@ -37,6 +37,12 @@ layout: default
 </small>
 </p>
 
+{% if page.image %}
+<a href="{{ page.image | uri_escape }}">
+<img src="{{ page.image | uri_escape }}" style="margin: 12px auto; max-width: 100%" />
+</a>
+{% endif %}
+
 {% if page.abstract %}
 <h2>Abstract</h2>
 {{ page.abstract }}
