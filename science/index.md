@@ -63,6 +63,8 @@ Kuma et al. (2017), [Assessment of Southern Ocean clouds and aerosols in the New
 
 ## Posters
 
+Kuma et al. (2022), [Climate model code genealogy and its relation to sensitivity and feedbacks](https://zenodo.org/record/7071719) (FORCeS Annual Meeting, Oslo, Norway, 14 September 2022)
+
 Kuma and Bender (2021), [Using deep learning cloud classiﬁcation in cloud feedback](https://zenodo.org/record/5605067) (FORCeS Annual Meeting, Stockholm University, Stockholm, Sweden, 27 October 2021)
 
 Kuma and Bender (2021), [Climate sensitivity and the Southern Ocean: the effect of the "too few, too bright" model cloud problem](https://zenodo.org/record/4707302) (EGU General Assembly, 19–30 April 2021)
