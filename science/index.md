@@ -5,7 +5,7 @@ layout: default
 
 # Science
 
-*Poster* \| Kuma et al. (2022), [Climate model code genealogy and its relation to sensitivity and feedbacks](posters/kuma_et_al_2022) (FORCeS Annual Meeting, Oslo, Norway, 14 September 2022)
+*Poster* \| Kuma et al. (2022), [Climate model code genealogy and its relation to sensitivity and feedbacks](posters/kuma_et_al_2022/) (FORCeS Annual Meeting, Oslo, Norway, 14 September 2022)
 
 *Article* \| Kuma et al. (2022), [Machine learning of cloud types in satellite observations and climate models](papers/kuma_et_al_2022/) (in review in Atmospheric Chemistry and Physics)
 
@@ -41,11 +41,11 @@ layout: default
 
 *Poster* \| Kuma and Bender (2021), [Climate sensitivity and the Southern Ocean: the effect of the "too few, too bright" model cloud problem](https://zenodo.org/record/4707302) (EGU General Assembly, 19–30 April 2021)
 
-*Article* \| Hartery et al. (2021), [Classification of the Below-Cloud Mixing State Over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements](papers/hartery_et_al_2021) (manuscript in preparation)
+*Article* \| Hartery et al. (2021), [Classification of the Below-Cloud Mixing State Over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements](papers/hartery_et_al_2021/) (manuscript in preparation)
 
 *Article* \| Kuma et al. (2021), [Ground-based lidar processing and simulator framework for comparing models and observations (ALCF 1.0)](papers/kuma_et_al_2021/) (Geoscientific Model Development)
 
-*Dataset* \| Kremser et al. (2020) [Southern Ocean Cloud and Aerosol data set: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](https://zenodo.org/record/4060237) (Zenodo)
+*Dataset* \| Kremser et al. (2020), [Southern Ocean Cloud and Aerosol data set: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](https://zenodo.org/record/4060237) (Zenodo)
 
 *Presentation* \| Kuma et al. (2020), [Doctoral thesis presentation: Comparing remotely sensed observations of clouds and aerosols in the Southern Ocean with climate model simulations](https://zenodo.org/record/5636022) (University of Canterbury, Christchurch, New Zealand, 7 October 2020)
 
