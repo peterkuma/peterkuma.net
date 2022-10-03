@@ -79,4 +79,5 @@ doi: 10.5194/acp-20-6607-2020
 archive: Zenodo
 archive_url: https://zenodo.org/record/3774659
 file: "Kuma et al. (2020), Evaluation of Southern Ocean cloud in the HadGEM3 general circulation model and MERRA-2 reanalysis using ship-based observations.pdf"
+file_size: 8026030
 ---

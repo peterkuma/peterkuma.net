@@ -26,4 +26,5 @@ supervisors:
     orcid: 0000-0001-7441-1708
 archive_url: https://zenodo.org/record/3764234
 file: "Kuma (2010), Visualising Data from CloudSat and CALIPSO Satellites.pdf"
+file_size: 9916592
 ---

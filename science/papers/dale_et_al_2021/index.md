@@ -80,4 +80,5 @@ accepted: 2021-03-12
 published: 2021-05-18
 date: 2021-05-18
 file: "Dale et al. (2021), The winter 2019 air pollution (PM2.5) measurement campaign in Christchurch, New Zealand.pdf"
+file_size: 6806082
 ---

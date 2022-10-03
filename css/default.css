@@ -149,3 +149,12 @@ main figure {
 main figure img {
 	display: block;
 }
+
+main .rss-feed {
+	float: right;
+	font-weight: bold;
+	background: url("/img/feed-icon.svg") no-repeat left center;
+	background-size: 16px;
+	padding-left: 19px;
+	margin-top: 4px;
+}

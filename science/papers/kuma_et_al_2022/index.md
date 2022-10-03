@@ -33,9 +33,11 @@ note: in review in Atmospheric Chemistry and Physics
 _url: https://acp.copernicus.org/preprints/acp-2022-184/
 doi: 10.5194/acp-2022-184
 submitted: 2022-03-07
+date: 2022-03-07
 journal: Atmospheric Chemistry and Physics Discussions
 archive: Zenodo
 archive_url: https://doi.org/10.5281/zenodo.6184907
 file: "Kuma et al. (2022), Machine learning of cloud types in satellite observations and climate models (submitted revision 22 July 2022).pdf"
+file_size: 10464157
 supplement: "supplement.zip"
 ---

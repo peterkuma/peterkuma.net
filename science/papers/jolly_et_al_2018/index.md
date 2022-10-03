@@ -38,4 +38,5 @@ accepted: 2018-05-01
 published: 2018-07-10
 date: 2018-07-10
 file: "Jolly et al. (2018), An analysis of the cloud environment over the Ross Sea and Ross Ice Shelf using CloudSat-CALIPSO satellite observations - the importance of synoptic forcing.pdf"
+file_size: 2298071
 ---

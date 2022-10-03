@@ -1,0 +1,28 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+{% assign docs = site.article | concat: site.presentation | concat: site.poster | concat: site.thesis %}
+<rss version="2.0">
+<channel>
+<title>Peter Kuma Software and Science</title>
+<description>{{ desc }}</description>
+<link>{{ "/" | absolute_url }}</link>
+{% for item in site.data.science %}
+{% capture title %}{% if item.title %}{{ item.title | xml_escape }}{% else %}{% for x in docs %}{% capture y %}_{{ item.type }}/{{ item.name }}/index.md{% endcapture %}{% if x.path == y %}{{ x.title }}{% endif %}{% endfor %}{% endif %}{% endcapture %}
+{% capture desc %}{% for x in docs %}{% capture y %}_{{ item.type }}/{{ item.name }}/index.md{% endcapture %}{% if x.path == y %}{{ x.abstract | xml_escape }}{% endif %}{% endfor %}{% endcapture %}
+{% capture url %}{% if item.url %}{{ item.url }}{% else %}{{ "/science/" | absolute_url }}{% case item.type %}{% when "article" %}papers{% when "thesis" %}theses{% else %}{{ item.type }}s{% endcase %}/{{ item.name }}/{% endif %}{% endcapture %}
+{% capture time %}{% if item.date %}{{ item.date | date: "%a, %d %b %Y %H:%M:%S %z" }}{% else %}{% for x in docs %}{% capture y %}_{{ item.type }}/{{ item.name }}/index.md{% endcapture %}{% if x.path == y %}{{ x.date | date: "%a, %d %b %Y %H:%M:%S %z" }}{% endif %}{% endfor %}{% endif %}{% endcapture %}
+{% capture enclosure %}{% for x in docs %}{% capture y %}_{{ item.type }}/{{ item.name }}/index.md{% endcapture %}{% if x.path == y %}{{ x.file | uri_escape }}{% endif %}{% endfor %}{% endcapture %}
+{% capture enclosure_size %}{% for x in docs %}{% capture y %}_{{ item.type }}/{{ item.name }}/index.md{% endcapture %}{% if x.path == y %}{{ x.file_size }}{% endif %}{% endfor %}{% endcapture %}
+<item>
+<title>{{ item.type | capitalize }} | {{ title }}</title>
+<author>{{ item.author | xml_escape }}</author>
+<description>{{ desc }}</description>
+<link>{{ url }}</link>
+<guid>{{ url }}</guid>
+<pubDate>{{ time }}</pubDate>
+{% if enclosure != "" %}<enclosure url="{{ url }}{{ enclosure }}" length="{{ enclosure_size }}" type="application/pdf" />{% endif %}
+</item>
+{% endfor %}
+</channel>
+</rss>
