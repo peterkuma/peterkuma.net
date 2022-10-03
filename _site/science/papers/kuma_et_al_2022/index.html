@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Machine learning of cloud types in satellite observations and climate models | Peter Kuma Software and Science</title>
+<link rel="stylesheet" href="/css/default.css" />
+<link rel="alternate" type="application/atom+xml" title="RSS feed" href="/rss/" />
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Person",
+"name": "Peter Kuma",
+"url": "https://peterkuma.net"
+}
+</script>
+
+<meta name="citation_title" content="Machine learning of cloud types in satellite observations and climate models" />
+
+<meta name="citation_author" content="Kuma, Peter" />
+<meta name="citation_author_orcid" content="0000-0002-0910-8646" />
+
+
+
+<meta name="citation_author_institution" content="Department of Meteorology (MISU), Stockholm University, Stockholm, Sweden" />
+
+
+<meta name="citation_author" content="Bender, Frida A.-M." />
+<meta name="citation_author_orcid" content="0000-0003-4867-4007" />
+
+
+
+<meta name="citation_author_institution" content="Department of Meteorology (MISU), Stockholm University, Stockholm, Sweden" />
+
+
+<meta name="citation_author" content="Schuddeboom, Alex" />
+<meta name="citation_author_orcid" content="0000-0002-0487-7470" />
+
+
+
+<meta name="citation_author_institution" content="University of Canterbury, Christchurch, Aotearoa New Zealand" />
+
+
+<meta name="citation_author" content="McDonald, Adrian J." />
+<meta name="citation_author_orcid" content="0000-0002-1456-6254" />
+
+
+
+<meta name="citation_author_institution" content="University of Canterbury, Christchurch, Aotearoa New Zealand" />
+
+
+<meta name="citation_author" content="Seland, Øyvind" />
+
+
+
+
+<meta name="citation_author_institution" content="Norwegian Meteorological Institute, Oslo, Norway" />
+
+
+<meta name="citation_publication_date" content="2022/03/07" />
+
+<meta name="citation_journal_title" content="Atmospheric Chemistry and Physics Discussions" />
+
+
+
+
+
+
+<meta name="citation_doi" content="10.5194/acp-2022-184" />
+
+<meta name="citation_pdf_url" content="/science/papers/kuma_et_al_2022/Kuma%20et%20al.%20(2022),%20Machine%20learning%20of%20cloud%20types%20in%20satellite%20observations%20and%20climate%20models%20(submitted%20revision%2022%20July%202022).pdf" />
+
+<meta name="citation_abstract_html_url" content="/science/papers/kuma_et_al_2022/" />
+<meta name="citation_language" content="en" />
+
+</head>
+<body lang="en">
+<div class="page">
+<div class="top">
+<header>
+<h1>Peter Kuma Software and Science</h1>
+<nav style="position: relative">
+<a href="/software/">Software</a> | <a href="/science/">Science</a> | <a href="/photos/">Photos</a>
+<a href="https://github.com/peterkuma" class="github"><img src="/img/github.png" title="GitHub" style="display: block; height: 26px" /></a>
+</nav>
+</header>
+</div>
+<main>
+
+<div class="document">Article</div>
+
+
+
+<h1>Machine learning of cloud types in satellite observations and climate models</h1>
+
+
+<p>
+
+
+<a href="https://orcid.org/0000-0002-0910-8646">
+
+Peter Kuma</a><sup>1</sup>,
+
+
+<a href="https://orcid.org/0000-0003-4867-4007">
+
+Frida A.-M. Bender</a><sup>1</sup>,
+
+
+<a href="https://orcid.org/0000-0002-0487-7470">
+
+Alex Schuddeboom</a><sup>2</sup>,
+
+
+<a href="https://orcid.org/0000-0002-1456-6254">
+
+Adrian J. McDonald</a><sup>2</sup>,
+
+
+Øyvind Seland<sup>3</sup>
+
+</p>
+
+
+
+<p>
+<small>
+
+<sup>1</sup>Department of Meteorology (MISU), Stockholm University, Stockholm, Sweden<br />
+
+<sup>2</sup>University of Canterbury, Christchurch, Aotearoa New Zealand<br />
+
+<sup>3</sup>Norwegian Meteorological Institute, Oslo, Norway<br />
+
+</small>
+</p>
+
+
+
+
+<h2>Abstract</h2>
+Uncertainty in cloud feedbacks in climate models is a major limitation in projections of future climate. Therefore, evaluation and improvement of cloud simulation is essential to ensure the accuracy of climate models. We analyse cloud biases and cloud change with respect to global mean near-surface temperature (GMST) in climate models relative to satellite observations, and relate them to equilibrium climate sensitivity, transient climate response and cloud feedback. For this purpose, we develop a supervised deep convolutional artificial neural network for determination of cloud types from low-resolution (2.5°×2.5°) daily mean top of atmosphere shortwave and longwave radiation fields, corresponding to the World Meteorological Organization (WMO) cloud genera recorded by human observers in the Global Telecommunication System (GTS). We train this network on a top of atmosphere radiation retrieved by the Clouds and the Earth’s Radiant Energy System (CERES) and GTS, and apply it on the Climate Model Intercomparison Project phase 5 and 6 (CMIP5 and CMIP6) model output and the ECMWF Reanalysis version 5 (ERA5) and the Modern-Era Retrospective Analysis for Research and Applications version 2 (MERRA-2) reanalyses. We compare the cloud types between models and satellite observations. We link biases to climate sensitivity and identify a negative linear relationship between the root mean square error of cloud type occurrence derived from the neural network and model equilibrium climate sensitivity (ECS), transient climate response (TCR) and cloud feedback. This statistical relationship in the model ensemble favours models with higher ECS, TCR and cloud feedback. However, this relationship could be due to the relatively small size of the ensemble used or decoupling between present-day biases and future projected cloud change. Using the abrupt-4xCO2 CMIP5 and CMIP6 experiment, we show that models simulating decreasing stratiform and increasing cumuliform clouds tend to have higher ECS than models simulating increasing stratiform and decreasing cumuliform clouds, and this could also be partially responsible for the difference in ECS observed.
+
+
+<dl>
+
+<dt>Note: </dt>
+<dd>
+in review in Atmospheric Chemistry and Physics
+</dd>
+
+
+<dt>Journal: </dt>
+<dd>
+<a href="https://acp.copernicus.org/preprints/acp-2022-184/">Atmospheric Chemistry and Physics Discussions</a>
+</dd>
+
+
+
+
+
+
+<dt>Archive: </dt>
+<dd>
+<a href="https://doi.org/10.5281/zenodo.6184907">Zenodo</a>
+</dd>
+
+
+<dt>DOI:</dt>
+<dd>
+<a href="https://doi.org/10.5194/acp-2022-184">10.5194/acp-2022-184</a>
+</dd>
+
+
+<dt>Submitted:</dt>
+<dd>
+07 March 2022
+</dd>
+
+
+
+
+
+
+
+<dt>PDF:</dt>
+<dd>
+<a href="Kuma%20et%20al.%20(2022),%20Machine%20learning%20of%20cloud%20types%20in%20satellite%20observations%20and%20climate%20models%20(submitted%20revision%2022%20July%202022).pdf">PDF document</a>
+</dd>
+
+
+<dt>Supplement:</dt>
+<dd>
+<a href="supplement.zip">Supplement</a>
+</dd>
+
+
+</dl>
+
+<details>
+<summary>BibTeX:</summary>
+<code><small>
+@article{kuma2022,<br />
+&nbsp;&nbsp;journal={Atmospheric Chemistry and Physics Discussions},<br />
+
+
+&nbsp;&nbsp;year={2022},<br />
+
+&nbsp;&nbsp;note={in review in Atmospheric Chemistry and Physics},<br />
+
+
+
+&nbsp;&nbsp;doi={10.5194/acp-2022-184},<br />
+&nbsp;&nbsp;url={https://doi.org/10.5194/acp-2022-184},<br />
+&nbsp;&nbsp;author={Kuma, Peter and Bender, Frida A.-M. and Schuddeboom, Alex and McDonald, Adrian J. and Seland, Øyvind},<br />
+&nbsp;&nbsp;title={Machine learning of cloud types in satellite observations and climate models}<br />
+}
+</small></code>
+</details>
+
+</main>
+</div>
+</body>
+</html>
+

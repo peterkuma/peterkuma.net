@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Broadband approach as a framework for implementation of radiative transfer scheme with selective intermittency: Cost versus accuracy study | Peter Kuma Software and Science</title>
+<link rel="stylesheet" href="/css/default.css" />
+<link rel="alternate" type="application/atom+xml" title="RSS feed" href="/rss/" />
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Person",
+"name": "Peter Kuma",
+"url": "https://peterkuma.net"
+}
+</script>
+
+<meta name="citation_title" content="Broadband approach as a framework for implementation of radiative transfer scheme with selective intermittency: Cost versus accuracy study" />
+
+<meta name="citation_author" content="Kuma, Peter" />
+<meta name="citation_author_orcid" content="0000-0002-0910-8646" />
+
+
+
+<meta name="citation_author_institution" content="Comenius University, Bratislava, Slovakia" />
+
+
+<meta name="citation_publication_date" content="2015/06/09" />
+
+
+<meta name="citation_dissertation_institution" content="Comenius University" />
+
+
+
+
+
+<meta name="citation_doi" content="10.5281/zenodo.3764236" />
+
+<meta name="citation_pdf_url" content="/science/theses/kuma_2015/Kuma%20(2015),%20Broadband%20approach%20as%20a%20framework%20for%20implementation%20of%20radiative%20transfer%20scheme%20with%20selective%20intermittency:%20Cost%20versus%20accuracy%20study%20simulations.pdf" />
+
+<meta name="citation_abstract_html_url" content="/science/theses/kuma_2015/" />
+<meta name="citation_language" content="en" />
+
+</head>
+<body lang="en">
+<div class="page">
+<div class="top">
+<header>
+<h1>Peter Kuma Software and Science</h1>
+<nav style="position: relative">
+<a href="/software/">Software</a> | <a href="/science/">Science</a> | <a href="/photos/">Photos</a>
+<a href="https://github.com/peterkuma" class="github"><img src="/img/github.png" title="GitHub" style="display: block; height: 26px" /></a>
+</nav>
+</header>
+</div>
+<main>
+
+<div class="document">Thesis</div>
+
+
+
+<h1>Broadband approach as a framework for implementation of radiative transfer scheme with selective intermittency: Cost versus accuracy study</h1>
+
+
+<p>
+
+
+<a href="https://orcid.org/0000-0002-0910-8646">
+
+Peter Kuma</a><sup>1</sup>
+
+</p>
+
+
+<p>
+<strong>Supervisors:</strong>
+
+
+<a href="https://orcid.org/0000-0002-9385-2506">
+
+Ján Mašek</a><sup>2</sup>
+
+</p>
+
+
+<p>
+<small>
+
+<sup>1</sup>Comenius University, Bratislava, Slovakia<br />
+
+<sup>2</sup>Czech Hydrometeorological Institute, Prague, Czech Republic<br />
+
+</small>
+</p>
+
+
+
+
+<h2>Abstract</h2>
+The computational complexity of radiation schemes in NWP models precludes full radiative transfer calculations in every time step and every grid point of the model. Traditionally, models resort to calling a radiation scheme on a reduced temporal or spatial resolution, optionally scaling the resulting fluxes for the change in temperature profile and the solar zenith angle. As a result, the variability of cloud cover is neglected, leading to a considerable error. In the shortwave spectrum, relatively slowly changing gaseous optical properties are one of the most expensive parts to calculate. We propose a modification to the shortwave part of the ACRANEB2 broadband radiation scheme to interpolate gaseous optical thickness of layers with respect to the solar zenith angle within a chosen intermittency period, while still accounting for evolving cloudiness by recalculating its optical properties and the resulting fluxes via the adding method in every model time step. In this work we use a single column model to study the dependence of shortwave gaseous optical thickness on the solar zenith angle, we show that this dependence can be approximated with good accuracy, implement this approximation in the ACRANEB2 radiation scheme and assess the impact on accuracy of heating rates and model run time in 24-h simulations of the limited-area NWP model ALADIN. We show that the modification results in time saving of up to 4 % of total model run time and incurs error on shortwave heating rates up to ±0.4 K/day at noon (90 % confidence interval) and 0.06 K/day (MAE) over the whole domain and time period, and that both performance and accuracy scale with the length of the intermittency period. This relationship is summarised in a cost vs. accuracy comparison, giving potential users a guide on choosing the optimal intermittency period in their circumstances. The proposed modification became part of the ACRANEB2 radiation scheme implemented in package ALARO-1 version A, and since January 2015 it is operational in the model ALADIN/CHMI.
+
+
+<dl>
+
+
+
+
+
+
+<dt>School: </dt>
+<dd>
+Comenius University, Bratislava, Slovakia
+</dd>
+
+
+<dt>Archive: </dt>
+<dd>
+<a href="https://zenodo.org/record/3764236">Zenodo</a>
+</dd>
+
+
+<dt>DOI:</dt>
+<dd>
+<a href="https://doi.org/10.5281/zenodo.3764236">10.5281/zenodo.3764236</a>
+</dd>
+
+
+
+
+<dt>Published:</dt>
+<dd>
+09 June 2015
+</dd>
+
+
+
+
+
+<dt>PDF:</dt>
+<dd>
+<a href="Kuma%20(2015),%20Broadband%20approach%20as%20a%20framework%20for%20implementation%20of%20radiative%20transfer%20scheme%20with%20selective%20intermittency:%20Cost%20versus%20accuracy%20study%20simulations.pdf">PDF document</a>
+</dd>
+
+
+
+</dl>
+
+<details>
+<summary>BibTeX:</summary>
+<code><small>
+@mastersthesis{kuma2015,<br />
+
+&nbsp;&nbsp;school={Comenius University},<br />
+&nbsp;&nbsp;address={Bratislava, Slovakia},<br />
+&nbsp;&nbsp;year={2015},<br />
+
+
+
+
+
+&nbsp;&nbsp;doi={10.5281/zenodo.3764236},<br />
+&nbsp;&nbsp;url={https://doi.org/10.5281/zenodo.3764236},<br />
+&nbsp;&nbsp;author={Kuma, Peter},<br />
+&nbsp;&nbsp;title={Broadband approach as a framework for implementation of radiative transfer scheme with selective intermittency: Cost versus accuracy study}<br />
+}
+</small></code>
+</details>
+
+</main>
+</div>
+</body>
+</html>
+

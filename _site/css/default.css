@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../font/open-sans/regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../font/open-sans/bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+html {
+	font: 16px/150% "Open Sans", sans-serif;
+}
+
+body {
+	margin: 30px;
+}
+
+@media (max-width: 600px) {
+	body {
+		margin: 8px;
+	}
+}
+
+header {
+	text-align: center;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #aaaaaa;
+}
+
+header h1 {
+	font: 20px/150% "Open Sans", sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: normal;
+	margin: 8px 0;
+}
+
+header nav {
+	font: 20px/150% "Open Sans", sans-serif;
+	margin: 4px 0;
+}
+
+@media (min-width: 600px) {
+	header .github {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		display: block;
+	}
+}
+
+@media (max-width: 600px) {
+	header .github {
+		display: block;
+	}
+	header .github img {
+		margin: 8px auto;
+	}
+}
+
+.page {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+a {
+	text-decoration: none;
+	color: #0068ed;
+}
+
+main {
+	max-width: 800px;
+	margin-top: 10px;
+}
+
+main h1 {
+	font: 22px/150% "Open Sans", sans-serif;
+	font-weight: bold;
+	margin-top: 27px;
+	margin-bottom: 9px;
+}
+
+main .document {
+	font: 18px/150% "Open Sans", sans-serif;
+	font-style: italic;
+	margin-bottom: -27px;
+}
+
+main h2 {
+	font: 16px/150% "Open Sans", sans-serif;
+	font-weight: bold;
+	margin-top: 18px;
+	margin-bottom: 6px;
+}
+
+main h3 {
+	font: 14px/150% "Open Sans", sans-serif;
+	font-weight: bold;
+	margin-top: 12px;
+	margin-bottom: 4px;
+}
+
+main p {
+	margin: 6px 0;
+}
+
+main ul {
+	padding-left: 24px;
+}
+
+main ul li {
+	margin: 8px 0;
+}
+
+main > img {
+	width: 800px;
+	margin-left: -50px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+main dl {
+	display: grid;
+	grid-template-columns: max-content auto;
+}
+
+main dt {
+	font-weight: bold;
+	grid-column-start: 1;
+}
+
+main dd {
+	grid-column-start: 2;
+}
+
+main summary {
+	font-weight: bold;
+}
+
+main figure {
+	margin: 12px 0;
+}
+
+main figure img {
+	display: block;
+}
+
+main .rss-feed {
+	float: right;
+	font-weight: bold;
+	background: url("/img/feed-icon.svg") no-repeat left center;
+	background-size: 16px;
+	padding-left: 19px;
+	margin-top: 4px;
+}
