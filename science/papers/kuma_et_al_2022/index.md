@@ -3,7 +3,7 @@ layout: paper
 code: kuma2022
 type: article
 document: article
-title: Machine learning of cloud types in satellite observations and climate
+title: Machine learning of cloud types in satellite observations and climate models
 authors:
   - first: Peter
     last: Kuma

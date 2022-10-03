@@ -3,7 +3,7 @@ layout: paper
 code: kuma2015
 type: mastersthesis
 document: thesis
-title: "Broadband approach as a framework for implementation of radiative transfer scheme with selective intermittency: Cost versus accuracy study  simulations"
+title: "Broadband approach as a framework for implementation of radiative transfer scheme with selective intermittency: Cost versus accuracy study"
 authors:
   - first: Peter
     last: Kuma

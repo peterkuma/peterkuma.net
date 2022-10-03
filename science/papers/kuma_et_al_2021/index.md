@@ -3,7 +3,7 @@ layout: paper
 code: kuma2021
 type: article
 document: article
-title: Ground-based lidar processing and simulator framework for comparing models and observations
+title: Ground-based lidar processing and simulator framework for comparing models and observations (ALCF 1.0)
 authors:
   - first: Peter
     last: Kuma
