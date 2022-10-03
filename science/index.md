@@ -3,89 +3,15 @@ title: Science
 layout: default
 ---
 
+<a href="/rss/" class="rss-feed">RSS feed</a>
+
 # Science
 
-*Poster* \| Kuma et al. (2022), [Climate model code genealogy and its relation to sensitivity and feedbacks](posters/kuma_et_al_2022/) (FORCeS Annual Meeting, Oslo, Norway, 14 September 2022)
-
-*Article* \| Kuma et al. (2022), [Machine learning of cloud types in satellite observations and climate models](papers/kuma_et_al_2022/) (in review in Atmospheric Chemistry and Physics)
-
-*Article* \| Guyot et al. (2022), [Detection of supercooled liquid water clouds with ceilometers: Development and evaluation of deterministic and data-driven retrievals](papers/guyot_et_al_2022/) (Atmospheric Measurement Techniques)
-
-*Presentation* \| Kuma et al. (2022), [Machine learning of cloud types in satellite observations and climate models](https://zenodo.org/record/6551525) (The 13th Annual SeRC Meeting, Bro, Sweden, 13 May 2022)
-
-*Presentation* \| Kuma (2022), [Software for climate sciences](https://zenodo.org/record/6025116) (Research seminar, Stockholm University, Stockholm, Sweden, 9 February 2022)
-
-*Lecture* \| [Global Climate System: Clouds and aerosols in the climate system](https://zenodo.org/record/5905868) (Stockholm University, Stockholm, Sweden, 25 January 2022)
-
-*Presentation* \| Kuma (2021), [Clouds in climate models and atmospheric observations](https://zenodo.org/record/5905775) (Research seminar, Stockholm University, Stockholm, Sweden, 14 December 2021); [video 1 (weather balloon launch)](https://files.peterkuma.net/media/svxde2yho3/radiosonde.webm), [video 2 (UAV flight)](https://files.peterkuma.net/media/3k146je3bn/uav.webm)
-
-*Poster* \| Kuma and Bender (2021), [Using deep learning cloud classiﬁcation in cloud feedback](https://zenodo.org/record/5605067) (FORCeS Annual Meeting, Stockholm University, Stockholm, Sweden, 27 October 2021)
-
-*Presentation* \| Kuma and Bender (2021), [Machine learning of cloud types for evaluation of climate models and constraining climate sensitivity](https://zenodo.org/record/5605043) (FORCeS Annual Meeting, Stockholm University, Stockholm, Sweden, 25 October 2021)
-
-*Presentation* \| Kuma and Bender (2021), [Using deep learning cloud classification for cloud feedback and climate sensitivity determination](https://zenodo.org/record/5609454) (FORCeS WP5 & WP6 Science Meeting, Stockholm University, Stockholm, Sweden, 9 September 2021)
-
-*Media* \| [How Airborne Microplastics Affect Climate Change](https://www.scientificamerican.com/article/how-airborne-microplastics-affect-climate-change1/) (Scientific American, 2021)
-
-*Media* \| Microplastics May Be Cooling—and Heating—Earth’s Climate ([WIRED](https://www.wired.com/story/microplastics-may-be-cooling-and-heating-earths-climate/), [Ars Technica](https://arstechnica.com/science/2021/10/microplastics-may-be-cooling-and-heating-earths-climate/), 2021)
-
-*Media* \| [Microplastics in the air have a small cooling effect on our climate](https://www.newscientist.com/article/2294440-microplastics-in-the-air-have-a-small-cooling-effect-on-our-climate/) (New Scientist, 2021)
-
-*Media* \| [Microplastics are in the air we breathe and in Earth’s atmosphere, and they affect the climate](https://theconversation.com/microplastics-are-in-the-air-we-breathe-and-in-earths-atmosphere-and-they-affect-the-climate-170093) (The Conversation, 2021)
-
-*Article* \| Revell et al. (2021), [Direct radiative effects of airborne microplastics](papers/revell_et_al_2021/) (Nature)
-
-*Article* \| Kremser et al. (2021), [Southern Ocean Cloud and Aerosol data: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](papers/kremser_et_al_2021/) (Earth System Science Data)
-
-*Article* \| Dale et al. (2021), [The winter 2019 air pollution (PM<sub>2.5</sub>) measurement campaign in Christchurch, New Zealand](papers/dale_et_al_2021/) (Earth System Science Data)
-
-*Poster* \| Kuma and Bender (2021), [Climate sensitivity and the Southern Ocean: the effect of the "too few, too bright" model cloud problem](https://zenodo.org/record/4707302) (EGU General Assembly, 19–30 April 2021)
-
-*Article* \| Hartery et al. (2021), [Classification of the Below-Cloud Mixing State Over the Southern Ocean Using In-Situ and Remotely-Sensed Measurements](papers/hartery_et_al_2021/) (manuscript in preparation)
-
-*Article* \| Kuma et al. (2021), [Ground-based lidar processing and simulator framework for comparing models and observations (ALCF 1.0)](papers/kuma_et_al_2021/) (Geoscientific Model Development)
-
-*Dataset* \| Kremser et al. (2020), [Southern Ocean Cloud and Aerosol data set: a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage](https://zenodo.org/record/4060237) (Zenodo)
-
-*Presentation* \| Kuma et al. (2020), [Doctoral thesis presentation: Comparing remotely sensed observations of clouds and aerosols in the Southern Ocean with climate model simulations](https://zenodo.org/record/5636022) (University of Canterbury, Christchurch, New Zealand, 7 October 2020)
-
-*Article* \| Kuma et al. (2020), [Evaluation of Southern Ocean cloud in the HadGEM3 general circulation model and MERRA-2 reanalysis using ship-based observations](papers/kuma_et_al_2020a/) (Atmospheric Chemistry and Physics)
-
-*Thesis* \| Kuma (2020), [Comparing remotely sensed observations of clouds and aerosols in the Southern Ocean with climate model simulations](theses/kuma_2020/) (University of Canterbury, Christchurch, New Zealand)
-
-*Article* \| Klekociuk et al. (2020), [The state of the atmosphere in the 2016 southern Kerguelen Axis campaign region](papers/klekociuk_et_al_2020/) (Deep-Sea Research Part II: Topical Studies in Oceanography)
-
-*Poster* \| Kuma et al. (2020), [Ground-based lidar processing and simulator framework for comparing models and observations](https://zenodo.org/record/3764299) (Gateway Antarctica Conference, Christchurch, New Zealand, 30–31 January 2020)
-
-*Article* \| Hartery et al. (2020), [Constraining the Surface Flux of Sea Spray Particles from the Southern Ocean](papers/hartery_et_al_2020/) (Journal of Geophysical Research: Atmospheres)
-
-*Poster* \| Kuma et al. (2019), [Automatic Lidar and Ceilometer Framework (ALCF)](https://zenodo.org/record/3764287) (CFMIP 2019 Meeting, Mykonos, Greece, 30 September–4 October 2019)
-
-*Poster* \| Kuma et al. (2019), [Evaluation of Southern Ocean cloud in the HadGEM3 general circulation model and MERRA-2 reanalysis using ship-based observations](https://zenodo.org/record/3764275) (Deep South Challenge Conference, Auckland, New Zealand, 6–8 May 2019)
-
-*Presentation* \| Kuma et al. (2018), [Evaluation of HadGEM3 Southern Ocean cloud using observations and reanalyses](https://zenodo.org/record/5636003) (NZ Hydrological Society & Meteorological Society of NZ Joint Conference, Christchurch, New Zealand, 4–7 December 2018)
-
-*Article* \| Jolly et al. (2018), [An analysis of the cloud environment over the Ross Sea and Ross Ice Shelf using CloudSat/CALIPSO satellite observations: The importance of synoptic forcing](papers/jolly_et_al_2018/) (Atmospheric Chemistry and Physics)
-
-*Poster* \| Kuma et al. (2018), [Shipborne and ground-based observations of clouds in the Southern Ocean](https://zenodo.org/record/3764269) (POLAR 2018, Davos, Switzerland, 19–23 June 2018)
-
-*Presentation* \| Kuma et al. (2018), [Doctoral Confirmation Presentation: Assessment of Southern Ocean Clouds and Aerosol in General Circulation Models](https://zenodo.org/record/5635851) (University of Canterbury, Christchurch, New Zealand, 9 April 2018)
-
-*Media* \| [New Zealand’s Next Top Model](https://www.nzgeo.com/stories/esm/) (New Zealand Geographic, 2018)
-
-*Presentation* \| Kuma et al. (2017), [Assessment of Southern Ocean clouds and aerosols in the New Zealand Earth System Model using shipborne and ground-based observations](https://zenodo.org/record/5635689) (Meteorological Society of New Zealand Annual Conference, Dunedin, New Zealand, 13–15 November 2017)
-
-*Poster* \| Kuma et al. (2017), [Assessment of Southern Ocean clouds and aerosols in the New Zealand Earth System Model using shipborne and ground-based observations](https://zenodo.org/record/3764267) (Deep South Challenge Symposium, Wellington, New Zealand, 4–6 September 2017)
-
-*Poster* \| Kuma et al. (2017), [Shipborne and ground-based observations of clouds in the Subantarctic the the Southern Ocean](https://zenodo.org/record/3764265) (New Zealand Antarctic Science Conference, Dunedin, New Zealand, 26–28 June 2017)
-
-*Article* \| Geleyn et al. (2017), [Single interval longwave radiation scheme based on the net exchanged rate decomposition with bracketing](papers/geleyn_et_al_2017/) (Quarterly Journal of the Royal Meteorological Society)
-
-*Article* \| Mašek et al. (2015), [Single interval shortwave radiation scheme with parameterized optical saturation and spectral overlaps](papers/masek_et_al_2015/) (Quarterly Journal of the Royal Meteorological Society)
-
-*Thesis* \| Kuma (2015), [Broadband approach as a framework for implementation of radiative transfer scheme with selective intermittency: Cost versus accuracy study](theses/kuma_2015/) (Comenius University, Bratislava, Slovakia)
-
-*Thesis* \| Kuma (2010), [Visualising Data from CloudSat and CALIPSO Satellites](theses/kuma_2010/) (Comenius University, Bratislava, Slovakia)
+{% assign docs = site.article | concat: site.presentation | concat: site.poster | concat: site.thesis %}
+{% for item in site.data.science %}
+{% capture title %}{% if item.title %}{{ item.title }}{% else %}{% for x in docs %}{% capture y %}_{{ item.type }}/{{ item.name }}/index.md{% endcapture %}{% if x.path == y %}{% if x.title_html %}{{ x.title_html }}{% else %}{{ x.title }}{% endif %}{% endif %}{% endfor %}{% endif %}{% endcapture %}
+*{{ item.type | capitalize }}* \| {% if item.author %}{{ item.author }}{% if item.date %} ({{ item.date | date: "%Y" }}){% else %}{% for x in docs %}{% capture y %}_{{ item.type }}/{{ item.name }}/index.md{% endcapture %}{% if x.path == y %} ({{ x.date | date: "%Y" }}){% endif %}{% endfor %}{% endif %}, {% endif %}[{{ title }}]({% if item.url %}{{ item.url }}{% else %}{% case item.type %}{% when "article" %}papers{% when "thesis" %}theses{% else %}{{ item.type }}s{% endcase %}/{{ item.name }}/{% endif %}) {% if item.place %}({{ item.place }}){% endif %}{% if item.note %}; {{ item.note }}{% endif %}
+{% endfor %}
 
 ## Software
 
