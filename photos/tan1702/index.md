@@ -14,5 +14,5 @@ photos:
   - GOPR0204.JPG
 ---
 
-# R/V Tangaroa voyage TAN1702 from Wellington, New Zealand to the Campbell Plateau, Southern Ocean (2017)
+## R/V Tangaroa voyage TAN1702 from Wellington, New Zealand to the Campbell Plateau, Southern Ocean (2017)
 

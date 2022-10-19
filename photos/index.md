@@ -3,7 +3,7 @@ title: Photos
 layout: default
 ---
 
-# Photos
+## Photos
 
 [R/V Tangaroa voyage TAN1802 from Wellington, New Zealand to the Ross Sea, Southern Ocean (2018)](tan1802)
 

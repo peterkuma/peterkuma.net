@@ -24,5 +24,5 @@ photos:
   - IMG_20180315_105947.jpg
 ---
 
-# R/V Tangaroa voyage TAN1802 from Wellington, New Zealand to the Ross Sea, Southern Ocean (2018)
+## R/V Tangaroa voyage TAN1802 from Wellington, New Zealand to the Ross Sea, Southern Ocean (2018)
 

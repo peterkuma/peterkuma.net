@@ -5,7 +5,7 @@ layout: default
 
 <a href="/rss/" class="rss-feed">RSS feed</a>
 
-# Science
+## Science
 
 {% assign docs = site.article | concat: site.presentation | concat: site.poster | concat: site.thesis %}
 {% for item in site.data.science %}
@@ -13,7 +13,7 @@ layout: default
 *{{ item.type | capitalize }}* \| {% if item.author %}{{ item.author }}{% if item.date %} ({{ item.date | date: "%Y" }}){% else %}{% for x in docs %}{% capture y %}_{{ item.type }}/{{ item.name }}/index.md{% endcapture %}{% if x.path == y %} ({{ x.date | date: "%Y" }}){% endif %}{% endfor %}{% endif %}, {% endif %}[{{ title }}]({% if item.url %}{{ item.url }}{% else %}{% case item.type %}{% when "article" %}papers{% when "thesis" %}theses{% else %}{{ item.type }}s{% endcase %}/{{ item.name }}/{% endif %}) {% if item.place %}({{ item.place }}){% endif %}{% if item.note %}; {{ item.note }}{% endif %}
 {% endfor %}
 
-## Software
+### Software
 
 [ALCF](https://alcf-lidar.github.io) – Automatic Lidar and Ceilometer Processing Framework
 

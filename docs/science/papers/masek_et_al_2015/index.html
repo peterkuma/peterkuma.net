@@ -1,8 +1,9 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Open source software and science" />
 <title>Single interval shortwave radiation scheme with parameterized optical saturation and spectral overlaps | Peter Kuma Software and Science</title>
 <link rel="stylesheet" href="/css/default.css" />
 <link rel="alternate" type="application/rss+xml" title="RSS feed" href="https://peterkuma.net/rss/" />
@@ -101,7 +102,7 @@
 <h1>Peter Kuma Software and Science</h1>
 <nav style="position: relative">
 <a href="/software/">Software</a> | <a href="/science/">Science</a> | <a href="/photos/">Photos</a>
-<a href="https://github.com/peterkuma" class="github"><img src="/img/github.png" title="GitHub" style="display: block; height: 26px" /></a>
+<a href="https://github.com/peterkuma" class="github"><img src="/img/github.png" alt="GitHub" title="GitHub" style="display: block; height: 26px" /></a>
 </nav>
 </header>
 </div>
@@ -111,7 +112,7 @@
 
 
 
-<h1>Single interval shortwave radiation scheme with parameterized optical saturation and spectral overlaps</h1>
+<h2>Single interval shortwave radiation scheme with parameterized optical saturation and spectral overlaps</h2>
 
 
 <p>
@@ -165,7 +166,7 @@ P. Kuma</a><sup>7</sup>
 
 
 
-<h2>Abstract</h2>
+<h3>Abstract</h3>
 Spectral integration is the most time consuming part of solar radiative transfer codes used in numerical weather prediction. Routinely used approaches usually incline to one of two extremes – expensive and very accurate correlated k-distribution method made affordable by doing radiative transfer calculations with reduced temporal and/or spatial resolution, or cheaper but less accurate broadband approach affordable at every grid-point and time-step. Both approaches have their pros and cons, but hybrid solutions do not seem very promising. The presented work improves accuracy of full spectrum broadband approach by parameterizing secondary saturation of gaseous absorption, optical saturation of Rayleigh scattering and of cloud absorption as well as non-random gas-cloud spectral overlap. In order to isolate the problem of spectral integration from other approximations, one builds a narrowband reference using the same delta-two stream framework as the broadband scheme. Using this reference reveals the surprising fact that saturation effect of cloud absorption for one single layer and for the whole solar spectrum can be parameterized in a rather compact way, with one simple formula for liquid clouds and one for ice clouds. One then introduces the concept of effective cloud optical depth, which extends the applicability of parameterized cloud optical saturation to multi-layer cases, accommodating also effects of gas-cloud spectral overlap in the near-infrared. A scheme with all the above parameterizations indeed pushes accuracy limits of broadband approach to the level where a single shortwave interval can be used. This opens the possibility to reduce costs by using selective intermittency, where slowly evolving gaseous transmissions are updated on the timescale of hours, while quickly varying cloud optical properties are recomputed at every model time-step. In a companion article it will be demonstrated that the above core strategy is applicable also to thermal radiative transfer, with perhaps even better cost effectiveness there.
 
 

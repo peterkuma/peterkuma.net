@@ -1,8 +1,9 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Open source software and science" />
 <title>Single interval longwave radiation scheme based on the net exchanged rate decomposition with bracketing | Peter Kuma Software and Science</title>
 <link rel="stylesheet" href="/css/default.css" />
 <link rel="alternate" type="application/rss+xml" title="RSS feed" href="https://peterkuma.net/rss/" />
@@ -106,7 +107,7 @@
 <h1>Peter Kuma Software and Science</h1>
 <nav style="position: relative">
 <a href="/software/">Software</a> | <a href="/science/">Science</a> | <a href="/photos/">Photos</a>
-<a href="https://github.com/peterkuma" class="github"><img src="/img/github.png" title="GitHub" style="display: block; height: 26px" /></a>
+<a href="https://github.com/peterkuma" class="github"><img src="/img/github.png" alt="GitHub" title="GitHub" style="display: block; height: 26px" /></a>
 </nav>
 </header>
 </div>
@@ -116,7 +117,7 @@
 
 
 
-<h1>Single interval longwave radiation scheme based on the net exchanged rate decomposition with bracketing</h1>
+<h2>Single interval longwave radiation scheme based on the net exchanged rate decomposition with bracketing</h2>
 
 
 <p>
@@ -173,7 +174,7 @@ N. Pristov<sup>7</sup>
 
 
 
-<h2>Abstract</h2>
+<h3>Abstract</h3>
 The main obstacle to efficient calculation of longwave radiative transfer is the existence of multiple radiative sources, each with its own emission spectrum. The work presented here overcomes this problem by combining the full spectrum broadband approach with the net exchanged rate decomposition. The idea is worked out to suit the needs of numerical weather prediction, where the most costly contribution representing the sum of internal exchanges is interpolated between cheap minimum and maximum estimates, while exchange with the surface and dominant cooling to space contributions are calculated accurately. The broad-band approach must address the additional problems related to spectral integration and many ideas developed previously for the solar spectrum are reused. Specific issues appear, the dependence of broadband gaseous transmissions on the temperature of the emitting body being the most important one. The thermal spectrum also brings some simplifications—aerosols, clouds and the Earth's surface can safely be treated as grey bodies. The optical saturation of gaseous absorption remains the main complication and non-random spectral overlaps between gases become much more significant than in the solar spectrum. The broadband character of the proposed scheme enables the use of an unreduced spatial resolution with an intermittent update of gaseous transmissions and interpolation weights, thus ensuring a full response of longwave radiation to rapidly varying cloudiness and temperature fields. This is in contrast to the mainstream strategy, where very accurate and expensive radiative transfer calculations are performed infrequently, often with reduced spatial resolution. The approach proposed here provides a much better balance between errors coming from the radiation scheme itself and from the intermittency strategy. The key achievement, ensuring a good scalability of the scheme, is a computational cost essentially linear in the number of layers, with straightforward inclusion of scattering as an additional bonus.
 
 
