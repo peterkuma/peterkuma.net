@@ -15,15 +15,15 @@ layout: default
 
 ### Software
 
-[ALCF](https://alcf-lidar.github.io) – Automatic Lidar and Ceilometer Processing Framework
+[ALCF](https://alcf.peterkuma.net) – Automatic Lidar and Ceilometer Processing Framework
 
-[ccbrowse](https://browse.ccplot.org) – Web application for browsing data from active Earth observation satellites
+[ccbrowse](https://ccplot.org/ccbrowse/) – Web application for browsing data from active Earth observation satellites
 
 [ccplot](https://ccplot.org) – Command-line application for visualizing data from CloudSat and CALIPSO satellites
 
 [cl2nc](https://github.com/peterkuma/cl2nc) – Convert Vaisala CL51 and CL31 ceilometer dat files to NetCDF
 
-[ds-format](https://peterkuma.net/ds-format/) – Python interface for reading and writing NetCDF and a custom dataset format
+[ds-format](https://ds-format.peterkuma.net) – Python interface for reading and writing NetCDF and a custom dataset format
 
 [mpl2nc](https://github.com/peterkuma/mpl2nc) – Convert Sigma Space Micro Pulse Lidar (MPL) data files to NetCDF
 
