@@ -73,7 +73,6 @@ issue: 5
 pages:
   - 2053
   - 2075
-url_: https://essd.copernicus.org/articles/13/2053/2021/
 doi: 10.5194/essd-13-2053-2021
 submitted: 2020-09-11
 accepted: 2021-03-12

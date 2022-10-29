@@ -114,7 +114,6 @@ issue: 7
 pages:
   - 3115
   - 3153
-_url: https://essd.copernicus.org/articles/13/3115/2021/
 doi: 10.5194/essd-13-3115-2021
 submitted: 2020-10-30
 accepted: 2021-05-31
