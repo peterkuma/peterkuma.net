@@ -31,7 +31,6 @@ issue: 13
 pages:
   - 9723
   - 9739
-_url: https://acp.copernicus.org/articles/18/9723/2018/acp-18-9723-2018.html
 doi: 10.5194/acp-18-9723-2018
 submitted: 2017-06-13
 accepted: 2018-05-01

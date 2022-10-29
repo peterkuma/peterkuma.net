@@ -62,7 +62,11 @@ layout: default
 {% if page.journal %}
 <dt>Journal: </dt>
 <dd>
+{% if page._url %}
 <a href="{{ page._url | uri_escape }}">{{ page.journal }}</a>
+{% else %}
+{{ page.journal }}
+{% endif %}
 </dd>
 {% endif %}
 {% if page.volume %}
@@ -98,7 +102,7 @@ layout: default
 {% if page.doi %}
 <dt>DOI:</dt>
 <dd>
-<a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a>
+{{ page.doi }}
 </dd>
 {% endif %}
 {% if page.submitted %}

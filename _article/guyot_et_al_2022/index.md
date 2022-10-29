@@ -41,7 +41,6 @@ issue: 12
 pages:
   - 3663
   - 3681
-_url: https://amt.copernicus.org/articles/15/3663/2022/amt-15-3663-2022.html
 doi: 10.5194/amt-15-3663-2022
 submitted: 2022-01-10
 accepted: 2022-05-18

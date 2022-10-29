@@ -44,7 +44,6 @@ issue: 1
 pages:
   - 43
   - 72
-_url: https://gmd.copernicus.org/articles/14/43/2021/
 doi: 10.5194/gmd-14-43-2021
 submitted: 2020-01-26
 accepted: 2020-11-10
