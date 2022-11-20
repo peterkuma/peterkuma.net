@@ -32,4 +32,5 @@ supervisors:
 archive_url: https://zenodo.org/record/4281575
 file: "Kuma (2020), Comparing remotely sensed observations of clouds and aerosols in the Southern Ocean with climate model simulations.pdf"
 file_size: 53604124
+license: CC BY 4.0
 ---
