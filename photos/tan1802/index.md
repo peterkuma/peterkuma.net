@@ -1,5 +1,5 @@
 ---
-title: R/V Tangaroa voyage TAN1802 from Wellington, New Zealand to the Ross Sea, Southern Ocean (2018)
+title: R/V Tangaroa voyage TAN1802 from Wellington, Aotearoa/New Zealand to the Ross Sea, Southern Ocean (2018)
 layout: photos
 photos:
   - IMG_20180209_075747.jpg
@@ -24,6 +24,6 @@ photos:
   - IMG_20180315_105947.jpg
 ---
 
-## R/V Tangaroa voyage TAN1802 from Wellington, New Zealand to the Ross Sea, Southern Ocean (2018)
+## R/V Tangaroa voyage TAN1802 from Wellington, Aotearoa/New Zealand to the Ross Sea, Southern Ocean (2018)
 
-**License:** Public domain ([CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)). *To the extent possible under law, Peter Kuma has waived all copyright and related or neighboring rights to the R/V Tangaroa voyage TAN1802 photos. This work is published from: New Zealand.*
+**License:** Public domain ([CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)). *To the extent possible under law, Peter Kuma has waived all copyright and related or neighboring rights to the R/V Tangaroa voyage TAN1802 photos. This work is published from: Aotearoa/New Zealand.*
