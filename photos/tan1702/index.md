@@ -2,16 +2,32 @@
 title: R/V Tangaroa voyage TAN1702 from Wellington, Aotearoa/New Zealand to the Cambpell Plateau, Southern Ocean (2017)
 layout: photos
 photos:
-  - GOPR0027.JPG
-  - GOPR0032.JPG
-  - GOPR0046.JPG
-  - GOPR0068.JPG
-  - GOPR0074.JPG
-  - GOPR0135.JPG
-  - GOPR0142.JPG
-  - GOPR0175.JPG
-  - GOPR0188.JPG
-  - GOPR0204.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0025.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0027.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0032.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0046.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0065.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0066.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0068.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0070.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0073.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0074.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0135.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0139.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0142.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0145.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0152.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0157.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0161.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0173.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0175.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0178.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0179.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0181.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/IMG_20170320_144134.jpg
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0188.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0195.JPG
+  - https://pub.peterkuma.net/web/photos/tan1702/GOPR0204.JPG
 ---
 
 ## R/V Tangaroa voyage TAN1702 from Wellington, Aotearoa/New Zealand to the Campbell Plateau, Southern Ocean (2017)
