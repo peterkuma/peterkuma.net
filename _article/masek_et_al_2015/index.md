@@ -46,5 +46,5 @@ submitted: 2015-01-08
 accepted: 2015-08-11
 published: 2015-08-17
 date: 2015-08-17
-license: proprietary
+license: Paid access / proprietary
 ---

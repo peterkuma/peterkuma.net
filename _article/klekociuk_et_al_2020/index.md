@@ -38,4 +38,5 @@ _url: https://www.sciencedirect.com/science/article/pii/S0967064518301395
 doi: 10.1016/j.dsr2.2019.02.001
 published: 2020-04-01
 date: 2020-04-01
+license: Paid access / proprietary
 ---

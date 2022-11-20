@@ -47,4 +47,5 @@ submitted: 2019-07-27
 accepted: 2020-01-20
 published: 2020-01-24
 date: 2020-01-24
+license: Free access / proprietary
 ---

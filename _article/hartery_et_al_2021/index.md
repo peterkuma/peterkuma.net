@@ -30,4 +30,5 @@ archive: The Earth and Space Science Open Archive
 archive_url: https://www.essoar.org/doi/abs/10.1002/essoar.10502904.2
 doi: 10.1002/essoar.10502904.2
 date: 2021-03-19
+license: CC BY-NC 4.0
 ---
