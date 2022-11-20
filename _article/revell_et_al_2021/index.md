@@ -47,5 +47,5 @@ preview: https://rdcu.be/czSK0
 supplementary_code: https://github.com/peterkuma/microplastics2021/
 file: "Revell et al. (2022), Direct radiative effects of airborne microplastics.pdf"
 file_size: 15715264
-license: Paid access / proprietary (available free as a preview and a manuscript on author's website)
+license: Paid access / proprietary (available free as a preview and a manuscript on authors' website)
 ---
