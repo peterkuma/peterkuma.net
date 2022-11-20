@@ -13,7 +13,7 @@ layout: default
 *{{ item.type | capitalize }}* \| {% if item.author %}{{ item.author }}{% if item.date %} ({{ item.date | date: "%Y" }}){% else %}{% for x in docs %}{% capture y %}_{{ item.type }}/{{ item.name }}/index.md{% endcapture %}{% if x.path == y %} ({{ x.date | date: "%Y" }}){% endif %}{% endfor %}{% endif %}, {% endif %}[{{ title }}]({% if item.url %}{{ item.url }}{% else %}{% case item.type %}{% when "article" %}papers{% when "thesis" %}theses{% else %}{{ item.type }}s{% endcase %}/{{ item.name }}/{% endif %}) {% if item.place %}({{ item.place }}){% endif %}{% if item.note %}; {{ item.note }}{% endif %}
 {% endfor %}
 
-### Software
+### Open source software
 
 [ALCF](https://alcf.peterkuma.net) – Automatic Lidar and Ceilometer Processing Framework
 

@@ -48,4 +48,5 @@ published: 2022-06-20
 date: 2022-06-20
 file: "Guyot et al. (2022), Detection of supercooled liquid water containing clouds with ceilometers development and evaluation of deterministic and data-driven retrievals.pdf"
 file_size: 6550232
+license: CC BY 4.0
 ---

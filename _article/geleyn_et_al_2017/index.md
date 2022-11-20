@@ -49,4 +49,5 @@ submitted: 2016-06-17
 accepted: 2017-01-18
 published: 2017-04-17
 date: 2017-04-17
+license: proprietary
 ---

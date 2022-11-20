@@ -38,5 +38,6 @@ archive: Zenodo
 archive_url: https://doi.org/10.5281/zenodo.6184907
 file: "Kuma et al. (2022), Machine learning of cloud types in satellite observations and climate models (submitted revision 2 November 2022).pdf"
 file_size: 10464157
+license: CC BY 4.0
 supplement: "supplement_rev2.zip"
 ---
