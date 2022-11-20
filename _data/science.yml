@@ -24,6 +24,7 @@
   url: https://zenodo.org/record/6551525
   place: The 13th Annual SeRC Meeting, Bro, Sweden, 13 May 2022
   date: 2022-05-13
+  oa: true
 
 - type: presentation
   author: Kuma
@@ -31,12 +32,14 @@
   url: https://zenodo.org/record/6025116
   place: Research seminar, Stockholm University, Stockholm, Sweden, 9 February 2022
   date: 2022-02-09
+  oa: true
 
 - type: lecture
   title: "Global Climate System: Clouds and aerosols in the climate system"
   url: https://zenodo.org/record/5905868
   place: Stockholm University, Stockholm, Sweden, 25 January 2022
   date: 2022-01-25
+  oa: true
 
 - type: presentation
   author: Kuma
@@ -45,6 +48,7 @@
   place: Research seminar, Stockholm University, Stockholm, Sweden, 14 December 2021
   note: "[video 1 (weather balloon launch)](https://files.peterkuma.net/media/svxde2yho3/radiosonde.webm), [video 2 (UAV flight)](https://files.peterkuma.net/media/3k146je3bn/uav.webm)"
   date: 2021-12-14
+  oa: true
 
 - type: poster
   author: Kuma and Bender
@@ -52,6 +56,7 @@
   url: https://zenodo.org/record/5605067
   place: FORCeS Annual Meeting, Stockholm University, Stockholm, Sweden, 27 October 2021
   date: 2021-10-27
+  oa: true
 
 - type: presentation
   author: Kuma and Bender
@@ -59,6 +64,7 @@
   url: https://zenodo.org/record/5605043
   place: FORCeS Annual Meeting, Stockholm University, Stockholm, Sweden, 25 October 2021
   date: 2021-10-25
+  oa: true
 
 - type: presentation
   author: Kuma and Bender
@@ -66,6 +72,7 @@
   url: https://zenodo.org/record/5609454
   place: FORCeS WP5 & WP6 Science Meeting, Stockholm University, Stockholm, Sweden, 9 September 2021
   date: 2021-09-09
+  oa: true
 
 - type: media
   title: How Airborne Microplastics Affect Climate Change
@@ -118,6 +125,7 @@
   url: https://zenodo.org/record/4707302
   place: EGU General Assembly, 19–30 April 2021
   date: 2021-04-21
+  oa: true
 
 - type: article
   name: hartery_et_al_2021
@@ -142,6 +150,7 @@
   url: https://zenodo.org/record/5636022
   place: University of Canterbury, Christchurch, New Zealand, 7 October 2020
   date: 2020-10-07
+  oa: true
 
 - type: article
   name: kuma_et_al_2020a
@@ -164,6 +173,7 @@
   url: https://zenodo.org/record/3764299
   place: Gateway Antarctica Conference, Christchurch, New Zealand, 30–31 January 2020
   date: 2020-01-30
+  oa: true
 
 - type: article
   name: hartery_et_al_2020
@@ -176,6 +186,7 @@
   url: https://zenodo.org/record/3764287
   place: CFMIP 2019 Meeting, Mykonos, Greece, 30 September–4 October 2019
   date: 2019-09-30
+  oa: true
 
 - type: poster
   author: Kuma et al.
@@ -183,6 +194,7 @@
   url: https://zenodo.org/record/3764275
   place: Deep South Challenge Conference, Auckland, New Zealand, 6–8 May 2019
   date: 2019-05-06
+  oa: true
 
 - type: presentation
   author: Kuma et al.
@@ -190,6 +202,7 @@
   url: https://zenodo.org/record/5636003
   place: NZ Hydrological Society & Meteorological Society of NZ Joint Conference, Christchurch, New Zealand, 4–7 December 2018
   date: 2018-12-05
+  oa: true
 
 - type: article
   name: jolly_et_al_2018
@@ -202,6 +215,7 @@
   url: https://zenodo.org/record/3764269
   place: POLAR 2018, Davos, Switzerland, 19–23 June 2018
   date: 2018-06-19
+  oa: true
 
 - type: presentation
   author: Kuma et al.
@@ -209,6 +223,7 @@
   url: https://zenodo.org/record/5635851
   place: University of Canterbury, Christchurch, New Zealand, 9 April 2018
   date: 2018-04-09
+  oa: true
 
 - type: media
   title: New Zealand’s Next Top Model
@@ -222,6 +237,7 @@
   url: https://zenodo.org/record/5635689
   place: Meteorological Society of New Zealand Annual Conference, Dunedin, New Zealand, 13–15 November 2017
   date: 2017-11-13
+  oa: true
 
 - type: poster
   author: Kuma et al.
@@ -229,6 +245,7 @@
   url: https://zenodo.org/record/3764267
   place: Deep South Challenge Symposium, Wellington, New Zealand, 4–6 September 2017
   date: 2017-09-04
+  oa: true
 
 - type: poster
   author: Kuma et al.
@@ -236,6 +253,7 @@
   url: https://zenodo.org/record/3764265
   place: New Zealand Antarctic Science Conference, Dunedin, New Zealand, 26–28 June 2017
   date: 2017-06-26
+  oa: true
 
 - type: article
   name: geleyn_et_al_2017

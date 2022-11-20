@@ -6,11 +6,14 @@ layout: default
 <div class="document">{{ page.document | capitalize }}</div>
 {% endif %}
 
+<h2>
 {% if page.title_html %}
-<h2>{{ page.title_html }}</h2>
+{{ page.title_html }}
 {% else %}
-<h2>{{ page.title }}</h2>
+{{ page.title }}
 {% endif %}
+{% if page.license == 'CC BY 4.0' or page.license == 'CC BY-NC 4.0' %}<img src="/img/open-access.svg" alt="Open access" title="Open access" style="height: 1em; vertical-align: middle" />{% endif %}
+</h2>
 
 <p>
 {% for a in page.authors %}
