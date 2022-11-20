@@ -26,3 +26,4 @@ photos:
 
 ## R/V Tangaroa voyage TAN1802 from Wellington, New Zealand to the Ross Sea, Southern Ocean (2018)
 
+**License:** Public domain ([CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)). *To the extent possible under law, Peter Kuma has waived all copyright and related or neighboring rights to the R/V Tangaroa voyage TAN1802 photos. This work is published from: New Zealand.*
