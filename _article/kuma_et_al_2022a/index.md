@@ -32,7 +32,8 @@ abstract: "Uncertainty in cloud feedbacks in climate models is a major limitatio
 doi: 10.5194/acp-2022-184
 submitted: 2022-03-07
 date: 2022-12-05
-journal: Atmospheric Chemistry and Physics (forthcoming)
+note: forthcoming
+journal: Atmospheric Chemistry and Physics
 archive: Zenodo
 archive_url: https://doi.org/10.5281/zenodo.6184907
 file: "Kuma et al. (2022), Machine learning of cloud types in satellite observations and climate models (submitted revision 5 December 2022, 2nd).pdf"
