@@ -29,5 +29,6 @@ archive_url: https://zenodo.org/record/7220769
 file: "Kuma et al. (2022), Climate model code genealogy and its relation to climate feedbacks and sensitivity (manuscript in preparation 2022-10-18).pdf"
 file_size: 1010898
 license: CC BY 4.0
+supplement: supplement.pdf
 supplementary_code: "https://github.com/peterkuma/model-code-genealogy-2022/"
 ---
