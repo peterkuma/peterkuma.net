@@ -132,12 +132,6 @@ layout: default
 {{ page.published_year }}
 </dd>
 {% endif %}
-{% if page.supplementary_code %}
-<dt>Supplementary information:</dt>
-<dd>
-<a href="{{ page.supplementary_code }}">Code</a>
-</dd>
-{% endif %}
 {% if page.preview %}
 <dt>Preview:</dt>
 <dd>
@@ -162,13 +156,19 @@ Open access / <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative
 {% endif %}
 </dd>
 {% endif %}
-
 {% if page.supplement %}
 <dt>Supplement:</dt>
 <dd>
 <a href="{{ page.supplement | uri_escape }}">Supplement</a>
 </dd>
 {% endif %}
+{% if page.supplementary_code %}
+<dt>Supplementary code:</dt>
+<dd>
+<a href="{{ page.supplementary_code }}">Supplementary code</a>
+</dd>
+{% endif %}
+
 
 </dl>
 

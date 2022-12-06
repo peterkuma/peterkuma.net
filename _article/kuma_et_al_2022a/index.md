@@ -40,4 +40,5 @@ file: "Kuma et al. (2022), Machine learning of cloud types in satellite observat
 file_size: 11604478
 license: CC BY 4.0
 supplement: "supplement_rev2.zip"
+supplementary_code: "https://github.com/peterkuma/ml-clouds-2021/"
 ---
