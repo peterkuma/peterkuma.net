@@ -31,4 +31,5 @@ file_size: 1353853
 license: CC BY 4.0
 supplement: "Supplement (manuscript in preparation 2022-12-09).pdf"
 supplementary_code: "https://github.com/peterkuma/model-code-genealogy-2022/"
+image: "model_code_genealogy.svg"
 ---
