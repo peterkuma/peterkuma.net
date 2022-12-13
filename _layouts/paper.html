@@ -44,6 +44,12 @@ layout: default
 </small>
 </p>
 
+{% if page.file %}
+<a href="{{ page.file | uri_escape }}" class="document-link">
+{% if page.document %}{{ page.document | capitalize }} PDF{% else %}Document PDF{% endif %}
+</a>
+{% endif %}
+
 {% if page.image %}
 <a href="{{ page.image | uri_escape }}">
 <img src="{{ page.image | uri_escape }}" style="margin: 12px auto; max-width: 100%" />
@@ -136,12 +142,6 @@ layout: default
 <dt>Preview:</dt>
 <dd>
 <a href="{{ page.preview | uri_escape }}">Article preview</a>
-</dd>
-{% endif %}
-{% if page.file %}
-<dt>PDF:</dt>
-<dd>
-<a href="{{ page.file | uri_escape }}">PDF document</a>
 </dd>
 {% endif %}
 {% if page.license %}

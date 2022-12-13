@@ -163,6 +163,15 @@ main .rss-feed {
 	}
 }
 
+main .document-link {
+	display: block;
+	text-align: center;
+	margin: 16px 0;
+	font-weight: bold;
+	background: #eee;
+	padding: 8px 0;
+}
+
 @media (max-width: 600px) {
 	body {
 		margin: 8px;
