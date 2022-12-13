@@ -47,4 +47,5 @@ accepted: 2015-08-11
 published: 2015-08-17
 date: 2015-08-17
 license: Paid access / proprietary
+preview: https://onlinelibrary.wiley.com/share/author/VXDWJ6MFQT7KKQS9F7YZ?target=10.1002/qj.2653
 ---

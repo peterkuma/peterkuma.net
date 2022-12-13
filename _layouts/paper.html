@@ -50,6 +50,12 @@ layout: default
 </a>
 {% endif %}
 
+{% if page.preview %}
+<a href="{{ page.preview | uri_escape }}" class="document-link">
+{% if page.document %}{{ page.document | capitalize }} preview{% else %}Document preview{% endif %}
+</a>
+{% endif %}
+
 {% if page.image %}
 <a href="{{ page.image | uri_escape }}">
 <img src="{{ page.image | uri_escape }}" style="margin: 12px auto; max-width: 100%" />
@@ -136,12 +142,6 @@ layout: default
 <dt>Published:</dt>
 <dd>
 {{ page.published_year }}
-</dd>
-{% endif %}
-{% if page.preview %}
-<dt>Preview:</dt>
-<dd>
-<a href="{{ page.preview | uri_escape }}">Article preview</a>
 </dd>
 {% endif %}
 {% if page.license %}
