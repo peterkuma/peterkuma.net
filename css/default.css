@@ -28,12 +28,6 @@ body {
 	margin: 16px;
 }
 
-@media (max-width: 600px) {
-	body {
-		margin: 8px;
-	}
-}
-
 header {
 	text-align: center;
 	padding-bottom: 8px;
@@ -58,25 +52,6 @@ header h1 .subtitle {
 header nav {
 	font: 20px/150% "Source Sans Pro", sans-serif;
 	margin: 2px 0;
-}
-
-@media (min-width: 600px) {
-	header .github {
-		display: block;
-		position: absolute;
-		top: 50%;
-		right: 0;
-		transform: translate(0, -50%);
-	}
-}
-
-@media (max-width: 600px) {
-	header .github {
-		display: block;
-	}
-	header .github img {
-		margin: 8px auto;
-	}
 }
 
 .page {
@@ -140,18 +115,8 @@ main > img {
 	margin-bottom: 4px;
 }
 
-main dl {
-	display: grid;
-	grid-template-columns: max-content auto;
-}
-
 main dt {
 	font-weight: bold;
-	grid-column-start: 1;
-}
-
-main dd {
-	grid-column-start: 2;
 }
 
 main summary {
@@ -173,4 +138,49 @@ main .rss-feed {
 	background-size: 16px;
 	padding-left: 19px;
 	margin-top: 4px;
+}
+
+@media (min-width: 600px) {
+	header .github {
+		display: block;
+		position: absolute;
+		top: 50%;
+		right: 0;
+		transform: translate(0, -50%);
+	}
+
+	main dl {
+		display: grid;
+		grid-template-columns: max-content auto;
+	}
+
+	main dt {
+		grid-column-start: 1;
+	}
+
+	main dd {
+		grid-column-start: 2;
+	}
+}
+
+@media (max-width: 600px) {
+	body {
+		margin: 8px;
+	}
+
+	header .github {
+		display: block;
+	}
+
+	header .github img {
+		margin: 8px auto;
+	}
+
+	main dt {
+		margin-top: 4px;
+	}
+
+	main dd {
+		margin-left: 0;
+	}
 }
