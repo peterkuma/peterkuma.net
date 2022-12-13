@@ -140,6 +140,22 @@ main .rss-feed {
 	margin-top: 4px;
 }
 
+main .document-links {
+	display: flex;
+	margin: 16px 0;
+	gap: 16px;
+	flex-wrap: wrap;
+}
+
+main .document-links a {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	background: #eee;
+	padding: 8px 16px;
+	flex-grow: 1;
+}
+
 @media (min-width: 600px) {
 	header .github {
 		display: block;
@@ -161,15 +177,6 @@ main .rss-feed {
 	main dd {
 		grid-column-start: 2;
 	}
-}
-
-main .document-link {
-	display: block;
-	text-align: center;
-	margin: 16px 0;
-	font-weight: bold;
-	background: #eee;
-	padding: 8px 0;
 }
 
 @media (max-width: 600px) {
