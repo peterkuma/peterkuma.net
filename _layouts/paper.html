@@ -48,6 +48,7 @@ layout: default
 {% if page.file %}
 <a href="{{ page.file | uri_escape }}">
 {% if page.document %}{{ page.document | capitalize }} PDF{% else %}Document PDF{% endif %}
+{% if page.file_note %}({{ page.file_note }}){% endif %}
 </a>
 {% endif %}
 {% if page.preview %}
