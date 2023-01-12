@@ -15,6 +15,7 @@ authors:
     orcid: 0000-0003-4867-4007
   - first: Aiden R.
     last: Jönsson
+    last_tex: J{\"o}nsson
     affil: 1
     orcid: 0000-0002-5830-7684
 affils:
