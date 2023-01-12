@@ -26,8 +26,6 @@ journal: Zenodo
 _url: https://doi.org/10.5281/zenodo.7220768
 doi: 10.5281/zenodo.7220768
 date: 2023-01-11
-archive: Zenodo
-archive_url: https://doi.org/10.5281/zenodo.7220768
 file: "Kuma et al. (2023), Climate model code genealogy and its relation to climate feedbacks and sensitivity (submitted 2023-01-11).pdf"
 file_size: 1535979
 file_note: submitted
