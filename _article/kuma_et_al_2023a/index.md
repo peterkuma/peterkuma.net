@@ -1,6 +1,6 @@
 ---
 layout: paper
-code: kuma2022a
+code: kuma2023a
 type: article
 document: article
 title: Machine learning of cloud types in satellite observations and climate models
@@ -33,6 +33,7 @@ abstract: "Uncertainty in cloud feedbacks in climate models is a major limitatio
 doi: 10.5194/acp-23-523-2023
 submitted: 2022-03-07
 date: 2023-01-13
+published: 2023-01-13
 accepted: 2022-12-05
 journal: Atmospheric Chemistry and Physics
 archive: Zenodo
