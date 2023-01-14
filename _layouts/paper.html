@@ -101,7 +101,11 @@ layout: default
 {% if page.pages %}
 <dt>Pages: </dt>
 <dd>
+{% if page.pages.size == 2 %}
 {{ page.pages[0] }}–{{ page.pages[1] }}
+{% else %}
+{{ page.pages }}
+{% endif %}
 </dd>
 {% endif %}
 {% if page.school %}

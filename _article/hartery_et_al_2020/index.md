@@ -41,6 +41,7 @@ abstract: Modeling the shortwave radiation balance over the Southern Ocean regio
 journal: "Journal of Geophysical Research: Atmospheres"
 volume: 125
 issue: 4
+pages: e2019JD032026
 _url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JD032026
 doi: 10.1029/2019JD032026
 submitted: 2019-07-27

@@ -36,6 +36,11 @@ date: 2023-01-13
 published: 2023-01-13
 accepted: 2022-12-05
 journal: Atmospheric Chemistry and Physics
+volume: 23
+issue: 1
+pages:
+  - 523
+  - 549
 archive: Zenodo
 archive_url: https://doi.org/10.5281/zenodo.6184907
 file: "Kuma et al. (2023), Machine learning of cloud types in satellite observations and climate models.pdf"
