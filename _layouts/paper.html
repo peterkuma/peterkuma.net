@@ -190,7 +190,7 @@ Open access / <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative
 {% if page.note %}&nbsp;&nbsp;note={% raw %}{{% endraw %}{{ page.note }}{% raw %}}{% endraw %},<br />{% endif %}
 {% if page.volume %}&nbsp;&nbsp;volume={% raw %}{{% endraw %}{{ page.volume }}{% raw %}}{% endraw %},<br />{% endif %}
 {% if page.issue %}&nbsp;&nbsp;issue={% raw %}{{% endraw %}{{ page.issue }}{% raw %}}{% endraw %},<br />{% endif %}
-{% if page.pages %}&nbsp;&nbsp;pages={% raw %}{{% endraw %}{{ page.pages[0] }}-{{ page.pages[1] }}{% raw %}}{% endraw %},<br />{% endif %}
+{% if page.pages %}&nbsp;&nbsp;pages={% raw %}{{% endraw %}{% if page.pages.size == 2 %}{{ page.pages[0] }}-{{ page.pages[1] }}{% else %}{{ page.pages }}{% endif %}{% raw %}}{% endraw %},<br />{% endif %}
 {% if page.doi %}&nbsp;&nbsp;doi={% raw %}{{% endraw %}{{ page.doi }}{% raw %}}{% endraw %},<br />{% endif %}
 {% if page.doi %}&nbsp;&nbsp;url={% raw %}{{% endraw %}https://doi.org/{{ page.doi }}{% raw %}}{% endraw %},<br />{% endif %}
 &nbsp;&nbsp;author={% raw %}{{% endraw %}{% for a in page.authors %}{% if a.last_tex %}{{ a.last_tex }}{% else %}{{ a.last }}{% endif %}, {% if a.first_tex %}{{ a.first_tex }}{% else %}{{ a.first }}{% endif %}{% if a != page.authors.last %} and {% endif %}{% endfor %}{% raw %}}{% endraw %},<br />
