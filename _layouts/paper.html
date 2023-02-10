@@ -56,6 +56,9 @@ layout: default
 {% if page.document %}{{ page.document | capitalize }} preview{% else %}Document preview{% endif %}
 </a>
 {% endif %}
+{% if page.supplementary_code %}
+<a href="{{ page.supplementary_code | uri_escape }}">Code</a>
+{% endif %}
 </div>
 
 {% if page.image %}
@@ -168,14 +171,6 @@ Open access / <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative
 <a href="{{ page.supplement | uri_escape }}">Supplement</a>
 </dd>
 {% endif %}
-{% if page.supplementary_code %}
-<dt>Supplementary code:</dt>
-<dd>
-<a href="{{ page.supplementary_code }}">Supplementary code</a>
-</dd>
-{% endif %}
-
-
 </dl>
 
 <details>
