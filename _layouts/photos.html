@@ -5,8 +5,14 @@ layout: default
 {{ content }}
 
 {% for p in page.photos %}
+{% assign ext = p | split:'.' | last %}
 <figure>
+{% if ext == "webm" %}
+<video controls width="800" style="max-width: 100%" />
+<source src="{{ p }}" type="video/webm" />
+</video>
+{% else %}
 <img src="{{ p }}" width="800" style="max-width: 100%" />
+{% endif %}
 </figure>
 {% endfor %}
-
