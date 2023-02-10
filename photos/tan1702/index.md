@@ -28,8 +28,12 @@ photos:
   - https://pub.peterkuma.net/web/photos/tan1702/GOPR0188.JPG
   - https://pub.peterkuma.net/web/photos/tan1702/GOPR0195.JPG
   - https://pub.peterkuma.net/web/photos/tan1702/GOPR0204.JPG
+  - https://files.peterkuma.net/media/svxde2yho3/radiosonde.webm
 ---
 
 ## R/V Tangaroa voyage TAN1702 from Wellington, Aotearoa/New Zealand to the Campbell Plateau, Southern Ocean (2017)
+
+**Date:** 16 March – 1 April 2017\
+**Place:** Wellington – Campbell Plateau – Wellington
 
 **License:** Public domain ([CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)). *To the extent possible under law, Peter Kuma has waived all copyright and related or neighboring rights to the R/V Tangaroa voyage TAN1702 photos. This work is published from: Aotearoa/New Zealand.*
