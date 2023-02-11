@@ -36,4 +36,4 @@ photos:
 **Date:** 16 March – 1 April 2017\
 **Place:** Wellington – Campbell Plateau – Wellington
 
-**License:** Public domain ([CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)). *To the extent possible under law, Peter Kuma has waived all copyright and related or neighboring rights to the R/V Tangaroa voyage TAN1702 photos. This work is published from: Aotearoa/New Zealand.*
+**License:** Public domain ([CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)). *To the extent possible under law, Peter Kuma has waived all copyright and related or neighboring rights to the R/V Tangaroa voyage TAN1702 photos and videos. This work is published from: Aotearoa/New Zealand.*
