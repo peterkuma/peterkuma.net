@@ -171,6 +171,13 @@ Open access / <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative
 <a href="{{ page.supplement | uri_escape }}">Supplement</a>
 </dd>
 {% endif %}
+{% if page.source %}
+<dt>Source:</dt>
+<dd>
+<a href="{{ page.source | uri_escape }}">Source</a>
+</dd>
+{% endif %}
+
 </dl>
 
 <details>

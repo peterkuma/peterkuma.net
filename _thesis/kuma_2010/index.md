@@ -28,4 +28,5 @@ archive_url: https://zenodo.org/record/3764234
 file: "Kuma (2010), Visualising Data from CloudSat and CALIPSO Satellites.pdf"
 file_size: 9916592
 license: CC BY 4.0
+supplementary_code: https://ccplot.org
 ---
