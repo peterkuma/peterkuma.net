@@ -8,10 +8,81 @@ layout: default
 ## Science
 
 {% assign docs = site.article | concat: site.presentation | concat: site.poster | concat: site.thesis %}
+
 {% for item in site.data.science %}
-{% capture title %}{% if item.title %}{{ item.title }}{% else %}{% for x in docs %}{% capture y %}_{{ item.type }}/{{ item.name }}/index.md{% endcapture %}{% if x.path == y %}{% if x.title_html %}{{ x.title_html }}{% else %}{{ x.title }}{% endif %}{% endif %}{% endfor %}{% endif %}{% endcapture %}
-{% capture oa %}{% if item.oa %}yes{% else %}{% for x in docs %}{% capture y %}_{{ item.type }}/{{ item.name }}/index.md{% endcapture %}{% if x.path == y %}{% if x.license == 'CC BY 4.0' or x.license == 'CC BY-NC 4.0' %}yes{% endif %}{% endif %}{% endfor %}{% endif %}{% endcapture %}
-*{{ item.type | capitalize }}* \| {% if item.author %}{{ item.author }}{% if item.date %} ({{ item.date | date: "%Y" }}){% else %}{% for x in docs %}{% capture y %}_{{ item.type }}/{{ item.name }}/index.md{% endcapture %}{% if x.path == y %} ({{ x.date | date: "%Y" }}){% endif %}{% endfor %}{% endif %}, {% endif %}[{{ title }}]({% if item.url %}{{ item.url }}{% else %}{% case item.type %}{% when "article" %}papers{% when "thesis" %}theses{% else %}{{ item.type }}s{% endcase %}/{{ item.name }}/{% endif %}) {% if oa == 'yes' %}<img src="/img/open-access.svg" alt="Open access" title="Open access" style="height: 1em; vertical-align: middle" />{% endif %} {% if item.place %}({{ item.place }}){% endif %}{% if item.note %}; {{ item.note }}{% endif %}
+	{%- capture title -%}
+		{%- if item.title -%}
+			{{- item.title -}}
+		{%- else -%}
+			{%- for x in docs -%}
+				{%- capture y -%}_{{ item.type }}/{{ item.name }}/index.md{%- endcapture -%}
+				{%- if x.path == y -%}
+					{%- if x.title_html -%}
+						{{- x.title_html -}}
+					{%- else -%}
+						{{- x.title -}}
+					{%- endif -%}
+				{%- endif -%}
+			{%- endfor -%}
+		{%- endif -%}
+	{%- endcapture -%}
+	{%- capture oa -%}
+		{%- if item.oa -%}
+			yes
+		{%- else -%}
+			{%- for x in docs -%}
+				{%- capture y -%}_{{ item.type }}/{{ item.name }}/index.md{%- endcapture -%}
+				{%- if x.path == y -%}
+					{%- if x.license == 'CC BY 4.0' or x.license == 'CC BY-NC 4.0' %}yes{%- endif -%}
+				{%- endif -%}
+			{%- endfor -%}
+		{%- endif -%}
+	{%- endcapture -%}
+	{%- capture date -%}
+		{%- if item.date -%}
+			{{ item.date | date: "%Y" }}
+		{%- else -%}
+			{%- for x in docs -%}
+				{%- capture y -%}_{{ item.type }}/{{ item.name }}/index.md{%- endcapture -%}
+				{%- if x.path == y -%}{{ x.date | date: "%Y" }}{%- endif -%}
+			{%- endfor -%}
+		{%- endif -%}
+	{%- endcapture -%}
+	{%- capture authordate -%}
+		{%- if item.author -%}{{ item.author }} ({{ date }}),{%- endif -%}
+	{%- endcapture -%}
+	{%- capture href -%}
+		{%- if item.url -%}
+			{{ item.url }}
+		{%- elsif item.name -%}
+			{%- case item.type -%}
+				{%- when "article" -%}papers
+				{%- when "thesis" -%}theses
+				{%- else -%}{{ item.type }}s
+			{%- endcase -%}
+			/{{ item.name }}/
+		{%- endif -%}
+	{%- endcapture -%}
+	{%- capture oa_img -%}
+		{%- if oa == 'yes' -%}
+			<img src="/img/open-access.svg" alt="Open access" title="Open access" style="height: 1em; vertical-align: middle" />
+		{%- endif -%}
+	{%- endcapture -%}
+	{%- capture place -%}
+		{%- if item.place -%}({{ item.place }}){%- endif -%}
+	{%- endcapture -%}
+	{%- capture note -%}
+		{%- if item.note -%}; {{ item.note }}{%- endif -%}
+	{%- endcapture -%}
+	{%- capture titlelink -%}
+		{%- if href == "" -%}
+			{{- title -}}
+		{%- else -%}
+			[{{title}}]({{ href }})
+		{%- endif -%}
+	{%- endcapture -%}
+	*{{ item.type | capitalize }}* \| {{ authordate }} {{ titlelink }} {{ oa_img }} {{ place }}{{ note }}
+
 {% endfor %}
 
 ### Open source software
