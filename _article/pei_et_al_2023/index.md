@@ -52,5 +52,6 @@ journal: EGUsphere
 volume: 23
 file: "Pei et al. (2023), Assessing the cloud radiative bias at Macquarie Island in the ACCESS-AM2 model.pdf"
 file_size: 32282053
+file_note: in review
 license: CC BY 4.0
 ---
