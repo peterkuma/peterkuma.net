@@ -62,7 +62,7 @@ layout: default
 </div>
 
 {% if page.image %}
-<a href="{{ page.image | uri_escape }}">
+<a href="{% if page.image_link %}{{ page.image_link | uri_escape }}{% else %}{{ page.image | uri_escape }}{% endif %}">
 <img src="{{ page.image | uri_escape }}" style="margin: 12px auto; max-width: 100%" />
 </a>
 {% endif %}

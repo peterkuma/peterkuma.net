@@ -33,5 +33,6 @@ file_note: in review
 license: CC BY 4.0
 supplement: "Supporting Information (submitted 2023-01-11).zip"
 supplementary_code: "https://github.com/peterkuma/model-code-genealogy-2022/"
-image: "model_code_genealogy.svg"
+image: "model_code_genealogy_1600px.png"
+image_link: "model_code_genealogy_6000px.png"
 ---
