@@ -45,10 +45,6 @@ header h1 .title {
 	font-weight: 600;
 }
 
-header h1 .subtitle {
-	font-weight: normal;
-}
-
 header nav {
 	font: 20px/150% "Source Sans Pro", sans-serif;
 	margin: 2px 0;
