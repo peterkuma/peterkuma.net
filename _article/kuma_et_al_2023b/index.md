@@ -29,6 +29,8 @@ _url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022MS003588
 submitted: 2023-01-11
 accepted: 2023-06-26
 published: 2023-07-12
+volume: 15
+pages: e2022MS003588
 date: 2023-07-12
 file: "Kuma et al. (2023), Climate model code genealogy and its relation to climate feedbacks and sensitivity.pdf"
 file_size: 3160224
