@@ -47,11 +47,11 @@ volume: 2023
 pages:
   - 1
   - 34
-note: in review in Atmospheric Chemistry and Physics
+note: accepted in Atmospheric Chemistry and Physics
 journal: EGUsphere
 volume: 23
 file: "Pei et al. (2023), Assessing the cloud radiative bias at Macquarie Island in the ACCESS-AM2 model.pdf"
 file_size: 32282053
-file_note: in review
+file_note: accepted
 license: CC BY 4.0
 ---

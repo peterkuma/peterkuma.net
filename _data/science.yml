@@ -1,15 +1,15 @@
-- type: media
-  title: Family Trees Clarify Relationships Among Climate Models
-  url: https://eos.org/research-spotlights/family-trees-clarify-relationships-among-climate-models
-  place: Eos, 2023
-  date: 2023-07-18
-
 - type: article
   name: pei_et_al_2023
   author: Pei et al.
   title: Assessing the cloud radiative bias at Macquarie Island in the ACCESS-AM2 model
   date: 2023-02-27
-  place: in review in Atmospheric Chemistry and Physics
+  place: accepted in Atmospheric Chemistry and Physics
+
+- type: media
+  title: Family Trees Clarify Relationships Among Climate Models
+  url: https://eos.org/research-spotlights/family-trees-clarify-relationships-among-climate-models
+  place: Eos, 2023
+  date: 2023-07-18
 
 - type: article
   name: kuma_et_al_2023b
