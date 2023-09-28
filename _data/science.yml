@@ -5,6 +5,14 @@
   date: 2023-02-27
   place: accepted in Atmospheric Chemistry and Physics
 
+- type: presentation
+  author: Kuma et al.
+  title: Climate Model Code Genealogy and Its Relation to Climate Feedbacks and Sensitivity
+  url: https://zenodo.org/record/8385281
+  place: FORCeS Annual Meeting, Patras, Greece, 21 September 2023
+  date: 2023-09-21
+  oa: true
+
 - type: media
   title: Family Trees Clarify Relationships Among Climate Models
   url: https://eos.org/research-spotlights/family-trees-clarify-relationships-among-climate-models
