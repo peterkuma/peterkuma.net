@@ -16,15 +16,15 @@
   author: Kuma et al.
   place: Journal of Advances in Modeling of Earth Systems
 
-- type: poster
-  name: kuma_et_al_2022
-  author: Kuma et al.
-  place: FORCeS Annual Meeting, Oslo, Norway, 14 September 2022
-
 - type: article
   name: kuma_et_al_2023a
   author: Kuma et al.
   place: Atmospheric Chemistry and Physics
+
+- type: poster
+  name: kuma_et_al_2022
+  author: Kuma et al.
+  place: FORCeS Annual Meeting, Oslo, Norway, 14 September 2022
 
 - type: article
   name: guyot_et_al_2022
