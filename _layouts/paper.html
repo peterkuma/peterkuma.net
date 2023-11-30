@@ -107,6 +107,12 @@ layout: default
 {{ page.issue}}
 </dd>
 {% endif %}
+{% if page.number %}
+<dt>Number: </dt>
+<dd>
+{{ page.number}}
+</dd>
+{% endif %}
 {% if page.pages %}
 <dt>Pages: </dt>
 <dd>
@@ -192,6 +198,7 @@ Open access / <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative
 {% if page.note %}&nbsp;&nbsp;note={% raw %}{{% endraw %}{{ page.note }}{% raw %}}{% endraw %},<br />{% endif %}
 {% if page.volume %}&nbsp;&nbsp;volume={% raw %}{{% endraw %}{{ page.volume }}{% raw %}}{% endraw %},<br />{% endif %}
 {% if page.issue %}&nbsp;&nbsp;issue={% raw %}{{% endraw %}{{ page.issue }}{% raw %}}{% endraw %},<br />{% endif %}
+{% if page.number %}&nbsp;&nbsp;number={% raw %}{{% endraw %}{{ page.number }}{% raw %}}{% endraw %},<br />{% endif %}
 {% if page.pages %}&nbsp;&nbsp;pages={% raw %}{{% endraw %}{% if page.pages.size == 2 %}{{ page.pages[0] }}-{{ page.pages[1] }}{% else %}{{ page.pages }}{% endif %}{% raw %}}{% endraw %},<br />{% endif %}
 {% if page.doi %}&nbsp;&nbsp;doi={% raw %}{{% endraw %}{{ page.doi }}{% raw %}}{% endraw %},<br />{% endif %}
 {% if page.doi %}&nbsp;&nbsp;url={% raw %}{{% endraw %}https://doi.org/{{ page.doi }}{% raw %}}{% endraw %},<br />{% endif %}
