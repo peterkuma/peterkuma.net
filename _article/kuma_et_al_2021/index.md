@@ -40,7 +40,7 @@ journal: Geoscientific Model Development
 publisher: Copernicus GmbH
 issn: 1991-959X
 volume: 14
-issue: 1
+number: 1
 pages:
   - 43
   - 72

@@ -69,7 +69,7 @@ journal: Atmospheric Chemistry and Physics
 publisher: Copernicus GmbH
 issn: 1680-7316
 volume: 20
-issue: 11
+number: 11
 pages:
   - 6607
   - 6630

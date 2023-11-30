@@ -38,7 +38,7 @@ published: 2023-01-13
 accepted: 2022-12-05
 journal: Atmospheric Chemistry and Physics
 volume: 23
-issue: 1
+number: 1
 pages:
   - 523
   - 549
