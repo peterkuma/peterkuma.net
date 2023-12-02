@@ -7,83 +7,37 @@ layout: default
 
 ## Science
 
-{% assign docs = site.article | concat: site.presentation | concat: site.poster | concat: site.thesis %}
+### Recent
 
-{% for item in site.data.science %}
-	{%- capture title -%}
-		{%- if item.title -%}
-			{{- item.title -}}
-		{%- else -%}
-			{%- for x in docs -%}
-				{%- capture y -%}_{{ item.type }}/{{ item.name }}/index.md{%- endcapture -%}
-				{%- if x.path == y -%}
-					{%- if x.title_html -%}
-						{{- x.title_html -}}
-					{%- else -%}
-						{{- x.title -}}
-					{%- endif -%}
-				{%- endif -%}
-			{%- endfor -%}
-		{%- endif -%}
-	{%- endcapture -%}
-	{%- capture oa -%}
-		{%- if item.oa -%}
-			yes
-		{%- else -%}
-			{%- for x in docs -%}
-				{%- capture y -%}_{{ item.type }}/{{ item.name }}/index.md{%- endcapture -%}
-				{%- if x.path == y -%}
-					{%- if x.license == 'CC BY 4.0' or x.license == 'CC BY-NC 4.0' %}yes{%- endif -%}
-				{%- endif -%}
-			{%- endfor -%}
-		{%- endif -%}
-	{%- endcapture -%}
-	{%- capture date -%}
-		{%- if item.date -%}
-			{{ item.date | date: "%Y" }}
-		{%- else -%}
-			{%- for x in docs -%}
-				{%- capture y -%}_{{ item.type }}/{{ item.name }}/index.md{%- endcapture -%}
-				{%- if x.path == y -%}{{ x.date | date: "%Y" }}{%- endif -%}
-			{%- endfor -%}
-		{%- endif -%}
-	{%- endcapture -%}
-	{%- capture authordate -%}
-		{%- if item.author -%}{{ item.author }} ({{ date }}),{%- endif -%}
-	{%- endcapture -%}
-	{%- capture href -%}
-		{%- if item.url -%}
-			{{ item.url }}
-		{%- elsif item.name -%}
-			{%- case item.type -%}
-				{%- when "article" -%}papers
-				{%- when "thesis" -%}theses
-				{%- else -%}{{ item.type }}s
-			{%- endcase -%}
-			/{{ item.name }}/
-		{%- endif -%}
-	{%- endcapture -%}
-	{%- capture oa_img -%}
-		{%- if oa == 'yes' -%}
-			<img src="/img/open-access.svg" alt="Open access" title="Open access" style="height: 1em; vertical-align: middle" />
-		{%- endif -%}
-	{%- endcapture -%}
-	{%- capture place -%}
-		{%- if item.place -%}({{ item.place }}){%- endif -%}
-	{%- endcapture -%}
-	{%- capture note -%}
-		{%- if item.note -%}; {{ item.note }}{%- endif -%}
-	{%- endcapture -%}
-	{%- capture titlelink -%}
-		{%- if href == "" -%}
-			{{- title -}}
-		{%- else -%}
-			[{{title}}]({{ href }})
-		{%- endif -%}
-	{%- endcapture -%}
-	*{{ item.type | capitalize }}* \| {{ authordate }} {{ titlelink }} {{ oa_img }} {{ place }}{{ note }}
+{% include science.html n="7" %}
 
-{% endfor %}
+### Articles
+
+{% include science.html type="article" %}
+
+### Presentations
+
+{% include science.html type="presentation" %}
+
+### Posters
+
+{% include science.html type="poster" %}
+
+### Theses
+
+{% include science.html type="thesis" %}
+
+### Media
+
+{% include science.html type="media" %}
+
+### Datasets
+
+{% include science.html type="dataset" %}
+
+### Lectures
+
+{% include science.html type="lecture" %}
 
 ### Open source software
 
