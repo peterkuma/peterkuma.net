@@ -15,13 +15,13 @@ layout: default
 
 {% include science.html type="article" %}
 
-### Presentations
-
-{% include science.html type="presentation" %}
-
 ### Posters
 
 {% include science.html type="poster" %}
+
+### Presentations
+
+{% include science.html type="presentation" %}
 
 ### Theses
 
