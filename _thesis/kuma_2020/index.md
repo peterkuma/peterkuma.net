@@ -13,6 +13,8 @@ affils:
   - School of Physical and Chemical Sciences, University of Canterbury, Christchurch, New Zealand
   - National Institute of Water & Atmospheric Research (NIWA), Wellington, New Zealand
 submitted: 2020-05-30
+defended: 2020-10-07
+published: 2020-11-19
 date: 2020-11-19
 archive: Zenodo
 school: University of Canterbury

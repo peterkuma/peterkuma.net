@@ -153,6 +153,12 @@ layout: default
 {{ page.accepted | date: "%d %B %Y" }}
 </dd>
 {% endif %}
+{% if page.defended %}
+<dt>Defended:</dt>
+<dd>
+{{ page.defended | date: "%d %B %Y" }}
+</dd>
+{% endif %}
 {% if page.published %}
 <dt>Published:</dt>
 <dd>

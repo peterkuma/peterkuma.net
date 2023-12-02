@@ -12,7 +12,9 @@ authors:
 affils:
   - Comenius University, Bratislava, Slovakia
   - Czech Hydrometeorological Institute, Prague, Czech Republic
+submitted: 2015-05-13
 published: 2015-06-09
+defended: 2015-06-09
 date: 2015-06-09
 archive: Zenodo
 school: Comenius University
