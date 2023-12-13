@@ -15,33 +15,49 @@
 "url": "https://peterkuma.net"
 }
 </script>
-{% if page.journal or page.school %}
-<meta name="citation_title" content="{{ page.title }}" />
+{% if page.layout == "paper" %}
+<meta property="og:title" content="{{ page.title | escape }}" />
+<meta property="og:type" content="article" />
+{% if page.published %}
+<meta property="og:article:published_time" content="{{ page.published }}" />
+{% elsif page.date %}
+<meta property="og:article:published_time" content="{{ page.published }}" />
+{% endif %}
+{% if page.date %}<meta property="og:article:modified_time" content="{{ page.date }}" />{% endif %}
+{% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}" />{% endif %}
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
+{% endif %}
+{% if page.layout == "paper" %}
+{% if page.title %}<meta name="citation_title" content="{{ page.title | escape }}" />{% endif %}
 {% for a in page.authors %}
-<meta name="citation_author" content="{{ a.last }}, {{ a.first }}" />
-{% if a.orcid %}<meta name="citation_author_orcid" content="{{ a.orcid }}" />{% endif %}
+<meta name="citation_author" content="{{ a.last | escape }}, {{ a.first | escape }}" />
+{% if a.orcid %}<meta name="citation_author_orcid" content="{{ a.orcid | escape }}" />{% endif %}
 {% assign affils = a.affil | split: ", " %}
 {% for af in affils %}
 {% assign i = af | minus: 1 %}
-<meta name="citation_author_institution" content="{{ page.affils[i] }}" />
+<meta name="citation_author_institution" content="{{ page.affils[i] | ecape }}" />
 {% endfor %}
 {% endfor %}
+{% if page.published %}
+<meta name="citation_publication_date" content="{{ page.published | date: "%Y" }}/{{ page.publised | date: "%m" }}/{{ page.published | date: "%d" }}" />
+{% elsif page.date %}
 <meta name="citation_publication_date" content="{{ page.date | date: "%Y" }}/{{ page.date | date: "%m" }}/{{ page.date | date: "%d" }}" />
+{% endif %}
 {% if page.journal %}
-<meta name="citation_journal_title" content="{{ page.journal }}" />
+<meta name="citation_journal_title" content="{{ page.journal | escape }}" />
 {% endif %}
 {% if page.school %}
-<meta name="citation_dissertation_institution" content="{{ page.school }}" />
+<meta name="citation_dissertation_institution" content="{{ page.school | escape }}" />
 {% endif %}
-{% if page.volume %}<meta name="citation_volume" content="{{ page.volume }}" />{% endif %}
-{% if page.issue %}<meta name="citation_issue" content="{{ page.issue }}" />{% endif %}
-{% if page.number %}<meta name="citation_issue" content="{{ page.number }}" />{% endif %}
-{% if page.pages %}<meta name="citation_firstpage" content="{{ page.pages[0] }}" />{% endif %}
-{% if page.pages %}<meta name="citation_lastpage" content="{{ page.pages[1] }}" />{% endif %}
-{% if page.doi %}<meta name="citation_doi" content="{{ page.doi }}" />{% endif %}
-{% if page.issn %}<meta name="citation_issn" content="{{ page.issn }}" />{% endif %}
+{% if page.volume %}<meta name="citation_volume" content="{{ page.volume | escape }}" />{% endif %}
+{% if page.issue %}<meta name="citation_issue" content="{{ page.issue | escape }}" />{% endif %}
+{% if page.number %}<meta name="citation_issue" content="{{ page.number | escape }}" />{% endif %}
+{% if page.pages %}<meta name="citation_firstpage" content="{{ page.pages[0] | escape }}" />{% endif %}
+{% if page.pages %}<meta name="citation_lastpage" content="{{ page.pages[1] | escape }}" />{% endif %}
+{% if page.doi %}<meta name="citation_doi" content="{{ page.doi | escape }}" />{% endif %}
+{% if page.issn %}<meta name="citation_issn" content="{{ page.issn | escape }}" />{% endif %}
 {% if page.file %}<meta name="citation_pdf_url" content="{{ page.url | absolute_url }}{{ page.file | uri_escape }}" />{% endif %}
-{% if page.publisher %}<meta name="citation_publisher" content="{{ page.publisher }}" />{% endif %}
+{% if page.publisher %}<meta name="citation_publisher" content="{{ page.publisher | escape }}" />{% endif %}
 <meta name="citation_abstract_html_url" content="{{ page.url | absolute_url }}" />
 <meta name="citation_language" content="en" />
 {% endif %}
