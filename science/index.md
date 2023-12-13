@@ -1,6 +1,7 @@
 ---
 title: Science
 layout: default
+profile: true
 ---
 
 <a href="/rss/" class="rss-feed">RSS feed</a>

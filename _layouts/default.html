@@ -15,8 +15,16 @@
 "url": "https://peterkuma.net"
 }
 </script>
+{% if page.profile %}
+<meta property="og:profile:first_name" content="Peter" />
+<meta property="og:profile:last_name" content="Kuma" />
+<meta property="og:profile:username" content="peterkuma" />
+<meta property="og:profile:gender" content="male" />
+{% endif %}
+<meta property="og:site_name" content="peterkuma.net" />
+<meta property="og:locale" content="en_US" />
+{% if page.title %}<meta property="og:title" content="{{ page.title | escape }}" />{% endif %}
 {% if page.layout == "paper" %}
-<meta property="og:title" content="{{ page.title | escape }}" />
 <meta property="og:type" content="article" />
 {% if page.published %}
 <meta property="og:article:published_time" content="{{ page.published | escape }}" />
