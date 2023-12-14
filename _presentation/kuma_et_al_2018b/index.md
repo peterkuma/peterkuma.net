@@ -39,7 +39,7 @@ file: Kuma et al. (2018), Evaluation of HadGEM3 Southern Ocean cloud using obser
   and reanalyses.pdf
 file_size: 14303188
 doc_image: doc.png
-place: New Zealand Hydrological Society & Meteorological Society of New Zealand
+conference: New Zealand Hydrological Society & Meteorological Society of New Zealand
   Joint Conference, Christchurch, New Zealand, 4-7 December 2018
 abstract: <p>Current general circulation models are affected by biases in simulated
   clouds in the Southern Ocean (SO) which are despite some recent progress are still

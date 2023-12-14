@@ -44,7 +44,7 @@ file: Kuma et al. (2017), Assessment of Southern Ocean clouds and aerosols in th
   New Zealand Earth System Model using shipborne and ground-based observations.pdf
 file_size: 85077009
 doc_image: doc.png
-place: Meteorological Society of New Zealand Annual Conference, Dunedin, New
+conference: Meteorological Society of New Zealand Annual Conference, Dunedin, New
   Zealand, 13-15 November 2017
 abstract: '<p>One of the primary objectives of the New Zealand Earth System Model
   (NZESM) is to reduce shortwave radiation biases over the Southern Ocean, which are

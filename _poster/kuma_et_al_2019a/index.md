@@ -67,7 +67,7 @@ file: Kuma et al. (2019), Evaluation of Southern Ocean cloud in the HadGEM3 gene
   circulation model and MERRA-2 reanalysis using ship-based observations.pdf
 file_size: 35721489
 doc_image: doc.png
-place: Deep South Challenge Conference, Auckland, New Zealand, 6-8 May 2019
+conference: Deep South Challenge Conference, Auckland, New Zealand, 6-8 May 2019
 abstract: <p>Southern Ocean shortwave radiation biases of up to 40 Wm-2 in summer
   are common in general circulation models, with misrepresentation of cloud identified
   as the major cause. We evaluate the atmospheric component GA7.0 and GA7.1 of the

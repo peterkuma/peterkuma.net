@@ -26,7 +26,7 @@ date: '2021-10-27'
 file: "Kuma and Bender (2021), Using deep learning cloud classiffication in cloud feedback and climate sensitivity determination.pdf"
 file_size: 5341430
 doc_image: doc.png
-place: FORCeS Annual Meeting 2021, Stockholm University, Stockholm, Sweden, 25-29
+conference: FORCeS Annual Meeting 2021, Stockholm University, Stockholm, Sweden, 25-29
   October 2021
 abstract: <p>We develop a deep convolutional neural network for determination of cloud
   types in low-resolution daily mean top-of-atmosphere shortwave and longwave radiation

@@ -48,7 +48,7 @@ file: Kuma et al. (2020), Ground-based lidar processing and simulator framework 
   comparing models and observations-1.pdf
 file_size: 5784250
 doc_image: doc.png
-place: Gateway Antarctica Conference, Christchurch, New Zealand, 30-31 January
+conference: Gateway Antarctica Conference, Christchurch, New Zealand, 30-31 January
   2020
 abstract: '<p>Atmospheric lidar measurements are a well-established tool for remote
   sensing of clouds. For over a decade, spaceborne lidar measurements produced by

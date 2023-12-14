@@ -30,7 +30,7 @@ date: '2019-09-30'
 file: Kuma et al. (2019), Automatic Lidar and Ceilometer Framework (ALCF).pdf
 file_size: 4055939
 doc_image: doc.png
-place: CFMIP 2019 Meeting on Clouds, Precipitation, Circulation, and Climate
+conference: CFMIP 2019 Meeting on Clouds, Precipitation, Circulation, and Climate
   Sensitivity, Mykonos, Greece, 30 September - 4 October 2019
 abstract: <p>Atmospheric lidar measurements are a well-established tool for remote
   sensing of clouds. For over a decade, spaceborne lidar measurements produced by
