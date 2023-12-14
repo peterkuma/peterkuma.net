@@ -7,19 +7,46 @@
 <title>{{ page.title }} | Peter Kuma: Science and Software</title>
 <link rel="stylesheet" href="/css/default.css" />
 <link rel="alternate" type="application/rss+xml" title="RSS feed" href="{{ "/rss/" | absolute_url }}" />
+{% if page.profile %}
 <script type="application/ld+json">
 {
-"@context": "https://schema.org",
-"@type": "Person",
-"name": "Peter Kuma",
-"url": "https://peterkuma.net"
+	"@context": "https://schema.org",
+	"@type": "Person",
+	"name": "Peter Kuma",
+	"url": "https://peterkuma.net"
 }
 </script>
-{% if page.profile %}
 <meta property="og:profile:first_name" content="Peter" />
 <meta property="og:profile:last_name" content="Kuma" />
 <meta property="og:profile:username" content="peterkuma" />
 <meta property="og:profile:gender" content="male" />
+{% endif %}
+{% if page.layout == "paper" %}
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org"
+	, "@type": "Article"
+	{% if page.title %}, "headline": {{ page.title | jsonify }}{% endif %}
+	{% if page.image %}, "image": {{ page.image | jsonify }}{% endif %}
+	{% if page.published %}
+		, "datePublished": {{ page.published | jsonify }}
+	{% elsif page.date %}
+		, "datePublished": {{ page.date | jsonify }}
+	{% endif %}
+	{% if page.date %}, "dateModified": {{ page.date | jsonify }}{% endif %}
+	, "author": [
+		{% for a in page.authors %}
+			{%- capture name -%}{{ a.first }} {{ a.last }}{%- endcapture -%}
+			{%- capture url -%}https://orcid.org/{{ a.orcid | url_encode }}{%- endcapture -%}
+			{% unless forloop.first %},{% endunless %} {
+				"@type": "Person"
+				, "name": {{ name | jsonify }}
+				{% if a.orcid %}, "url": {{ url | jsonify }}{% endif %}
+			}
+		{% endfor %}
+	]
+}
+</script>
 {% endif %}
 <meta property="og:site_name" content="peterkuma.net" />
 <meta property="og:locale" content="en_US" />
