@@ -18,7 +18,7 @@ layout: default
 <p>
 {% for a in page.authors %}
 {% if a.orcid %}
-<a href="https://orcid.org/{{ a.orcid }}">
+<a href="https://orcid.org/{{ a.orcid | url_encode }}">
 {% endif %}
 {{ a.first }} {{ a.last }}{% if a.orcid %}</a>{% endif %}<sup>{{ a.affil }}</sup>{% if a != page.authors.last %},{% endif %}
 {% endfor %}
