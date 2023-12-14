@@ -55,4 +55,5 @@ file: "Kuma et al. (2021), Ground-based lidar processing and simulator framework
 file_size: 8303305
 license: CC BY 4.0
 supplementary_code: https://alcf.peterkuma.net
+doc_image: doc.png
 ---

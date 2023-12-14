@@ -54,4 +54,5 @@ number: 23
 file: "Pei et al. (2023), Assessing the cloud radiative bias at Macquarie Island in the ACCESS-AM2 model.pdf"
 file_size: 7610160
 license: CC BY 4.0
+doc_image: doc.png
 ---

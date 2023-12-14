@@ -34,4 +34,5 @@ file: "Hartery et al. (2021), Classification of the Below-Cloud Mixing State Ove
 file_size: 729530
 file_note: withdrawn
 license: CC BY-NC 4.0
+doc_image: doc.png
 ---

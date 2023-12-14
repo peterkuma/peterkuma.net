@@ -122,4 +122,5 @@ date: 2021-07-02
 file: "Kremser et al. (2021), Southern Ocean cloud and aerosol data - a compilation of measurements from the 2018 Southern Ocean Ross Sea Marine Ecosystems and Environment voyage.pdf"
 file_size: 4415501
 license: CC BY 4.0
+doc_image: doc.png
 ---

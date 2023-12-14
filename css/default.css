@@ -160,6 +160,14 @@ main .document-links a {
 	white-space: nowrap;
 }
 
+main .doc-image {
+	border: 1px solid #aaaaaa;
+}
+
+main .doc-image img {
+	max-width: 100%;
+}
+
 @media (min-width: 600px) {
 	header .github {
 		display: block;

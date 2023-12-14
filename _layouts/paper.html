@@ -213,3 +213,11 @@ Open access / <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative
 {% raw %}}{% endraw %}
 </small></code>
 </details>
+{% if page.doc_image %}
+<h3>Document</h3>
+<div class="doc-image">
+{% if page.file %}<a href="{{ page.file | uri_escape }}">{% endif %}
+<img src="{{ page.doc_image | uri_escape }}" />
+{% if page.file %}</a>{% endif %}
+</div>
+{% endif %}

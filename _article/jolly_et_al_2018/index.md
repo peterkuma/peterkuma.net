@@ -40,4 +40,5 @@ file: "Jolly et al. (2018), An analysis of the cloud environment over the Ross S
 file_size: 2298071
 license: CC BY 4.0
 supplementary_code: https://github.com/peterkuma/clouds-ross-sea-2018
+doc_image: doc.png
 ---

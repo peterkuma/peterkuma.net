@@ -49,4 +49,5 @@ file: "Revell et al. (2021), Direct radiative effects of airborne microplastics.
 file_size: 15715264
 file_note: accepted version
 license: Paid access / proprietary (available free as a preview and a manuscript on authors' website)
+doc_image: doc.png
 ---
