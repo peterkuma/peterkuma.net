@@ -23,8 +23,7 @@ archive_url: https://zenodo.org/record/5605067
 license: CC BY 4.0
 published: '2021-10-27'
 date: '2021-10-27'
-file: "Kuma and Bender (2021), Using deep learning cloud classi\uFB01cation in cloud\
-  \ feedback and climate sensitivity determination.pdf"
+file: "Kuma and Bender (2021), Using deep learning cloud classiffication in cloud feedback and climate sensitivity determination.pdf"
 file_size: 5341430
 doc_image: doc.png
 conference: FORCeS Annual Meeting 2021, Stockholm University, Stockholm, Sweden, 25-29
