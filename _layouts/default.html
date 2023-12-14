@@ -27,7 +27,10 @@
 	"@context": "https://schema.org"
 	, "@type": "Article"
 	{% if page.title %}, "headline": {{ page.title | jsonify }}{% endif %}
-	{% if page.image %}, "image": {{ page.image | jsonify }}{% endif %}
+	{% if page.image %}
+		{%- capture url -%}{{ page.url | absolute_url }}{{ page.image | uri_escape }}{%- endcapture -%}
+		, "image": {{ url | jsonify }}
+	{% endif %}
 	{% if page.published %}
 		, "datePublished": {{ page.published | date: "%FT%T%z" | jsonify }}
 	{% elsif page.date %}
