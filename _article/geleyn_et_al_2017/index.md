@@ -10,10 +10,12 @@ authors:
     affil: 1, 2
   - first: J.
     last: Mašek
+    last_tex: Ma\v{s}ek
     affil: 3, 4
     orcid: 0000-0002-9385-2506
   - first: R.
     last: Brožková
+    last_tex: Bro\v{z}kov\'{a}
     affil: 3, 4
   - first: P.
     last: Kuma

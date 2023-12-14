@@ -16,6 +16,7 @@ authors:
   affil: 1
 - first: Aiden R.
   last: "J\xF6nsson"
+  last_tex: J{\"o}nsson
   orcid: 0000-0002-5830-7684
   affil: 1
 affils:
