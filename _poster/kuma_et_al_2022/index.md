@@ -32,4 +32,5 @@ file_size: 2364375
 image: "model_code_genealogy_1600px.png"
 image_link: "model_code_genealogy_6000px.png"
 license: CC BY 4.0
+doc_image: doc.png
 ---
