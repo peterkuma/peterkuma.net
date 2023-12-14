@@ -4,5 +4,6 @@ collections:
   - presentation
   - poster
   - thesis
+  - lecture
 plugins:
   - jekyll-sitemap
