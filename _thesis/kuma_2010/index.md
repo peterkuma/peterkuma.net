@@ -32,4 +32,5 @@ file_size: 9916592
 source: https://github.com/peterkuma/bachelors-thesis
 license: CC BY 4.0
 supplementary_code: https://ccplot.org
+doc_image: doc.png
 ---

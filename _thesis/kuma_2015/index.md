@@ -33,4 +33,5 @@ file: "Kuma (2015), Broadband approach as a framework for implementation of radi
 file_size: 3820189
 license: CC BY 4.0
 source: https://github.com/peterkuma/masters-thesis
+doc_image: doc.png
 ---

@@ -36,4 +36,5 @@ file: "Kuma (2020), Comparing remotely sensed observations of clouds and aerosol
 file_size: 53604124
 license: CC BY 4.0
 source: https://github.com/peterkuma/doctoral-thesis
+doc_image: doc.png
 ---
