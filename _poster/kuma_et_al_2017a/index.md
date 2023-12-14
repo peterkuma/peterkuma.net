@@ -40,7 +40,7 @@ file: Kuma et al. (2017), Shipborne and ground-based observations of clouds in t
   Subantarctic the the Southern Ocean.pdf
 file_size: 63392900
 doc_image: doc.png
-conference: New Zealand Antarctic Science Conference 2017, Dunedin, New Zealand, 26-28
+place: New Zealand Antarctic Science Conference 2017, Dunedin, New Zealand, 26-28
   June 2017
 abstract: '<p>The Subantarctic and the Southern Ocean are regions where there are
   sparse ground-based and in-situ cloud measurements. While satellite measurements

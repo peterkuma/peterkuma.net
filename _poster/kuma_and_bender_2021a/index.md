@@ -26,7 +26,7 @@ date: '2021-04-21'
 file: 'Climate sensitivity and the Southern Ocean - the effect of the "too few, too bright" model cloud problem.pdf'
 file_size: 11504570
 doc_image: doc.png
-conference: EGU General Assembly 2021, Vienna, Austria, 19-30 April 2021
+place: EGU General Assembly 2021, Vienna, Austria, 19-30 April 2021
 abstract: <p>Equilibrium and transient climate sensitivity (ECS and TCS) are some
   of the most fundamental properties characterising the future climate. Progress in
   estimating climate sensitivity over the last three decades has been hampered by

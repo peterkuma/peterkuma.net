@@ -28,5 +28,5 @@ file: Kuma and Bender (2023), Using ship observations to assess Southern Ocean c
   in a storm-resolving general circulation model ICON.pdf
 file_size: 18014358
 doc_image: doc.png
-conference: "The 15th Bolin Days, Stockholm, Sweden, 29\u201330 November 2023"
+place: "The 15th Bolin Days, Stockholm, Sweden, 29\u201330 November 2023"
 ---

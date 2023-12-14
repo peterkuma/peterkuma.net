@@ -41,7 +41,7 @@ file: Kuma et al. (2022), Machine learning of cloud types in satellite observati
   and climate models.pdf
 file_size: 7281084
 doc_image: doc.png
-conference: "The 13th Annual SeRC Meeting, Bro, Sweden, 12\u201313 May 2022"
+place: "The 13th Annual SeRC Meeting, Bro, Sweden, 12\u201313 May 2022"
 abstract: <p>Presentation given at the 13th Annual SeRC Meeting, Bro, Sweden on 13
   May 2022.</p>
 ---

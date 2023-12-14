@@ -32,7 +32,7 @@ file: Kuma et al. (2023), Climate Model Code Genealogy and Its Relation to Clima
   Feedbacks and Sensitivity.pdf
 file_size: 2620615
 doc_image: doc.png
-conference: "FORCeS Annual Meeting, Patras, Greece, 18\u201322 September 2023"
+place: "FORCeS Annual Meeting, Patras, Greece, 18\u201322 September 2023"
 abstract: <p>Contemporary general circulation models (GCMs) and Earth system models
   (ESMs) are developed by a large number of modeling groups globally. They use a wide
   range of representations of physical processes, allowing for structural (code) uncertainty

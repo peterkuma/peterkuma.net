@@ -39,7 +39,7 @@ file: Kuma et al. (2018), Shipborne and ground-based observations of clouds in t
   Southern Ocean.pdf
 file_size: 8303267
 doc_image: doc.png
-conference: POLAR 2018, Davos, Switzerland, 19-23 June 2018
+place: POLAR 2018, Davos, Switzerland, 19-23 June 2018
 abstract: '<p>The Southern Ocean is characterised by sparse ground-based and in-situ
   atmospheric measurements. While satellite measurements provide continuous spatial
   and temporal coverage, they are generally not capable of observing low-level clouds

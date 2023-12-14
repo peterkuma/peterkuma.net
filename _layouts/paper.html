@@ -129,6 +129,12 @@ layout: default
 {{ page.school }}{% if page.address %}, {{ page.address }}{% endif %}{% if page.note %} ({{ page.note }}){% endif %}
 </dd>
 {% endif %}
+{% if page.place %}
+<dt>Place: </dt>
+<dd>
+{{ page.place }}
+</dd>
+{% endif %}
 {% if page.archive %}
 <dt>Archive: </dt>
 <dd>
@@ -201,7 +207,9 @@ Open access / <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative
 {% if page.address %}&nbsp;&nbsp;address={% raw %}{{% endraw %}{{ page.address }}{% raw %}}{% endraw %},<br />{% endif %}
 {% if page.date %}&nbsp;&nbsp;year={% raw %}{{% endraw %}{{ page.date | date: "%Y" }}{% raw %}}{% endraw %},<br />{% endif %}
 {% if page.year %}&nbsp;&nbsp;year={% raw %}{{% endraw %}{{ page.year }}{% raw %}}{% endraw %},<br />{% endif %}
-{% if page.note %}&nbsp;&nbsp;note={% raw %}{{% endraw %}{{ page.note }}{% raw %}}{% endraw %},<br />{% endif %}
+{% if page.note and page.place %}&nbsp;&nbsp;note={% raw %}{{% endraw %}{{ page.note }}; {{ page.place }}{% raw %}}{% endraw %},<br />
+{% elsif page.note %}&nbsp;&nbsp;note={% raw %}{{% endraw %}{{ page.note }}{% raw %}}{% endraw %},<br />
+{% elsif page.place %}&nbsp;&nbsp;note={% raw %}{{% endraw %}{{ page.place }}{% raw %}}{% endraw %},<br />{% endif %}
 {% if page.volume %}&nbsp;&nbsp;volume={% raw %}{{% endraw %}{{ page.volume }}{% raw %}}{% endraw %},<br />{% endif %}
 {% if page.issue %}&nbsp;&nbsp;issue={% raw %}{{% endraw %}{{ page.issue }}{% raw %}}{% endraw %},<br />{% endif %}
 {% if page.number %}&nbsp;&nbsp;number={% raw %}{{% endraw %}{{ page.number }}{% raw %}}{% endraw %},<br />{% endif %}
