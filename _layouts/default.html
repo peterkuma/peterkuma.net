@@ -29,11 +29,11 @@
 	{% if page.title %}, "headline": {{ page.title | jsonify }}{% endif %}
 	{% if page.image %}, "image": {{ page.image | jsonify }}{% endif %}
 	{% if page.published %}
-		, "datePublished": {{ page.published | jsonify }}
+		, "datePublished": {{ page.published | date: "%FT%T%z" | jsonify }}
 	{% elsif page.date %}
-		, "datePublished": {{ page.date | jsonify }}
+		, "datePublished": {{ page.date | date: "%FT%T%z" | jsonify }}
 	{% endif %}
-	{% if page.date %}, "dateModified": {{ page.date | jsonify }}{% endif %}
+	{% if page.date %}, "dateModified": {{ page.date | date: "%FT%T%z" | jsonify }}{% endif %}
 	, "author": [
 		{% for a in page.authors %}
 			{%- capture name -%}{{ a.first }} {{ a.last }}{%- endcapture -%}
