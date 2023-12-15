@@ -1,11 +1,10 @@
 ---
 layout: paper
-code: kuma_et_al_2018a
+code: kuma2018a
 type: misc
 document: presentation
 oa: true
-title: 'Doctoral Confirmation Presentation: Assessment of Southern Ocean Clouds and
-  Aerosol in General Circulation Models'
+title: "Doctoral Confirmation Presentation: Assessment of Southern Ocean Clouds and Aerosol in General Circulation Models"
 authors:
 - first: Peter
   last: Kuma
@@ -26,12 +25,10 @@ doi: 10.5281/zenodo.5635851
 archive: Zenodo
 archive_url: https://zenodo.org/record/5635851
 license: CC BY 4.0
-published: '2018-04-09'
-date: '2018-04-09'
-file: Kuma et al. (2018), Doctoral Confirmation Presentation - Assessment of Southern
-  Ocean Clouds and Aerosol in General Circulation Models.pdf
+published: 2018-04-09
+date: 2018-04-09
+file: Kuma et al. (2018), Doctoral Confirmation Presentation - Assessment of Southern Ocean Clouds and Aerosol in General Circulation Models.pdf
 file_size: 44598376
 doc_image: doc.png
-abstract: <p>Doctoral confirmation presentation given at the University of Canterbury,
-  Christchurch, New Zealand on 9 April 2018.</p>
+abstract: "Doctoral confirmation presentation given at the University of Canterbury, Christchurch, New Zealand on 9 April 2018."
 ---

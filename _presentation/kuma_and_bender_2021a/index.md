@@ -1,11 +1,10 @@
 ---
 layout: paper
-code: kuma_and_bender_2021a
+code: kuma2021a
 type: misc
 document: presentation
 oa: true
-title: Using deep learning cloud classification for cloud feedback and climate sensitivity
-  determination
+title: Using deep learning cloud classification for cloud feedback and climate sensitivity determination
 authors:
 - first: Peter
   last: Kuma
@@ -21,14 +20,11 @@ doi: 10.5281/zenodo.5609454
 archive: Zenodo
 archive_url: https://zenodo.org/record/5609454
 license: CC BY 4.0
-published: '2021-09-02'
-date: '2021-09-02'
-file: Kuma and Bender (2021), Using deep learning cloud classification for cloud feedback
-  and climate sensitivity determination.pdf
+published: 2021-09-02
+date: 2021-09-02
+file: Kuma and Bender (2021), Using deep learning cloud classification for cloud feedback and climate sensitivity determination.pdf
 file_size: 3731229
 doc_image: doc.png
-conference: FORCeS WP5 & WP6 Science Meeting, Stockholm University, Stockholm, Sweden,
-  2 September 2021
-abstract: <p>Presentation given at a FORCeS WP5 &amp; WP6 Science Meeting, 2 September
-  2021.</p>
+conference: FORCeS WP5 & WP6 Science Meeting, Stockholm University, Stockholm, Sweden, 2 September 2021
+abstract: "Presentation given at a FORCeS WP5 & WP6 Science Meeting, 2 September 2021."
 ---

@@ -1,11 +1,10 @@
 ---
 layout: paper
-code: kuma_et_al_2020
+code: kuma2020
 type: misc
 document: presentation
 oa: true
-title: 'Doctoral thesis presentation: Comparing remotely sensed observations of clouds
-  and aerosols in the Southern Ocean with climate model simulations'
+title: "Doctoral thesis presentation: Comparing remotely sensed observations of clouds and aerosols in the Southern Ocean with climate model simulations"
 authors:
 - first: Peter
   last: Kuma
@@ -88,12 +87,10 @@ doi: 10.5281/zenodo.5636022
 archive: Zenodo
 archive_url: https://zenodo.org/record/5636022
 license: CC BY 4.0
-published: '2020-10-07'
-date: '2020-10-07'
-file: Kuma et al. (2020), Doctoral thesis presentation - Comparing remotely sensed
-  observations of clouds and aerosols in the Southern Ocean with climate model simulations.pdf
+published: 2020-10-07
+date: 2020-10-07
+file: Kuma et al. (2020), Doctoral thesis presentation - Comparing remotely sensed observations of clouds and aerosols in the Southern Ocean with climate model simulations.pdf
 file_size: 16528584
 doc_image: doc.png
-abstract: <p>Doctoral thesis presentation given at the University of Canterbury, Christchurch,
-  New Zealand on 7 October 2020.</p>
+abstract: "Doctoral thesis presentation given at the University of Canterbury, Christchurch, New Zealand on 7 October 2020."
 ---
