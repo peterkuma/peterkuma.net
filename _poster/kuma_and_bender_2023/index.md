@@ -16,9 +16,9 @@ authors:
   affil: 1
 affils:
 - Department of Meteorology (MISU) and Bolin Centre for Climate Research, Stockholm University, Stockholm, Sweden
-doi: 10.5281/zenodo.10307820
+doi: 10.5281/zenodo.10956026
 archive: Zenodo
-archive_url: https://zenodo.org/records/10307820
+archive_url: https://zenodo.org/records/10956026
 license: CC BY 4.0
 published: 2023-11-29
 date: 2023-11-29
