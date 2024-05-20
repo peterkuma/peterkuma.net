@@ -33,4 +33,5 @@ file: Kuma and Bender (2024), Using ship observations to assess Southern Ocean c
 file_size: 13051861
 doc_image: doc.png
 conference: Swedish Climate Symposium, Norrköping, Sweden, 15–17 May 2024
+conference_tex: "Swedish Climate Symposium, Norrk\\\"oping, Sweden, 15–17 May 2024"
 ---
