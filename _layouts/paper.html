@@ -75,12 +75,16 @@ layout: default
 
 {% if page.summary %}
 <h3>Summary</h3>
+<div class="text">
 {{ page.summary | markdownify }}
+</div>
 {% endif %}
 
 {% if page.abstract %}
 <h3>Abstract</h3>
-{{ page.abstract }}
+<div class="text">
+{{ page.abstract | markdownify }}
+</div>
 {% endif %}
 
 <dl>
