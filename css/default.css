@@ -111,19 +111,19 @@ main .document {
 }
 
 main .text {
-	font: 17px/135% "Source Serif Pro", sans-serif;
+	font: 18px/135% "Source Serif Pro", sans-serif;
 	text-align: justify;
 }
 
 main h3 {
-	font: 19px/135% "Source Sans Pro", sans-serif;
+	font: 20px/135% "Source Sans Pro", sans-serif;
 	font-weight: bold;
 	margin-top: 18px;
 	margin-bottom: 6px;
 }
 
 main h4 {
-	font: 18px/135% "Source Sans Pro", sans-serif;
+	font: 19px/135% "Source Sans Pro", sans-serif;
 	font-weight: bold;
 	margin-top: 12px;
 	margin-bottom: 4px;
