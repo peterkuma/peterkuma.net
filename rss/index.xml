@@ -1,7 +1,7 @@
 ---
 ---
 <?xml version="1.0" encoding="UTF-8" ?>
-{% assign docs = site.article | concat: site.presentation | concat: site.poster | concat: site.thesis %}
+{% assign docs = site.article | concat: site.presentation | concat: site.poster | concat: site.thesis | concat: site.lecture | concat: site.report %}
 <rss version="2.0">
 <channel>
 <title>Peter Kuma Software and Science</title>
