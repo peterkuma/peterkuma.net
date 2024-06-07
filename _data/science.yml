@@ -1,3 +1,7 @@
+- type: report
+  name: kuma_et_al_2024
+  author: Kuma et al.
+
 - type: poster
   name: kuma_and_bender_2024
   author: Kuma and Bender

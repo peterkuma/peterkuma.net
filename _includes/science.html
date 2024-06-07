@@ -1,4 +1,4 @@
-{% assign docs = site.article | concat: site.presentation | concat: site.poster | concat: site.thesis | concat: site.lecture %}
+{% assign docs = site.article | concat: site.presentation | concat: site.poster | concat: site.thesis | concat: site.lecture | concat: site.report %}
 
 {% for item in site.data.science limit:include.n %}
 	{%- if include.type and item.type != include.type -%}

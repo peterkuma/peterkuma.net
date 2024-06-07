@@ -40,6 +40,10 @@ profile: true
 
 {% include science.html type="lecture" %}
 
+### Reports
+
+{% include science.html type="report" %}
+
 ### Open source software
 
 [ALCF](https://alcf.peterkuma.net) – Automatic Lidar and Ceilometer Processing Framework
