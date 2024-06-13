@@ -45,6 +45,5 @@ date: 2024-06-11
 note: "submitted"
 file: "McDonald et al. (2024), Evaluating Cloud Properties at Scott Base - Comparing Ceilometer Observations with ERA5, JRA55, and MERRA2 Reanalyses Using an Instrument Simulator.pdf"
 file_size: 8965630
-license: CC BY 4.0
 doc_image: doc.png
 ---
