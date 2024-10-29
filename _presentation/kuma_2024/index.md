@@ -18,7 +18,7 @@ archive_url: https://zenodo.org/records/14009718
 license: CC BY 4.0
 published: 2024-10-29
 date: 2024-10-29
-conference: Lecture Series in High Performance Computing, National Competence Center for HPC, Bratislava, Slovakia
+conference: Lecture Series in High Performance Computing, National Competence Center for HPC, Bratislava, Slovakia (online)
 file: Kuma (2024), Climate Modelling and Current Research Topics in Climate Science.pdf
 file_size: 41342237
 doc_image: doc.png
