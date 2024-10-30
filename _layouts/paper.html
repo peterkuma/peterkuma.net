@@ -153,7 +153,7 @@ layout: default
 {% if page.doi %}
 <dt>DOI:</dt>
 <dd>
-{{ page.doi }}
+<a href="https://doi.org/{{ page.doi | uri_escape }}">{{ page.doi }}</a>
 </dd>
 {% endif %}
 {% if page.submitted %}

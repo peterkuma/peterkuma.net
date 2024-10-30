@@ -49,6 +49,7 @@ pages:
   - 14691
   - 14714
 journal: Atmospheric Chemistry and Physics
+_url: https://acp.copernicus.org/articles/23/14691/2023/
 volume: 23
 number: 23
 file: "Pei et al. (2023), Assessing the cloud radiative bias at Macquarie Island in the ACCESS-AM2 model.pdf"
