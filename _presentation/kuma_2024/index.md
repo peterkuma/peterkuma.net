@@ -12,7 +12,7 @@ authors:
   affil: 1
 affils:
 - Department of Meteorology (MISU), Stockholm University, Stockholm, Sweden
-doi: https://doi.org/10.5281/zenodo.14009718
+doi: 10.5281/zenodo.14009718
 archive: Zenodo
 archive_url: https://zenodo.org/records/14009718
 license: CC BY 4.0
