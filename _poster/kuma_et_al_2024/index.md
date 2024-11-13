@@ -68,7 +68,7 @@ archive: Zenodo
 archive_url: https://zenodo.org/records/14131026
 doi: 10.5281/zenodo.14131025
 date: 2024-11-13
-file: "Kuma et al. (2024), Ship-based lidar evaluation of Southern Ocean clouds in the storm-resolving general circulation model ICON and the ERA5 and MERRA-2 reanalyses.pdf"
+file: "Kuma et al. (2024), Ship-based lidar evaluation of Southern Ocean clouds in the storm-resolving general circulation model ICON, and the ERA5 and MERRA-2 reanalyses.pdf"
 file_size: 5040436
 doc_image: doc.png
 ---
