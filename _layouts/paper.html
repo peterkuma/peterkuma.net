@@ -73,6 +73,13 @@ layout: default
 </a>
 {% endif %}
 
+{% if page.video %}
+<video controls style="width: 100%">
+<source src="{{ page.video.mp4 | uri_escape }}" type="video/mp4" />
+<source src="{{ page.video.webm | uri_escape }}" type="video/webm" />
+</video>
+{% endif %}
+
 {% if page.summary %}
 <h3>Summary</h3>
 <div class="text">
