@@ -1,3 +1,7 @@
+- type: article
+  name: kuma_et_al_2024
+  place: manuscript in preparation
+
 - type: presentation
   name: kuma_et_al_2024
   author: Kuma et al.
@@ -6,10 +10,6 @@
   name: kuma_et_al_2024
   author: Kuma et al.
   place: Bolin Days, Stockholm, Sweden, 13–14 November 2024
-
-- type: article
-  name: kuma_et_al_2024
-  place: manuscript in preparation
 
 - type: presentation
   author: Kuma
