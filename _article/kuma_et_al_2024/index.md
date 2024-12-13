@@ -7,7 +7,7 @@ title: "Ship-based lidar evaluation of Southern Ocean clouds in the storm-resolv
 authors:
   - first: Peter
     last: Kuma
-    affil: 1, 2
+    affil: 1, 2, 3
     orcid: 0000-0002-0910-8646
   - first: Frida A.-M.
     last: Bender
@@ -35,11 +35,11 @@ authors:
     orcid: 0009-0001-8283-0491
   - first: Sean
     last: Hartery
-    affil: 11
+    affil: 3, 11
     orcid: 0000-0002-0015-2018
   - first: Simon
     last: Parsons
-    affil: 12
+    affil: 3, 12
     orcid: 0000-0003-4878-9779
   - first: Sally
     last: Garrett
@@ -63,13 +63,13 @@ affils:
   - Department of Physics & Atmospheric Science, Dalhousie University, Halifax, Canada
   - New South Wales Department of Planning and Environment, Sydney, New South Wales, Australia
   - New Zealand Defence Force, Wellington, New Zealand
-abstract: "Global storm-resolving models (GSRMs) are the next avenue of climate modelling. Among them is the 5-km Icosahedral Nonhydrostatic Weather and Climate Model (ICON). The high resolution allows for parameterizations of convection and clouds to be avoided. Standard-resolution models have substantial cloud biases over the Southern Ocean (SO), affecting radiation and sea surface temperature. We evaluated SO clouds in ICON and the ERA5 and MERRA-2 reanalyses. The SO is dominated by low clouds, which cannot be observed accurately from space due to overlapping clouds, attenuation, and ground clutter. Instead, we analysed about 2400 days of lidar observations from 31 voyages and a station using a ground-based lidar simulator. ICON and the reanalyses underestimate the total cloud fraction by about 10 and 20%, respectively. ICON and ERA5 overestimate the cloud occurrence peak at about 500 m, potentially explained by their lifting condensation levels being too high. The reanalyses strongly underestimate near-surface clouds or fog. MERRA-2 tends to underestimate cloud occurrence at all heights. Less stable conditions are the most problematic for ICON and the reanalyses. In daily cloud cover, ICON and the reanalyses tend to be about 1 and 2 oktas clearer, respectively. Compared to radiosondes, potential temperature is accurate in the reanalyses, but ICON underestimates stability over the low-latitude SO and too humid in the boundary layer. MERRA-2 is too humid at all heights. SO cloud biases remain a substantial issue in the GSRM, but are an improvement over the lower-resolution reanalyses. Explicitly resolved convection and cloud processes were not enough to address the model cloud biases."
+abstract: "Global storm-resolving models (GSRMs) are the upcoming global climate models. One of them is a 5-km Icosahedral Nonhydrostatic Weather and Climate Model (ICON). Its high resolution means that parameterizations of convection and clouds, including subgrid-scale clouds, are omitted, relying on explicit simulation but still utilizing microphysics and turbulence parameterizations. Standard-resolution (10–100 km) models, which use convection and cloud parameterizations, have substantial cloud biases over the Southern Ocean (SO), adversely affecting radiation and sea surface temperature. The SO is dominated by low clouds, which cannot be observed accurately from space due to overlapping clouds, attenuation, and ground clutter. We evaluated SO clouds in ICON and the ERA5 and MERRA-2 reanalyses using about 2400 days of lidar observations and 2300 radiosonde profiles from 31 voyages and Macquarie Island station during 2010--2021, compared with the models using a ground-based lidar simulator. We found that ICON and the reanalyses underestimate the total cloud fraction by about 10 and 20%, respectively. ICON and ERA5 overestimate the cloud occurrence peak at about 500 m, potentially explained by their lifting condensation levels being too high. The reanalyses strongly underestimate fog or near-surface clouds, and MERRA-2 underestimates cloud occurrence at almost all heights. Outgoing shortwave radiation is overestimated in the reanalyses, implying a “too few, too bright” cloud problem. Thermodynamic conditions are relatively well represented, but ICON is less stable than observations, and MERRA-2 is too humid. SO cloud biases are a substantial issue in the GSRM, but it matches the observations better than the lower-resolution reanalyses."
 archive: Zenodo
 archive_url: https://zenodo.org/records/14071808
-doi: 10.5281/zenodo.14071808
-date: 2024-11-11
+doi: 10.5281/zenodo.14070222
+date: 2024-12-13
 note: "manuscript in preparation"
-file: "Kuma et al. (2024), Ship-based lidar evaluation of Southern Ocean clouds in the storm-resolving general circulation model ICON and the ERA5 and MERRA-2 reanalyses (manuscript in preparation 2024-11-11).pdf"
-file_size: 12953580
+file: "Kuma et al. (2024), Ship-based lidar evaluation of Southern Ocean clouds in the storm-resolving general circulation model ICON and the ERA5 and MERRA-2 reanalyses (manuscript in preparation 2024-12-13).pdf"
+file_size: 15835222
 doc_image: doc.png
 ---
