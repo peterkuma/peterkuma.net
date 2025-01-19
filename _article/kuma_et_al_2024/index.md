@@ -69,7 +69,7 @@ archive_url: https://zenodo.org/records/14541824
 doi: 10.5281/zenodo.14070222
 date: 2024-12-20
 submitted: 2024-12-20
-note: "submitted to JGR: Atmospheres"
+note: "in review in JGR: Atmospheres"
 file: "Kuma et al. (2024), Ship-based lidar evaluation of Southern Ocean clouds in the storm-resolving general circulation model ICON and the ERA5 and MERRA-2 reanalyses (submitted 2024-12-20).pdf"
 file_size: 15837750
 doc_image: doc.png
