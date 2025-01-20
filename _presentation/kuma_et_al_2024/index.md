@@ -74,4 +74,5 @@ date: 2024-11-26
 file: "Kuma et al. (2024), Ship-based lidar evaluation of Southern Ocean clouds in the storm-resolving general circulation model ICON and the ERA5 and MERRA-2 reanalyses.pdf"
 file_size: 9344014
 doc_image: doc.png
+license: CC BY 4.0
 ---

@@ -1,6 +1,11 @@
 - type: article
+  name: mcdonald_et_al_2025
+  author: McDonald et al.
+  place: "Journal of Geophysical Research: Atmospheres"
+
+- type: article
   name: kuma_et_al_2024
-  place: "in review in JGR: Atmospheres"
+  place: "in review in Journal of Geophysical Research: Atmospheres"
 
 - type: presentation
   name: kuma_et_al_2024
@@ -15,11 +20,6 @@
   author: Kuma
   name: kuma_2024
   place: Lecture Series in High Performance Computing, National Competence Center for HPC, Bratislava, Slovakia [online]
-
-- type: article
-  name: mcdonald_et_al_2024
-  author: McDonald et al.
-  place: "accepted in JGR: Atmospheres"
 
 - type: report
   name: kuma_et_al_2024

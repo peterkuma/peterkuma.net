@@ -27,7 +27,7 @@
 			{%- for x in docs -%}
 				{%- capture y -%}_{{ item.type }}/{{ item.name }}/index.md{%- endcapture -%}
 				{%- if x.path == y -%}
-					{%- if x.license == 'CC BY 4.0' or x.license == 'CC BY-NC 4.0' %}yes{%- endif -%}
+					{%- if x.license == 'CC BY 4.0' or x.license == 'CC BY-NC 4.0' or x.license == 'CC BY-NC-ND 4.0' %}yes{%- endif -%}
 				{%- endif -%}
 			{%- endfor -%}
 		{%- endif -%}
