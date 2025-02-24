@@ -152,7 +152,7 @@ main dt {
 	font-weight: bold;
 }
 
-main summary {
+main .bibtex summary {
 	font-weight: bold;
 }
 

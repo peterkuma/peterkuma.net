@@ -16,12 +16,27 @@ layout: default
 </h2>
 
 <p>
-{% for a in page.authors %}
+{% if page.authors.size > 10 %}
+<details>
+<summary>
+{% endif %}
+{% for a in page.authors limit:10 %}
 {% if a.orcid %}
 <a href="https://orcid.org/{{ a.orcid | url_encode }}">
 {% endif %}
 {{ a.first }} {{ a.last }}{% if a.orcid %}</a>{% endif %}<sup>{{ a.affil }}</sup>{% if a != page.authors.last %},{% endif %}
 {% endfor %}
+{% if page.authors.size > 10 %}
+…
+</summary>
+{% for a in page.authors offset:10 %}
+{% if a.orcid %}
+<a href="https://orcid.org/{{ a.orcid | url_encode }}">
+{% endif %}
+{{ a.first }} {{ a.last }}{% if a.orcid %}</a>{% endif %}<sup>{{ a.affil }}</sup>{% if a != page.authors.last %},{% endif %}
+{% endfor %}
+</details>
+{% endif %}
 </p>
 
 {% if page.supervisors %}
@@ -37,11 +52,25 @@ layout: default
 {% endif %}
 
 <p>
+{% if page.affils.size > 10 %}
+<details>
+<summary>
+{% endif %}
 <small>
-{% for a in page.affils %}
+{% for a in page.affils limit:10 %}
 <sup>{{ forloop.index }}</sup>{{ a }}<br />
 {% endfor %}
 </small>
+{% if page.affils.size > 10 %}
+…
+</summary>
+<small>
+{% for a in page.affils offset:10 %}
+<sup>{{ forloop.index | plus: 10 }}</sup>{{ a }}<br />
+{% endfor %}
+</small>
+</details>
+{% endif %}
 </p>
 
 <div class="document-links">
@@ -216,7 +245,7 @@ Open access / <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creat
 
 </dl>
 
-<details>
+<details class="bibtex">
 <summary>BibTeX:</summary>
 <code><small>
 @{{ page.type }}{% raw %}{{% endraw %}{{ page.code }},<br />
