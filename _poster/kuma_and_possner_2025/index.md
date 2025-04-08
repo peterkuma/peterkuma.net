@@ -15,7 +15,7 @@ authors:
     orcid: 0000-0001-6996-8624
 affils:
   -  Institute for Atmospheric and Environmental Sciences, Goethe University Frankfurt, Frankfurt am Main, Hesse, Germany
-abstract: "Poster presented at the CleanCloud General Assembly in Patras, Greece on 2–3 April 2025"
+abstract: "Poster presented at the CleanCloud General Assembly in Patras, Greece on 2–3 April 2025."
 archive: Zenodo
 archive_url: https://zenodo.org/records/15174379
 doi: 10.5281/zenodo.15174379
