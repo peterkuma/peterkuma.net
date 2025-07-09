@@ -24,6 +24,6 @@ file_size: 41342237
 doc_image: doc.png
 abstract: "In recent decades, climate models have become an integral part of climate science. They allow us to not only predict the Earth's future climate but also to reconstruct the past and better understand the present climate. In this talk, you will learn how they work, what supercomputers they run on, and the broader context of climate change and human impact on the climate.
 <br /><br />
-Recording of the presentation is available on [YouTube](https://www.youtube.com/watch?v=NRlbg-8y6Fw).
+A recording of the presentation is available on [YouTube](https://www.youtube.com/watch?v=NRlbg-8y6Fw).
 "
 ---
