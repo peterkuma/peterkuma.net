@@ -75,4 +75,5 @@ file: "Kuma et al. (2024), Ship-based lidar evaluation of Southern Ocean clouds 
 file_size: 9344014
 doc_image: doc.png
 license: CC BY 4.0
+conference: American Geophysical Union Annual Meeting, San Francisco, California, USA, 11–15 December 2023 & 20–25 January 2024
 ---
