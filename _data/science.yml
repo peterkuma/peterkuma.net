@@ -1,3 +1,8 @@
+- type: article
+  name: kuma_et_al_2025
+  author: Kuma et al.
+  place: "in review in Journal of Geophysical Research: Atmospheres"
+
 - type: poster
   name: kuma_and_possner_2025
   author: Kuma and Possner
@@ -12,11 +17,6 @@
   name: mcdonald_et_al_2025
   author: McDonald et al.
   place: "Journal of Geophysical Research: Atmospheres"
-
-- type: article
-  name: kuma_et_al_2024
-  author: Kuma et al.
-  place: "in review in Journal of Geophysical Research: Atmospheres"
 
 - type: presentation
   name: kuma_et_al_2024
