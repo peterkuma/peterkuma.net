@@ -1,5 +1,6 @@
 ---
 layout: paper
+type: article
 code: kuma2025
 document: article
 title: "Ship-based lidar evaluation of Southern Ocean low clouds in the storm-resolving general circulation model ICON and the ERA5 and MERRA-2 reanalyses"
