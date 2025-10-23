@@ -1,12 +1,12 @@
 - type: article
-  name: segura_et_al_2025
-  author: Segura et al.
-  place: "Geoscientific Model Development"
-
-- type: article
   name: kuma_et_al_2025
   author: Kuma et al.
   place: "in review in Journal of Geophysical Research: Atmospheres"
+
+- type: article
+  name: segura_et_al_2025
+  author: Segura et al.
+  place: "Geoscientific Model Development"
 
 - type: poster
   name: kuma_and_possner_2025
