@@ -4,15 +4,20 @@ layout: paper
 type: article
 document: article
 title: 'nextGEMS: entering the era of kilometer-scale Earth system modeling'
-abstract: 'The Next Generation of Earth Modeling Systems (nextGEMS) project aimed to produce multi-decadal climate simulations, for the first time, with resolved kilometer-scale (km-scale) processes in the ocean, land, and atmosphere. In only three years, nextGEMS achieved this milestone with the two km-scale Earth system models, ICOsahedral Non-hydrostatic model (ICON) and Integrated Forecasting System coupled to the Finite-volumE Sea ice-Ocean Model (IFS-FESOM). nextGEMS was based on three cornerstones: 1) developing km-scale Earth system models with small errors in the energy and water balance, 2) performing km-scale climate simulations with a throughput greater than one simulated year per day, and 3) facilitating new workflows for an efficient analysis of the large simulations with common data structures and output variables. These cornerstones shaped the timeline of nextGEMS, divided into four cycles. Each cycle marked the release of a new configuration of ICON and IFS-FESOM, which were evaluated at hackathons.  The participants in hackathons included experts from climate science, software engineering, and high-performance computing, as well as users from the energy and agricultural sectors. The continuous efforts over the four cycles allowed us to produce 30-year simulations of ICON and IFS-FESOM, spanning the period 2020&ndash;2049 under the SSP3-7.0 scenario. The throughput was about 500 simulated days per day on the Levante supercomputer of the German Climate Computing Center (DKRZ). The simulations employed a horizontal grid of about 5 km resolution in the ocean and 10 km resolution in the atmosphere and land. Aside from this technical achievement, the simulations allowed us to gain new insights into the realism of ICON and IFS-FESOM. Beyond its timeframe, nextGEMS builds the foundation of the Climate Change Adaptation Digital Twin developed in the Destination Earth initiative and paves the way for future European research on climate change.'
-archive: EGUsphere
-archive_url: https://egusphere.copernicus.org/preprints/2025/egusphere-2025-509/
-note: accepted in Geoscientific Model Development
-date: 2025-02-19
+abstract: 'The Next Generation of Earth Modeling Systems (nextGEMS) project aimed to produce multidecadal climate simulations, for the first time, with resolved kilometer-scale (km-scale) processes in the ocean, land, and atmosphere. In only 3 years, nextGEMS achieved this milestone with the two km-scale Earth system models, ICOsahedral Non-hydrostatic model (ICON) and Integrated Forecasting System coupled to the Finite-volumE Sea ice-Ocean Model (IFS-FESOM). nextGEMS was based on three cornerstones: (1) developing km-scale Earth system models with small errors in the energy and water balance, (2) performing km-scale climate simulations with a throughput greater than 1 simulated year per day, and (3) facilitating new workflows for an efficient analysis of the large simulations with common data structures and output variables. These cornerstones shaped the timeline of nextGEMS, divided into four cycles. Each cycle marked the release of a new configuration of ICON and IFS-FESOM, which were evaluated at hackathons. The hackathon participants included experts from climate science, software engineering, and high-performance computing as well as users from the energy and agricultural sectors. The continuous efforts over the four cycles allowed us to produce 30-year simulations with ICON and IFS-FESOM, spanning the period 2020–2049 under the SSP3-7.0 scenario. The throughput was about 500 simulated days per day on the Levante supercomputer of the German Climate Computing Center (DKRZ). The simulations employed a horizontal grid of about 5 km resolution in the ocean and 10 km resolution in the atmosphere and land. Aside from this technical achievement, the simulations allowed us to gain new insights into the realism of ICON and IFS-FESOM. Beyond its time frame, nextGEMS builds the foundation of the Climate Change Adaptation Digital Twin developed in the Destination Earth initiative and paves the way for future European research on climate change.'
+journal: Geoscientific Model Development
+pages:
+- 7735
+- 7761
+volume: 18
+issue: 20
+date: 2025-10-23
+published: 2025-10-23
+accepted: 2025-07-27
 submitted: 2025-02-03
-doi: 10.5194/egusphere-2025-509
-file: "Segura et al. (2025), nextGEMS - entering the era of kilometer-scale Earth system modeling (in review 2025-02-19).pdf"
-file_size: 11882826
+doi: 10.5194/gmd-18-7735-2025
+file: "Segura et al. (2025), nextGEMS - entering the era of kilometer-scale Earth system modeling.pdf"
+file_size: 8618996
 doc_image: doc.png
 license: CC BY 4.0
 authors:
@@ -58,6 +63,7 @@ authors:
 - first: Gabriele
   last: Arduini
   affil: 2
+  orcid: 0000-0002-6564-1699
 - first: Alexander J.
   last: Baker
   affil: 8

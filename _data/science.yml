@@ -1,4 +1,9 @@
 - type: article
+  name: segura_et_al_2025
+  author: Segura et al.
+  place: "Geoscientific Model Development"
+
+- type: article
   name: kuma_et_al_2025
   author: Kuma et al.
   place: "in review in Journal of Geophysical Research: Atmospheres"
@@ -7,11 +12,6 @@
   name: kuma_and_possner_2025
   author: Kuma and Possner
   place: CleanCloud General Assembly , Patras, Greece, 2025
-
-- type: article
-  name: segura_et_al_2025
-  author: Segura et al.
-  place: "accepted in Geoscientific Model Development"
 
 - type: article
   name: mcdonald_et_al_2025
