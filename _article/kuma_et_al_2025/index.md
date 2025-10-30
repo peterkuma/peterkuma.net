@@ -72,9 +72,11 @@ abstract: "Global storm resolving models (GSRMs) represent the next generation o
 archive: Zenodo
 archive_url: https://zenodo.org/records/17423265
 doi: 10.5281/zenodo.17423265
-date: 2025-10-20
+date: 2025-10-30
+accepted: 2025-10-30
 submitted: 2025-07-21
-note: "in review in Journal of Geophysical Research: Atmospheres"
+journal: "Journal of Geophysical Research: Atmospheres"
+note: "in press"
 file: "Kuma et al. (2025), Ship-based lidar evaluation of Southern Ocean low clouds in the storm-resolving general circulation model ICON and the ERA5 and MERRA-2 reanalyses (in review 2025-10-20).pdf"
 file_size: 18888947
 supplement: "Supporting information (in review 2025-10-20).pdf"
