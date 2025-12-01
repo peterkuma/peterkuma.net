@@ -3,6 +3,7 @@ layout: paper
 code: kuma2022
 type: misc
 document: poster
+oa: true
 title:  Climate model code genealogy and its relation to sensitivity and feedbacks
 authors:
   - first: Peter
@@ -33,4 +34,5 @@ image: model_code_genealogy_1600px.png
 image_link: model_code_genealogy_6000px.png
 license: CC BY 4.0
 doc_image: doc.png
+conference: FORCeS Annual Meeting, Oslo, Norway, 14 September 2022
 ---

@@ -3,6 +3,7 @@ layout: paper
 code: kuma2025
 type: misc
 document: poster
+oa: true
 title: "Exploring sensitivity to ice nucleating particles and secondary ice production during COMBLE in idealised ICON large eddy simulations"
 authors:
   - first: Peter
@@ -24,4 +25,5 @@ file: "Kuma and Possner (2025), Exploring sensitivity to ice nucleating particle
 file_size: 16618418
 doc_image: doc.png
 license: CC BY 4.0
+conference: CleanCloud General Assembly, Patras, Greece, 1–3 April 2025
 ---
