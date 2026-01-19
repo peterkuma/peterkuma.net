@@ -1,12 +1,19 @@
 ---
-code: juliano2025
+code: juliano2026
 layout: paper
 type: article
 document: article
 title: 'The Cold-Air Outbreaks in the Marine Boundary Layer Experiment model-observation intercomparison project (COMBLE-MIP), Part I: Model specification, observational constraints, and preliminary findings'
 abstract: 'Models are universally challenged to accurately predict the coupled microphysical, turbulent and radiative processes within widespread, long-lived marine cold-air outbreak (CAO) cloud fields, which leads to biases and uncertainties in atmospheric predictions over all time scales. Here we assemble a suite of ground-based and satellite measurements to initialize and constrain large-eddy simulations (LES) of cloud field evolution with distance downwind from the marginal ice zone during a strong, highly supercooled and convective CAO observed during the Cold-Air Outbreaks in the Marine Boundary Layer Experiment (COMBLE). Detailed LES results are compared with large-scale models run in single-column model (SCM) mode, providing an observation-constrained framework for large-scale model evaluation and future improvements. All models reproduce rapid cloud formation off the ice edge, and a monotonic ascent of downwind cloud-top heights that is well correlated with time-integrated surface heat fluxes. LES generally reproduce domain-mean observational targets using a modest test domain (25 × 25 km²), and a larger domain (125 × 125 km²) enables better reproducing the observed growth of convective cell sizes. In realistic mixed-phase LES compared with liquid-only simulations, ice processes lead to thinner, broken cloud decks and substantially reduced cloud radiative effects on top-of-atmosphere longwave fluxes. By contrast, mixed-phase SCM simulations generally underpredict the impact of ice on radiative fluxes, primarily owing to insufficient reduction of cloud cover. Results indicate that cellular cloud structure is qualitatively captured by LES, and thus LES could provide guidance to improvement of large-scale model physics schemes. Follow-on work will extend these results to larger domains, apply objective analysis of mesoscale structure, and include prognostic aerosol properties for droplet and heterogeneous ice formation.'
-date: 2025-12-12
+date: 2026-01-19
+volume: 2026
 submitted: 2025-12-12
+journal: EGUsphere
+url: https://egusphere.copernicus.org/preprints/2026/egusphere-2025-6217/
+pages:
+  - 1
+  - 52
+doi: 10.5194/egusphere-2025-6217
 note: in review in Geoscientific Model Development
 file: "Juliano et al. (2025), The Cold-Air Outbreaks in the Marine Boundary Layer Experiment model-observation intercomparison project (COMBLE-MIP), Part I - Model specification, observational constraints, and preliminary findings (submitted 2025-12-12).pdf"
 file_size: 38807973
