@@ -14,7 +14,7 @@ pages:
   - 1
   - 52
 doi: 10.5194/egusphere-2025-6217
-note: in review in Geoscientific Model Development
+note: submitted to Atmospheric Chemistry and Physics
 file: "Juliano et al. (2025), The Cold-Air Outbreaks in the Marine Boundary Layer Experiment model-observation intercomparison project (COMBLE-MIP), Part I - Model specification, observational constraints, and preliminary findings (submitted 2025-12-12).pdf"
 file_size: 38807973
 doc_image: doc.png
