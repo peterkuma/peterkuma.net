@@ -5,18 +5,18 @@ type: article
 document: article
 title: 'The Cold-Air Outbreaks in the Marine Boundary Layer Experiment model-observation intercomparison project (COMBLE-MIP), Part I: Model specification, observational constraints, and preliminary findings'
 abstract: 'Models are universally challenged to accurately predict the coupled microphysical, turbulent and radiative processes within widespread, long-lived marine cold-air outbreak (CAO) cloud fields, which leads to biases and uncertainties in atmospheric predictions over all time scales. Here we assemble a suite of ground-based and satellite measurements to initialize and constrain large-eddy simulations (LES) of cloud field evolution with distance downwind from the marginal ice zone during a strong, highly supercooled and convective CAO observed during the Cold-Air Outbreaks in the Marine Boundary Layer Experiment (COMBLE). Detailed LES results are compared with large-scale models run in single-column model (SCM) mode, providing an observation-constrained framework for large-scale model evaluation and future improvements. All models reproduce rapid cloud formation off the ice edge, and a monotonic ascent of downwind cloud-top heights that is well correlated with time-integrated surface heat fluxes. LES generally reproduce domain-mean observational targets using a modest test domain (25 × 25 km²), and a larger domain (125 × 125 km²) enables better reproducing the observed growth of convective cell sizes. In realistic mixed-phase LES compared with liquid-only simulations, ice processes lead to thinner, broken cloud decks and substantially reduced cloud radiative effects on top-of-atmosphere longwave fluxes. By contrast, mixed-phase SCM simulations generally underpredict the impact of ice on radiative fluxes, primarily owing to insufficient reduction of cloud cover. Results indicate that cellular cloud structure is qualitatively captured by LES, and thus LES could provide guidance to improvement of large-scale model physics schemes. Follow-on work will extend these results to larger domains, apply objective analysis of mesoscale structure, and include prognostic aerosol properties for droplet and heterogeneous ice formation.'
-date: 2026-01-19
+date: 2026-04-10
 volume: 2026
 submitted: 2026-04-01
 journal: EGUsphere
-url: https://egusphere.copernicus.org/preprints/2026/egusphere-2025-6217/
+url: https://egusphere.copernicus.org/preprints/2026/egusphere-2026-1237/
 pages:
   - 1
-  - 52
-doi: 10.5194/egusphere-2025-6217
+  - 53
+doi: 10.5194/egusphere-2026-1237
 note: submitted to Atmospheric Chemistry and Physics
-file: "Juliano et al. (2025), The Cold-Air Outbreaks in the Marine Boundary Layer Experiment model-observation intercomparison project (COMBLE-MIP), Part I - Model specification, observational constraints, and preliminary findings (submitted 2025-12-12).pdf"
-file_size: 38807973
+file: "Juliano et al. (2026), The Cold-Air Outbreaks in the Marine Boundary Layer Experiment model-observation intercomparison project (COMBLE-MIP), Part I - Model specification, observational constraints, and preliminary findings (submitted 2026-04-01).pdf"
+file_size: 39199051
 doc_image: doc.png
 license: CC BY 4.0
 authors:
@@ -103,7 +103,7 @@ authors:
   orcid: 0000-0001-8772-4164
 - first: Michail
   last: Karalis
-  affil: 9
+  affil: 8
   orcid: 0009-0007-3519-7180
 - first: Martin
   last: Köhler
@@ -141,6 +141,10 @@ authors:
   last: Raatikainen
   affil: 18
   orcid: 0000-0002-2603-516X
+- first: Lea
+  last: Raillard
+  affil: 21
+  orcid: 0009-0008-3937-9341
 - first: Sami
   last: Romakkaniemi
   affil: 18
@@ -159,6 +163,11 @@ authors:
 - first: Mikhail
   last: Tolstykh
   affil: 13
+- first: Étienne
+  first_tex: \'{E}tienne
+  last: Vignon
+  affil: 21
+  orcid: 0000-0003-3801-9367
 - first: Lulin
   last: Xue
   affil: 1
@@ -191,4 +200,5 @@ affils:
 - Finnish Meteorological Institute, Helsinki, Finland
 - Lawrence Livermore National Laboratory (LLNL), Livermore, CA, USA
 - Moscow Center of Fundamental and Applied Mathematics, Moscow, Russia
+- Laboratoire de Météorologie Dynamique-IPSL, Sorbonne Université/CNRS/Ecole Normale Supérieure-PSL Université/Ecole Polytechnique-Institut Polytechnique de Paris, Paris, France
 ---
