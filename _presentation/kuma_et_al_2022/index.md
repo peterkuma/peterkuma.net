@@ -26,6 +26,7 @@ authors:
   first_tex: "{\\O}yvind"
   last: Seland
   affil: 3
+  orcid: 0000-0001-6804-5879
 affils:
 - Department of Meteorology (MISU), Stockholm University, Stockholm, Sweden
 - School of Physical and Chemical Sciences, University of Canterbury, Christchurch, Aotearoa New Zealand
