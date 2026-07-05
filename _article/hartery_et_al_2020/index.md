@@ -20,6 +20,7 @@ authors:
   - first: K.
     last: Sellegri
     affil: 3
+    orcid: 0000-0002-5226-2403
   - first: P.
     last: Kuma
     affil: 1

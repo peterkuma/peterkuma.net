@@ -16,6 +16,7 @@ authors:
   - first: W. John R.
     last: French
     affil: 4, 1
+    orcid: 0000-0001-9305-6190
   - first: Simon P.
     last: Alexander
     affil: 4, 1

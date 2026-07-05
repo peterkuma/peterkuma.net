@@ -43,6 +43,7 @@ authors:
   - first: Alex
     last: Geddes
     affil: 4
+    orcid: 0000-0001-9491-3799
   - first: Richard
     last: Querel
     affil: 4
@@ -58,6 +59,7 @@ authors:
   - first: Karine
     last: Sellegri
     affil: 7
+    orcid: 0000-0002-5226-2403
   - first: Israel
     last: Silber
     affil: 9
@@ -87,6 +89,7 @@ authors:
   - first: Graeme
     last: Plank
     affil: 3
+    orcid: 0009-0001-8283-0491
   - first: Geoffrey
     last: Graham
     affil: 3

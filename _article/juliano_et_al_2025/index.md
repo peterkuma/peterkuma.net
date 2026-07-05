@@ -23,9 +23,11 @@ authors:
 - first: Timothy W.
   last: Juliano
   affil: 1
+  orcid: 0000-0003-0417-0886
 - first: Florian
   last: Tornow
   affil: 2, 3
+  orcid: 0000-0002-3664-6933
 - first: Ann M.
   last: Fridlind
   affil: 3
@@ -49,6 +51,7 @@ authors:
 - first: David
   last: Painemal
   affil: 5, 6
+  orcid: 0000-0002-1281-4672
 - first: Israel
   last: Silber
   affil: 7
@@ -56,6 +59,7 @@ authors:
 - first: Mikhail
   last: Ovchinnikov
   affil: 7
+  orcid: 0000-0002-7939-1299
 - first: Gunilla
   last: Svensson
   affil: 8
@@ -76,9 +80,11 @@ authors:
 - first: Peter
   last: Bogenschutz
   affil: 19
+  orcid: 0000-0003-3519-2762
 - first: Dmitry
   last: Chechin
   affil: 10
+  orcid: 0000-0003-0021-9945
 - first: Kamal Kant
   last: Chandrakar
   affil: 1
@@ -90,6 +96,7 @@ authors:
 - first: Andrey
   last: Debolskiy
   affil: 12, 20
+  orcid: 0000-0002-0182-5675
 - first: Rostislav
   last: Fadeev
   affil: 13
@@ -122,6 +129,7 @@ authors:
 - first: Weiwei
   last: Li
   affil: 1
+  orcid: 0000-0002-5222-4490
 - first: Evgeny
   last: Mortikov
   affil: 12, 20
@@ -152,6 +160,7 @@ authors:
 - first: Niklas
   last: Schnierstein
   affil: 11
+  orcid: 0000-0003-1472-6753
 - first: Shin-ichiro
   last: Shima
   affil: 14
@@ -163,6 +172,7 @@ authors:
 - first: Mikhail
   last: Tolstykh
   affil: 13
+  orcid: 0000-0002-6908-1211
 - first: Étienne
   first_tex: \'{E}tienne
   last: Vignon

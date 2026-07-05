@@ -38,9 +38,11 @@ authors:
   - first: Elizabeth
     last: Somervell
     affil: 2
+    orcid: 0009-0004-7090-9233
   - first: Woodrow
     last: Pattinson
     affil: 3
+    orcid: 0000-0002-9432-1483
   - first: Jonathan
     last: Barte
     affil: 4
