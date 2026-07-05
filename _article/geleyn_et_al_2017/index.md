@@ -24,6 +24,7 @@ authors:
   - first: D.
     last: Degrauwe
     affil: 6
+    orcid: 0000-0002-7340-0510
   - first: G.
     last: Hello
     affil: 1
