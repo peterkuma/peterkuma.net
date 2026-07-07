@@ -3,8 +3,8 @@ code: segura2025
 layout: paper
 type: article
 document: article
-title: 'nextGEMS: entering the era of kilometer-scale Earth system modeling'
-abstract: 'The Next Generation of Earth Modeling Systems (nextGEMS) project aimed to produce multidecadal climate simulations, for the first time, with resolved kilometer-scale (km-scale) processes in the ocean, land, and atmosphere. In only 3 years, nextGEMS achieved this milestone with the two km-scale Earth system models, ICOsahedral Non-hydrostatic model (ICON) and Integrated Forecasting System coupled to the Finite-volumE Sea ice-Ocean Model (IFS-FESOM). nextGEMS was based on three cornerstones: (1) developing km-scale Earth system models with small errors in the energy and water balance, (2) performing km-scale climate simulations with a throughput greater than 1 simulated year per day, and (3) facilitating new workflows for an efficient analysis of the large simulations with common data structures and output variables. These cornerstones shaped the timeline of nextGEMS, divided into four cycles. Each cycle marked the release of a new configuration of ICON and IFS-FESOM, which were evaluated at hackathons. The hackathon participants included experts from climate science, software engineering, and high-performance computing as well as users from the energy and agricultural sectors. The continuous efforts over the four cycles allowed us to produce 30-year simulations with ICON and IFS-FESOM, spanning the period 2020–2049 under the SSP3-7.0 scenario. The throughput was about 500 simulated days per day on the Levante supercomputer of the German Climate Computing Center (DKRZ). The simulations employed a horizontal grid of about 5 km resolution in the ocean and 10 km resolution in the atmosphere and land. Aside from this technical achievement, the simulations allowed us to gain new insights into the realism of ICON and IFS-FESOM. Beyond its time frame, nextGEMS builds the foundation of the Climate Change Adaptation Digital Twin developed in the Destination Earth initiative and paves the way for future European research on climate change.'
+title: "nextGEMS: entering the era of kilometer-scale Earth system modeling"
+abstract: "The Next Generation of Earth Modeling Systems (nextGEMS) project aimed to produce multidecadal climate simulations, for the first time, with resolved kilometer-scale (km-scale) processes in the ocean, land, and atmosphere. In only 3 years, nextGEMS achieved this milestone with the two km-scale Earth system models, ICOsahedral Non-hydrostatic model (ICON) and Integrated Forecasting System coupled to the Finite-volumE Sea ice-Ocean Model (IFS-FESOM). nextGEMS was based on three cornerstones: (1) developing km-scale Earth system models with small errors in the energy and water balance, (2) performing km-scale climate simulations with a throughput greater than 1 simulated year per day, and (3) facilitating new workflows for an efficient analysis of the large simulations with common data structures and output variables. These cornerstones shaped the timeline of nextGEMS, divided into four cycles. Each cycle marked the release of a new configuration of ICON and IFS-FESOM, which were evaluated at hackathons. The hackathon participants included experts from climate science, software engineering, and high-performance computing as well as users from the energy and agricultural sectors. The continuous efforts over the four cycles allowed us to produce 30-year simulations with ICON and IFS-FESOM, spanning the period 2020–2049 under the SSP3-7.0 scenario. The throughput was about 500 simulated days per day on the Levante supercomputer of the German Climate Computing Center (DKRZ). The simulations employed a horizontal grid of about 5 km resolution in the ocean and 10 km resolution in the atmosphere and land. Aside from this technical achievement, the simulations allowed us to gain new insights into the realism of ICON and IFS-FESOM. Beyond its time frame, nextGEMS builds the foundation of the Climate Change Adaptation Digital Twin developed in the Destination Earth initiative and paves the way for future European research on climate change."
 journal: Geoscientific Model Development
 pages:
 - 7735
@@ -57,9 +57,11 @@ authors:
 - first: Matthias
   last: Aengenheyster
   affil: 2
+  orcid: 0000-0001-9508-0450
 - first: Razvan
   last: Aguridan
   affil: 2, 7
+  orcid: 0009-0001-4966-0232
 - first: Gabriele
   last: Arduini
   affil: 2
@@ -92,6 +94,7 @@ authors:
 - first: Hendryk
   last: Bockelmann
   affil: 11
+  orcid: 0009-0008-2753-261X
 - first: Nils
   last: "Br\xFCggemann"
   last_tex: Br{\"u}ggemann
@@ -104,9 +107,11 @@ authors:
 - first: Suvarchal K.
   last: Cheedela
   affil: 10
+  orcid: 0000-0002-9622-6690
 - first: Sushant
   last: Das
   affil: 13
+  orcid: 0000-0003-2417-7970
 - first: Jasper
   last: Denissen
   affil: 2
@@ -126,9 +131,11 @@ authors:
 - first: Jan Frederik
   last: Engels
   affil: 11
+  orcid: 0009-0006-3034-333X
 - first: Monika
   last: Esch
   affil: 1
+  orcid: 0009-0001-3765-6105
 - first: Richard
   last: Forbes
   affil: 2
@@ -158,6 +165,7 @@ authors:
   last: "Gonz\xE1lez-Cervera"
   last_tex: Gonz{\'a}lez-Cervera
   affil: 16
+  orcid: 0000-0002-3204-090X
 - first: Katherine
   last: Grayson
   affil: 7
@@ -173,6 +181,7 @@ authors:
 - first: Helmuth
   last: Haak
   affil: 1
+  orcid: 0000-0002-9883-5086
 - first: Ioan
   last: Hadade
   affil: 2
@@ -180,6 +189,7 @@ authors:
 - first: Kerstin
   last: Haslehner
   affil: 17
+  orcid: 0009-0004-0071-7033
 - first: Shabeh
   last: ul Hasson
   affil: 18
@@ -212,6 +222,7 @@ authors:
 - first: Sergey
   last: Kosukhin
   affil: 1
+  orcid: 0009-0007-9522-8452
 - first: Josh
   last: Kousal
   affil: 2
@@ -227,12 +238,15 @@ authors:
 - first: Rumeng
   last: Li
   affil: 22
+  orcid: 0000-0001-7735-6089
 - first: Nicolas
   last: Maury
   affil: 23
+  orcid: 0000-0002-1879-2988
 - first: Maximilian
   last: Meindl
   affil: 17
+  orcid: 0000-0002-3376-6577
 - first: Sebastian
   last: Milinski
   affil: 2
@@ -252,6 +266,7 @@ authors:
 - first: Divya Sri
   last: Praturi
   affil: 1
+  orcid: 0000-0002-2889-7433
 - first: Ulrike
   last: Proske
   affil: 24
@@ -268,6 +283,7 @@ authors:
 - first: David
   last: Santuy
   affil: 16
+  orcid: 0009-0004-1497-8867
 - first: Domokos
   last: "S\xE1rm\xE1ny"
   last_tex: S{\'a}rm{\'a}ny
@@ -326,6 +342,7 @@ authors:
 - first: Fabian
   last: Wachsmann
   affil: 11
+  orcid: 0000-0003-4389-6911
 - first: Marta
   last: "Wac\u0142awczyk"
   last_tex: Wac{\l}awczyk
@@ -369,6 +386,7 @@ authors:
 - first: Sandrine
   last: Bony
   affil: 23
+  orcid: 0000-0002-4791-4438
 - first: Simona
   last: Bordoni
   affil: 4
@@ -388,6 +406,7 @@ authors:
 - first: Saliou
   last: Faye
   affil: 32
+  orcid: 0009-0004-1511-3179
 - first: Erich
   last: Fischer
   affil: 28
@@ -399,6 +418,7 @@ authors:
 - first: Cathy
   last: Hohenegger
   affil: 1
+  orcid: 0000-0002-7478-6275
 - first: Heikki
   last: "J\xE4rvinen"
   last_tex: J{\"a}rvinen
@@ -407,6 +427,7 @@ authors:
 - first: Markus
   last: Jochum
   affil: 33
+  orcid: 0000-0003-2690-3139
 - first: Thomas
   last: Jung
   affil: 10
@@ -414,6 +435,7 @@ authors:
 - first: Johann H.
   last: Jungclaus
   affil: 1
+  orcid: 0000-0002-3849-4339
 - first: Noel S.
   last: Keenlyside
   affil: 20
@@ -421,6 +443,7 @@ authors:
 - first: Daniel
   last: Klocke
   affil: 1
+  orcid: 0000-0001-7405-013X
 - first: Heike
   last: Konow
   affil: 1
@@ -440,9 +463,11 @@ authors:
 - first: Thorsten
   last: Mauritsen
   affil: 21
+  orcid: 0000-0003-1418-4077
 - first: Juan Pedro
   last: Mellado
   affil: 12
+  orcid: 0000-0001-7506-6539
 - first: Theresa
   last: Mieslinger
   affil: 1
@@ -464,6 +489,7 @@ authors:
   last: "Sarr\xE9"
   last_tex: Sarr{\'e}
   affil: 32
+  orcid: 0000-0002-5001-8781
 - first: Pajam
   last: Sobhani
   affil: 34
@@ -482,6 +508,7 @@ authors:
 - first: Irina
   last: Sandu
   affil: 2
+  orcid: 0000-0002-1215-3288
 - first: Bjorn
   last: Stevens
   affil: 1
