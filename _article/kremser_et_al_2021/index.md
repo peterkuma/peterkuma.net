@@ -28,6 +28,7 @@ authors:
   - first: John
     last: McGregor
     affil: 2
+    orcid: 0000-0003-2529-9849
   - first: Alex
     last: Schuddeboom
     affil: 3
@@ -86,6 +87,7 @@ authors:
   - first: Carson C.
     last: Hume
     affil: 12
+    orcid: 0000-0002-1550-2519
   - first: Graeme
     last: Plank
     affil: 3

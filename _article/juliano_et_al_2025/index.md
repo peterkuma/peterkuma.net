@@ -77,6 +77,7 @@ authors:
   last: Baró Pérez
   last_tex: Bar{\'o} P{\'e}rez
   affil: 9
+  orcid: 0009-0003-3527-508X
 - first: Peter
   last: Bogenschutz
   affil: 19
