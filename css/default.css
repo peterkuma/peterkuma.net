@@ -113,6 +113,7 @@ main .document {
 main .text {
 	font: 19px/120% "Crimson Text", sans-serif;
 	text-align: justify;
+	hyphens: auto;
 }
 
 main h3 {
@@ -131,7 +132,6 @@ main h4 {
 
 main p {
 	margin: 6px 0;
-	hyphens: auto;
 }
 
 main sup {
