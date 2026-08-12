@@ -131,6 +131,11 @@ main h4 {
 
 main p {
 	margin: 6px 0;
+	hyphens: auto;
+}
+
+main sup {
+    line-height: 0;
 }
 
 main ul {
