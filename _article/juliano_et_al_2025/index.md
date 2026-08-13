@@ -12,7 +12,7 @@ accepted: 2026-07-30
 journal: Atmospheric Chemistry and Physics
 url: https://egusphere.copernicus.org/preprints/2026/egusphere-2026-1237/
 doi: 10.5194/egusphere-2026-1237
-note: accepted
+note: in press
 file: "Juliano et al. (2026), The Cold-Air Outbreaks in the Marine Boundary Layer Experiment model-observation intercomparison project (COMBLE-MIP), Part I - Model specification, observational constraints, and preliminary findings (accepted 2026-07-30).pdf"
 file_size: 48435984
 doc_image: doc.png
