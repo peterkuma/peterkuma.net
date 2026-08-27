@@ -22,4 +22,6 @@ file: Kuma (2021), Software in climate sciences.pdf
 file_size: 361564
 doc_image: doc.png
 abstract: "Research seminar given at Stockholm University on 9 February 2022."
+event_place: Stockholm University, Stockholm, Sweden (online)
+event_date: 2022-02-09
 ---

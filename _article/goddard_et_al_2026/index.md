@@ -55,7 +55,7 @@ date: 2026-08-10
 submitted: 2026-06-22
 accepted: 2026-08-10
 journal: npj Emerging Contaminants
-note: in press
+status: in press
 file: "Goddard et al. (2026), Revised direct radiative forcing of airborne microplastics suggests warming (accepted 2026-08-10).pdf"
 file_size:
 supplement: "Supplementary Information (accepted 2026-08-10).pdf"

@@ -4,7 +4,8 @@ code: kuma2022
 type: misc
 document: lecture
 oa: true
-title: "Global Climate System: Clouds and aerosols in the climate system"
+title: "Clouds and aerosols in the climate system"
+course: Global Climate System
 authors:
 - first: Peter
   last: Kuma
@@ -12,6 +13,8 @@ authors:
   affil: 1
 affils:
 - Stockholm University, Stockholm, Sweden
+event_place: Stockholm University, Stockholm, Sweden
+event_date: 2023-01-24
 doi: 10.5281/zenodo.7579709
 archive: Zenodo
 archive_url: https://zenodo.org/records/7579709

@@ -8,3 +8,6 @@ collections:
   - report
 plugins:
   - jekyll-sitemap
+cite_styles: [APA, Harvard, Chicago, AGU, AMetSoc, Copernicus]
+cite_formats: [BibTeX, RIS, CSL-JSON]
+cite_all: [APA, Harvard, Chicago, AGU, AMetSoc, Copernicus, BibTeX, RIS, CSL-JSON]

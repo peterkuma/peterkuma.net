@@ -22,7 +22,6 @@ authors:
     affil: 2
     orcid: 0000-0002-1456-6254
   - first: Øyvind
-    first_tex: "{\\O}yvind"
     last: Seland
     affil: 3
     orcid: 0000-0001-6804-5879

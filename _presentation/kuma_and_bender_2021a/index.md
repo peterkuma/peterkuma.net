@@ -25,6 +25,8 @@ date: 2021-09-02
 file: Kuma and Bender (2021), Using deep learning cloud classification for cloud feedback and climate sensitivity determination.pdf
 file_size: 3731229
 doc_image: doc.png
-conference: FORCeS WP5 & WP6 Science Meeting, Stockholm University, Stockholm, Sweden, 2 September 2021
+event: FORCeS WP5 & WP6 Science Meeting
+event_place: Stockholm University, Stockholm, Sweden
+event_date: 2021-09-02
 abstract: "Presentation given at a FORCeS WP5 & WP6 Science Meeting, 2 September 2021."
 ---

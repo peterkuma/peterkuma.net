@@ -7,7 +7,6 @@ title: Single interval shortwave radiation scheme with parameterized optical sat
 authors:
   - first: J.
     last: Mašek
-    last_tex: Ma\v{s}ek
     affil: 1, 2
     orcid: 0000-0002-9385-2506
   - first: J.-F.
@@ -15,7 +14,6 @@ authors:
     affil: 3, 4
   - first: R.
     last: Brožková
-    last_tex: Bro\v{z}kov\'{a}
     affil: 1, 2
     orcid: 0000-0001-5781-3000
   - first: O.

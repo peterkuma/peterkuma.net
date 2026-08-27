@@ -35,7 +35,6 @@ authors:
   orcid: 0000-0001-7065-4681
 - first: Sebastian K.
   last: "M\xFCller"
-  last_tex: M{\"u}ller
   affil: 4
   orcid: 0000-0002-3774-6151
 - first: Thomas
@@ -80,7 +79,6 @@ authors:
   orcid: 0000-0002-5293-5604
 - first: "Eul\xE0lia"
   last: Baulenas
-  first_tex: Eul{\`a}lia
   affil: 7
   orcid: 0000-0001-9934-1531
 - first: Tobias
@@ -97,7 +95,6 @@ authors:
   orcid: 0009-0008-2753-261X
 - first: Nils
   last: "Br\xFCggemann"
-  last_tex: Br{\"u}ggemann
   affil: 1
   orcid: 0000-0002-9052-6828
 - first: Lukas
@@ -150,7 +147,6 @@ authors:
   orcid: 0009-0001-5829-2718
 - first: Diego
   last: "Garc\xEDa-Maroto"
-  last_tex: Garc{\'i}a-Maroto
   affil: 16
   orcid: 0009-0009-8160-5557
 - first: Philipp
@@ -162,9 +158,7 @@ authors:
   affil: 10
   orcid: 0000-0002-4512-087X
 - first: "\xC1lvaro"
-  first_tex: "{\\'A}lvaro"
   last: "Gonz\xE1lez-Cervera"
-  last_tex: Gonz{\'a}lez-Cervera
   affil: 16
   orcid: 0000-0002-3204-090X
 - first: Katherine
@@ -213,7 +207,6 @@ authors:
   orcid: 0000-0002-3365-8146
 - first: Tobias
   last: "K\xF6lling"
-  last_tex: K{\"o}lling
   affil: 1
   orcid: 0009-0007-8742-2706
 - first: Shunya
@@ -278,7 +271,6 @@ authors:
   orcid: 0000-0002-6485-5601
 - first: "Ren\xE9"
   last: Redler
-  first_tex: Ren{\'e}
   affil: 1
   orcid: 0000-0003-3117-3724
 - first: David
@@ -287,7 +279,6 @@ authors:
   orcid: 0009-0004-1497-8867
 - first: Domokos
   last: "S\xE1rm\xE1ny"
-  last_tex: S{\'a}rm{\'a}ny
   affil: 2
   orcid: 0000-0003-1170-2123
 - first: Reiner
@@ -304,12 +295,10 @@ authors:
   orcid: 0000-0001-8579-6068
 - first: Dorian
   last: "Sp\xE4t"
-  last_tex: Sp{\"a}t
   affil: 17
   orcid: 0000-0002-9029-297X
 - first: Birgit
   last: "S\xFCtzl"
-  last_tex: S{\"u}tzl
   affil: 2
   orcid: 0000-0001-9638-5643
 - first: Daisuke
@@ -346,7 +335,6 @@ authors:
   orcid: 0000-0003-4389-6911
 - first: Marta
   last: "Wac\u0142awczyk"
-  last_tex: Wac{\l}awczyk
   affil: 14
   orcid: 0000-0003-1039-4237
 - first: Nils
@@ -422,7 +410,6 @@ authors:
   orcid: 0000-0002-7478-6275
 - first: Heikki
   last: "J\xE4rvinen"
-  last_tex: J{\"a}rvinen
   affil: 15
   orcid: 0000-0003-1879-6804
 - first: Markus
@@ -479,7 +466,6 @@ authors:
   orcid: 0000-0002-4342-6349
 - first: Hanna
   last: "Paw\u0142owska"
-  last_tex: Paw{\l}owska
   affil: 14
   orcid: 0000-0002-5345-778X
 - first: Karsten
@@ -488,7 +474,6 @@ authors:
   orcid: 0000-0003-0158-2957
 - first: Abdoulaye
   last: "Sarr\xE9"
-  last_tex: Sarr{\'e}
   affil: 32
   orcid: 0000-0002-5001-8781
 - first: Pajam

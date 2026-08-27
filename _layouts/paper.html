@@ -127,6 +127,12 @@ layout: default
 {% endif %}
 
 <dl>
+{% if page.status %}
+<dt>Status: </dt>
+<dd>
+{{ page.status }}
+</dd>
+{% endif %}
 {% if page.note %}
 <dt>Note: </dt>
 <dd>
@@ -174,13 +180,31 @@ layout: default
 {% if page.school %}
 <dt>School: </dt>
 <dd>
-{{ page.school }}{% if page.address %}, {{ page.address }}{% endif %}{% if page.note %} ({{ page.note }}){% endif %}
+{{ page.school }}{% if page.address %}, {{ page.address }}{% endif %}
 </dd>
 {% endif %}
-{% if page.conference %}
-<dt>Conference: </dt>
+{% if page.course %}
+<dt>Course: </dt>
 <dd>
-{{ page.conference }}
+{{ page.course }}
+</dd>
+{% endif %}
+{% if page.event %}
+<dt>Event: </dt>
+<dd>
+{{ page.event }}
+</dd>
+{% endif %}
+{% if page.event_place %}
+<dt>Event place: </dt>
+<dd>
+{{ page.event_place }}
+</dd>
+{% endif %}
+{% if page.event_date %}
+<dt>Event date: </dt>
+<dd>
+{{ page.event_date | date_range }}
 </dd>
 {% endif %}
 {% if page.archive %}
@@ -198,25 +222,25 @@ layout: default
 {% if page.submitted %}
 <dt>Submitted:</dt>
 <dd>
-{{ page.submitted | date: "%d %B %Y" }}
+{{ page.submitted | date: "%-d %B %Y" }}
 </dd>
 {% endif %}
 {% if page.accepted %}
 <dt>Accepted:</dt>
 <dd>
-{{ page.accepted | date: "%d %B %Y" }}
+{{ page.accepted | date: "%-d %B %Y" }}
 </dd>
 {% endif %}
 {% if page.defended %}
 <dt>Defended:</dt>
 <dd>
-{{ page.defended | date: "%d %B %Y" }}
+{{ page.defended | date: "%-d %B %Y" }}
 </dd>
 {% endif %}
 {% if page.published %}
 <dt>Published:</dt>
 <dd>
-{{ page.published | date: "%d %B %Y" }}
+{{ page.published | date: "%-d %B %Y" }}
 </dd>
 {% endif %}
 {% if page.published_year %}
@@ -242,29 +266,79 @@ Open access / <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creat
 
 </dl>
 
-<details class="bibtex">
-<summary>BibTeX:</summary>
-<code><small>
-@{{ page.type }}{% raw %}{{% endraw %}{{ page.code }},<br />
-{% if page.journal %}&nbsp;&nbsp;journal={% raw %}{{% endraw %}{{ page.journal }}{% raw %}}{% endraw %},<br />{% endif %}
-{% if page.school %}&nbsp;&nbsp;school={% raw %}{{% endraw %}{{ page.school }}{% raw %}}{% endraw %},<br />{% endif %}
-{% if page.address %}&nbsp;&nbsp;address={% raw %}{{% endraw %}{{ page.address }}{% raw %}}{% endraw %},<br />{% endif %}
-{% if page.date %}&nbsp;&nbsp;year={% raw %}{{% endraw %}{{ page.date | date: "%Y" }}{% raw %}}{% endraw %},<br />{% endif %}
-{% if page.year %}&nbsp;&nbsp;year={% raw %}{{% endraw %}{{ page.year }}{% raw %}}{% endraw %},<br />{% endif %}
-{% if page.note and page.conference %}&nbsp;&nbsp;note={% raw %}{{% endraw %}{{ page.note }}; {% if page.conference_tex %}{{ conference_tex }}{% else %}{{ page.conference }}{% endif %}{% raw %}}{% endraw %},<br />
-{% elsif page.note %}&nbsp;&nbsp;note={% raw %}{{% endraw %}{{ page.note }}{% raw %}}{% endraw %},<br />
-{% elsif page.conference %}&nbsp;&nbsp;note={% raw %}{{% endraw %}{% if page.conference_tex %}{{ page.conference_tex }}{% else %}{{ page.conference }}{% endif %}{% raw %}}{% endraw %},<br />{% endif %}
-{% if page.volume %}&nbsp;&nbsp;volume={% raw %}{{% endraw %}{{ page.volume }}{% raw %}}{% endraw %},<br />{% endif %}
-{% if page.issue %}&nbsp;&nbsp;issue={% raw %}{{% endraw %}{{ page.issue }}{% raw %}}{% endraw %},<br />{% endif %}
-{% if page.number %}&nbsp;&nbsp;number={% raw %}{{% endraw %}{{ page.number }}{% raw %}}{% endraw %},<br />{% endif %}
-{% if page.pages %}&nbsp;&nbsp;pages={% raw %}{{% endraw %}{% if page.pages.size == 2 %}{{ page.pages[0] }}-{{ page.pages[1] }}{% else %}{{ page.pages }}{% endif %}{% raw %}}{% endraw %},<br />{% endif %}
-{% if page.doi %}&nbsp;&nbsp;doi={% raw %}{{% endraw %}{{ page.doi }}{% raw %}}{% endraw %},<br />{% endif %}
-{% if page.doi %}&nbsp;&nbsp;url={% raw %}{{% endraw %}https://doi.org/{{ page.doi }}{% raw %}}{% endraw %},<br />{% endif %}
-&nbsp;&nbsp;author={% raw %}{{% endraw %}{% for a in page.authors %}{% if a.last_tex %}{{ a.last_tex }}{% else %}{{ a.last }}{% endif %}, {% if a.first_tex %}{{ a.first_tex }}{% else %}{{ a.first }}{% endif %}{% if a != page.authors.last %} and {% endif %}{% endfor %}{% raw %}}{% endraw %},<br />
-&nbsp;&nbsp;title={% raw %}{{% endraw %}{% if page.title_tex %}{{ page.title_tex }}{% else %}{{ page.title }}{% endif %}{% raw %}}{% endraw %}<br />
-{% raw %}}{% endraw %}
-</small></code>
-</details>
+<div class="cite-as">
+<strong>Cite as:</strong>
+{% for format in site.cite_all %}
+<input type="radio" name="cite-as" id="cite-as-{{ format }}" {%- if forloop.first %}checked="checked"{%- endif -%} />
+<label for="cite-as-{{ format }}">{{ format }}</label>
+{% endfor %}
+<span>
+<button class="copy">Copy</button>
+<button class="save">Save</button>
+</span>
+{% for style in site.cite_styles %}
+<div class="content cite-as-{{ style }}">{% cite style %}</div>
+{% endfor %}
+{% for format in site.cite_formats %}
+<div class="content cite-as-{{ format }}"><code><small>
+<textarea readonly="readonly">{% cite format %}</textarea>
+</small></code></div>
+{% endfor %}
+</div>
+
+<script>
+  const copyBtn = document.querySelector('main .cite-as button.copy');
+  const saveBtn = document.querySelector('main .cite-as button.save');
+
+  copyBtn.addEventListener('click', async () => {
+    const selected = document.querySelector('input[name="cite-as"]:checked');
+    const id = selected.id
+    const content = document.querySelector('main .cite-as .content.' + id);
+    const textArea = content.querySelector('textarea')
+    let item;
+    if (textArea) {
+      item = new ClipboardItem({
+        'text/plain': new Blob([textArea.value], { type: 'text/plain' })
+      })
+    } else {
+      item = new ClipboardItem({
+        'text/html': new Blob([content.innerHTML], { type: 'text/html' }),
+        'text/plain': new Blob([content.innerText], { type: 'text/plain' })
+      });
+    }
+    try {
+      await navigator.clipboard.write([item]);
+    } catch (err) { console.log(err); }
+  });
+
+  saveBtn.addEventListener('click', () => {
+    const selected = document.querySelector('input[name="cite-as"]:checked');
+    const id = selected.id
+    const content = document.querySelector('main .cite-as .content.' + id);
+    const textArea = content.querySelector('textarea')
+    const value = textArea ? textArea.value : content.innerText;
+    let ext;
+    if (id == 'cite-as-BibTeX') {
+      ext = 'bib';
+    } else if (id == 'cite-as-RIS') {
+      ext = 'ris';
+    } else if (id == 'cite-as-CSL-JSON') {
+      ext = 'json';
+    } else {
+      ext = 'txt';
+    }
+    item = new Blob([value], { type: 'text/plain' });
+    const url = URL.createObjectURL(item);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = '{{ page.code }}.' + ext;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  });
+</script>
+
 {% if page.doc_image %}
 <h3>Document</h3>
 <div class="doc-image">

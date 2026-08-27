@@ -27,6 +27,9 @@ archive_url: https://zenodo.org/record/5635851
 license: CC BY 4.0
 published: 2018-04-09
 date: 2018-04-09
+event: Doctoral confirmation
+event_place: University of Canterbury, Christchurch, Aotearoa/New Zealand
+event_date: 2018-04-09
 file: Kuma et al. (2018), Doctoral Confirmation Presentation - Assessment of Southern Ocean Clouds and Aerosol in General Circulation Models.pdf
 file_size: 44598376
 doc_image: doc.png

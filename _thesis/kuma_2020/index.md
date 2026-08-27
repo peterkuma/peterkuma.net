@@ -1,6 +1,7 @@
 ---
 layout: paper
-type: phdthesis
+type: thesis
+subtype: phd-thesis
 document: thesis
 code: kuma2020c
 title: Comparing remotely sensed observations of clouds and aerosols in the Southern Ocean with climate model simulations

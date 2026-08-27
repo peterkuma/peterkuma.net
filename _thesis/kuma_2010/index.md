@@ -1,6 +1,7 @@
 ---
 layout: paper
 type: thesis
+subtype: bachelors-thesis
 document: thesis
 code: kuma2010
 title: Visualising Data from CloudSat and CALIPSO Satellites

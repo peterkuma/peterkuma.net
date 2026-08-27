@@ -38,6 +38,10 @@ date: 2017-06-26
 file: Kuma et al. (2017), Shipborne and ground-based observations of clouds in the Subantarctic the the Southern Ocean.pdf
 file_size: 63392900
 doc_image: doc.png
-conference: New Zealand Antarctic Science Conference 2017, Dunedin, New Zealand, 26–28 June 2017
+event: New Zealand Antarctic Science Conference
+event_place: Dunedin, Aotearoa/New Zealand
+event_date:
+- 2017-06-26
+- 2017-06-28
 abstract: "The Subantarctic and the Southern Ocean are regions where there are sparse ground-based and in-situ cloud measurements. While satellite measurements provide continuous spatial and temporal coverage, they are generally not capable of observing low-level clouds and the cloud base, which are critical for understanding the radiative energy budget. Results from general circulation models show bias in the shortwave radiation in this region, related to representation of clouds. As part of the Cloud and Aerosol project of the New Zealand Deep South National Science Challenge (DSC) we aim to collect and analyse cloud measurements from shipborne and ground-based deployments of several meteorological instruments: a near-infrared ceilometer, a micro rain radar and radio soundings. With this combination of multiple instruments we hope to advance the understanding of cloud processes in this region, quantify model errors compared to observations and contribute to the modelling effort of the DSC. Currently we have collected observations from a ground-based deployment on the Macquarie Island and multiple ship deployments: Aurora Australis, RV Tangaroa, HMNZS Wellington and R/V Nathaniel B. Palmer. By incorporating data from these and planned future deployments we intend to compile and maintain a Southern Ocean cloud dataset which will be available for general use. This presentation will provide an overview of our current progress and preliminary results."
 ---

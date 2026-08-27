@@ -80,5 +80,9 @@ file: "Kuma et al. (2026), New ensemble of regional climate projections for Euro
 file_size: 12411439
 doc_image: doc.png
 license: CC BY 4.0
-conference: Swedish Climate Symposium, Lund, Sweden, 20–22 May 2026
+event: Swedish Climate Symposium
+event_place: Lund, Sweden
+event_date:
+- 2026-05-20
+- 2026-05-22
 ---

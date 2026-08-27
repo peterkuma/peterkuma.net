@@ -25,5 +25,9 @@ file: "Kuma and Possner (2025), Exploring sensitivity to ice nucleating particle
 file_size: 16618418
 doc_image: doc.png
 license: CC BY 4.0
-conference: CleanCloud General Assembly, Patras, Greece, 1–3 April 2025
+event: CleanCloud General Assembly
+event_place: Patras, Greece
+event_date:
+- 2025-04-01
+- 2025-04-04
 ---

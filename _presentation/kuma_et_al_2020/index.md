@@ -90,6 +90,9 @@ archive_url: https://zenodo.org/record/5636022
 license: CC BY 4.0
 published: 2020-10-07
 date: 2020-10-07
+event: Doctoral thesis defence
+event_place: University of Canterbury, Christchurch, Aotearoa/New Zealand
+event_date: 2020-10-07
 file: Kuma et al. (2020), Doctoral thesis presentation - Comparing remotely sensed observations of clouds and aerosols in the Southern Ocean with climate model simulations.pdf
 file_size: 16528584
 doc_image: doc.png

@@ -32,6 +32,9 @@ date: 2024-05-15
 file: Kuma and Bender (2024), Using ship observations to assess Southern Ocean clouds in a storm-resolving general circulation model ICON.pdf
 file_size: 13051861
 doc_image: doc.png
-conference: Swedish Climate Symposium, Norrköping, Sweden, 15–17 May 2024
-conference_tex: "Swedish Climate Symposium, Norrk\\\"oping, Sweden, 15–17 May 2024"
+event: Swedish Climate Symposium
+event_place: Norrköping, Sweden
+event_date:
+- 2024-05-15
+- 2024-05-17
 ---

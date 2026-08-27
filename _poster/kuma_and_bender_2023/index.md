@@ -25,5 +25,9 @@ date: 2023-11-29
 file: Kuma and Bender (2023), Using ship observations to assess Southern Ocean clouds in a storm-resolving general circulation model ICON.pdf
 file_size: 18014358
 doc_image: doc.png
-conference: The 15th Bolin Days, Stockholm, Sweden, 29–30 November 2023
+event: The Bolin Days
+event_place: Stockholm, Sweden
+event_date:
+- 2023-11-29
+- 2023-11-30
 ---

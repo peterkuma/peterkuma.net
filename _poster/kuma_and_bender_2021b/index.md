@@ -25,6 +25,10 @@ date: 2021-10-27
 file: Kuma and Bender (2021), Using deep learning cloud classiffication in cloud feedback and climate sensitivity determination.pdf
 file_size: 5341430
 doc_image: doc.png
-conference: FORCeS Annual Meeting 2021, Stockholm University, Stockholm, Sweden, 25–29 October 2021
+event: FORCeS Annual Meeting
+event_place: Stockholm University, Stockholm, Sweden
+event_date:
+- 2021-10-25
+- 2021-10-29
 abstract: "We develop a deep convolutional neural network for determination of cloud types in low-resolution daily mean top-of-atmosphere shortwave and longwave radiation images, corresponding to the classical cloud types recorded by human observers in the Global Telecommunication System. We train this network on the CERES top of atmosphere radiation dataset, and apply this network on the CMIP6 abrupt-4xCO2 model output to determine long-term change in cloud type occurrence in these models with increasing CO2 concentration. We contrast these results with corresponding cloud type change in historical satellite measurements. The proposed neural network approach is broadly applicable for model, reanalysis and satellite imagery evaluation because it does not require high resolution and corresponds to the cloud types commonly recorded at weather stations worldwide."
 ---

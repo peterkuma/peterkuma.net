@@ -1,3 +1,6 @@
+---
+---
+
 @font-face {
 	font-family: "Source Sans Pro";
 	src: url("../font/source-sans-pro/regular.woff2") format("woff2");
@@ -157,10 +160,6 @@ main dt {
 	font-weight: bold;
 }
 
-main .bibtex summary {
-	font-weight: bold;
-}
-
 main figure {
 	margin: 12px 0;
 }
@@ -205,6 +204,55 @@ main .doc-image {
 main .doc-image img {
 	max-width: 100%;
 }
+
+main .cite-as input[type="radio"] {
+    display: none;
+}
+
+main .cite-as label {
+    display: inline-block;
+    padding: 2px 4px;
+    margin: 2px 0;
+    cursor: pointer;
+}
+
+main .cite-as button {
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	background: #eee;
+	padding: 4px 8px;
+	margin: 4px;
+	white-space: nowrap;
+	border: none;
+	cursor: pointer;
+	vertical-align: baseline;
+}
+
+main .cite-as .content {
+    display: none;
+    margin: 4px 0;
+}
+
+main .cite-as .content textarea {
+    margin: 0;
+    padding: 8px;
+    height: 16em;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    border: 1px solid #aaaaaa;
+}
+
+{%- for format in site.cite_all -%}
+#cite-as-{{ format }}:checked ~ label[for="cite-as-{{ format }}"]{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%} {
+    background-color: #b9ff33;
+    border-radius: 2pt;
+}
+{% for format in site.cite_all %}
+#cite-as-{{ format }}:checked ~ .cite-as-{{ format }} { display: block; }
+{% endfor %}
 
 @media (min-width: 600px) {
 	header .github {
