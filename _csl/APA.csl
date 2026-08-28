@@ -1839,7 +1839,7 @@
     <group delimiter=". ">
       <group delimiter=", ">
         <group delimiter=", " font-style="italic">
-          <text text-case="title" variable="container-title" />
+          <text variable="container-title" />
           <!-- `collection-title` is for any serial with multiple series (e.g. 'second series') -->
           <text text-case="title" variable="collection-title" />
         </group>

@@ -3346,7 +3346,7 @@
   <!-- Serial source title -->
   <macro name="source-serial-name">
     <group delimiter=" ">
-      <text font-style="italic" text-case="title" variable="container-title"/>
+      <text font-style="italic" variable="container-title"/>
       <choose>
         <!-- TODO: remove conditional when Zotero stops double-mapping `event-place` and `publisher-place` -->
         <if match="none" variable="event-date event-title">
