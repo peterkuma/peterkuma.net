@@ -54,7 +54,7 @@ authors:
     last: Christensen
     affil: 5
     orcid: 0000-0002-9513-2588
-  - first: Frederik
+  - first: Fredrik
     last: Boberg
     affil: 5
     orcid: 0000-0002-2589-8422
