@@ -9,7 +9,7 @@ authors:
     last: Kuma
     affil: 1
     orcid: 0000-0002-0910-8646
-  - first: Adrian
+  - first: Adrian J.
     last: McDonald
     affil: 1
     orcid: 0000-0002-1456-6254
