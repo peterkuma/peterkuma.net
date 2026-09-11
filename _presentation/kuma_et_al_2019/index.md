@@ -33,5 +33,5 @@ event_date: 2019-07-19
 file: "Kuma et al. (2019), Automatic Lidar and Ceilometer Framework (ALCF).pdf"
 file_size: 3816491
 doc_image: doc.png
-abstract: "Presentation given at the University of Canterbury, Christchurch, Aotearoa/New Zeland on 19 July 2019."
+abstract: "Presentation given at the University of Canterbury, Christchurch, Aotearoa/New Zealand on 19 July 2019."
 ---
