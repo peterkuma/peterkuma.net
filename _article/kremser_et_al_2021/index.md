@@ -116,7 +116,7 @@ abstract: "Due to its remote location and extreme weather conditions, atmospheri
 journal: Earth System Science Data
 _url: https://essd.copernicus.org/articles/13/3115/2021/
 volume: 13
-number: 7
+issue: 7
 pages:
   - 3115
   - 3153

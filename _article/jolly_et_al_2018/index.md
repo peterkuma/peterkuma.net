@@ -28,7 +28,7 @@ abstract: We use the 2B-GEOPROF-LIDAR R04 (2BGL4) and R05 (2BGL5) products and t
 journal: Atmospheric Chemistry and Physics
 _url: https://acp.copernicus.org/articles/18/9723/2018/
 volume: 18
-number: 13
+issue: 13
 pages:
   - 9723
   - 9739

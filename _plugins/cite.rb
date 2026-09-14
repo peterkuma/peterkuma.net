@@ -30,8 +30,6 @@ module Jekyll
       when 'CSL-JSON'
         d = csl(data, format)
         JSON.pretty_generate(d)
-      # when "Harvard"
-      #   return harvard(d)
       else
         d = csl(data, format, 'html')
         citeproc(d, format)
@@ -106,7 +104,8 @@ module Jekyll
         "container-title": d['journal'],
         "collection-title": d['course'],
         volume: d['volume'],
-        issue: d['number'],
+        issue: d['issue'],
+        number: d['number'],
         page: d['pages'].is_a?(Array) ? d['pages'].join('-') : d['pages'],
         "number-of-pages": d['no_pages'],
         DOI: d['doi'],
@@ -232,7 +231,11 @@ module Jekyll
       e[:journal] = d[:"container-title"] if d.key?(:"container-title")
       e[:volume] = d[:volume] if d.key?(:volume)
       e[:number] = d[:issue] if d.key?(:issue)
-      e[:pages] = d[:page] if d.key?(:page)
+      if d.key?(:page)
+        e[:pages] = d[:page]
+      elsif d.key?(:number)
+        e[:pages] = d[:number]
+      end
       e[:school] = d[:publisher] if (d[:type] == 'thesis') && d.key?(:publisher)
       e[:type] = d[:genre] \
         if ["Bachelor's thesis", "Master's thesis"].include?(d[:genre])
@@ -255,7 +258,7 @@ module Jekyll
       note = []
       note << d[:status] if d.key?(:status)
       note << d[:note] if d.key?(:note)
-      e[:note] = note.compact.join('; ')
+      e[:note] = note.compact.join('; ') if note.size > 0
       if d.key?(:author)
         e[:author] = d[:author].map do |x|
           "#{x[:family]}, #{x[:given]}"
@@ -302,13 +305,14 @@ module Jekyll
       r << "VL  - #{d[:volume]}" if d.key?(:volume)
       r << "IS  - #{d[:issue]}" if d.key?(:issue)
       if d.key?(:page)
-        pages = d[:page].split('-')
-        if pages.size == 1
-          r << "SP  - #{d[:page]}" if d.key?(:page)
+        if d[:page].size == 1
+          r << "SP  - #{d[:page]}"
         else
-          r << "SP  - #{pages[0]}"
-          r << "EP  - #{pages[1]}"
+          r << "SP  - #{d[:page][0]}"
+          r << "EP  - #{d[:page][1]}"
         end
+      elsif d.key?(:number)
+        r << "SP  - #{d[:number]}"
       end
       r << "DB  - #{d[:archive]}" if d.key?(:archive)
       r << "DO  - #{d[:DOI]}" if d.key?(:DOI)

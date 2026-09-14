@@ -71,7 +71,7 @@ _url: https://acp.copernicus.org/articles/20/6607/2020/
 publisher: Copernicus GmbH
 issn: 1680-7316
 volume: 20
-number: 11
+issue: 11
 pages:
   - 6607
   - 6630

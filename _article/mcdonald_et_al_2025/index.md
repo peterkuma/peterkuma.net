@@ -49,7 +49,7 @@ file: "McDonald et al. (2025), Evaluating Cloud Properties at Scott Base - Compa
 file_size: 4673578
 doc_image: doc.png
 license: CC BY-NC-ND 4.0
-pages: e2024JD041754
+number: e2024JD041754
 volume: 130
-number: 2
+issue: 2
 ---

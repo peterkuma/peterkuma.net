@@ -72,7 +72,7 @@ abstract: "MAPM (Mapping Air Pollution eMissions) is a project whose goal is to 
 journal: Earth System Science Data
 _url: https://essd.copernicus.org/articles/13/2053/2021/
 volume: 13
-number: 5
+issue: 5
 pages:
   - 2053
   - 2075

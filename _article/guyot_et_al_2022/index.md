@@ -38,7 +38,7 @@ abstract: "Cloud and aerosol lidars measuring backscatter and depolarization rat
 journal: Atmospheric Measurement Techniques
 _url: https://amt.copernicus.org/articles/15/3663/2022/
 volume: 15
-number: 12
+issue: 12
 pages:
   - 3663
   - 3681

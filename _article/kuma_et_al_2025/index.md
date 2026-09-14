@@ -78,8 +78,8 @@ accepted: 2025-10-30
 submitted: 2025-07-21
 published: 2025-11-21
 volume: 130
-number: 22
-pages: e2024JD043145
+issue: 22
+number: e2024JD043145
 journal: "Journal of Geophysical Research: Atmospheres"
 file: "Kuma et al. (2025), Ship-based lidar evaluation of Southern Ocean low clouds in the storm-resolving general circulation model ICON and the ERA5 and MERRA-2 reanalyses.pdf"
 file_size: 6381249

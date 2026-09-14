@@ -38,7 +38,7 @@ accepted: 2022-12-05
 journal: Atmospheric Chemistry and Physics
 _url: https://acp.copernicus.org/articles/23/523/2023/
 volume: 23
-number: 1
+issue: 1
 pages:
   - 523
   - 549
