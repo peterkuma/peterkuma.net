@@ -67,7 +67,7 @@ authors:
     affil: 1
 affils:
   - Swedish Meteorological and Hydrological Institute (SMHI), Norrköping, Sweden
-  - The Norwegian Meteorological Institute (MET Norway), Oslo, Norway
+  - Norwegian Meteorological Institute (MET Norway), Oslo, Norway
   - Royal Netherlands Meteorological Institute (KNMI), De Bilt, The Netherlands
   - Agencia Estatal de Meteorología (AEMET), Madrid, Spain
   - Danish Meteorological Institute (DMI), Copenhagen, Denmark
