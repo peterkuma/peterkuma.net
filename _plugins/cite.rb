@@ -80,11 +80,15 @@ module Jekyll
         issued = { "date-parts": [[d['date'].year, d['date'].month,
                                    d['date'].day]] }
       end
-      issued = nil if d.key?('status') and \
+      issued = nil if d.key?('status') and d['status'] != 'submitted' and \
                       %w[AGU APA Chicago Nature].include?(format)
       status = case format
                when 'Chicago'
-                 d['status'] == 'in press' ? 'forthcoming' : d['status']
+                 case d['status']
+                 when 'in press' then 'forthcoming'
+                 when 'submitted' then 'preprint, submitted'
+                 else d['status']
+                 end
                else
                  d['status']
                end
