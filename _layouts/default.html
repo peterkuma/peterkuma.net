@@ -97,9 +97,12 @@
 {% endif %}
 {% if page.volume %}<meta name="citation_volume" content="{{ page.volume | escape }}" />{% endif %}
 {% if page.issue %}<meta name="citation_issue" content="{{ page.issue | escape }}" />{% endif %}
-{% if page.number %}<meta name="citation_issue" content="{{ page.number | escape }}" />{% endif %}
-{% if page.pages %}<meta name="citation_firstpage" content="{{ page.pages[0] | escape }}" />{% endif %}
-{% if page.pages %}<meta name="citation_lastpage" content="{{ page.pages[1] | escape }}" />{% endif %}
+{% if page.number %}
+<meta name="citation_firstpage" content="{{ page.number | escape }}" />
+{% elsif page.pages %}
+<meta name="citation_firstpage" content="{{ page.pages[0] | escape }}" />
+<meta name="citation_lastpage" content="{{ page.pages[1] | escape }}" />
+{% endif %}
 {% if page.doi %}<meta name="citation_doi" content="{{ page.doi | escape }}" />{% endif %}
 {% if page.issn %}<meta name="citation_issn" content="{{ page.issn | escape }}" />{% endif %}
 {% if page.file %}<meta name="citation_pdf_url" content="{{ page.url | absolute_url }}{{ page.file | uri_escape }}" />{% endif %}
