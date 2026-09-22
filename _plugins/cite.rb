@@ -309,11 +309,12 @@ module Jekyll
       r << "VL  - #{d[:volume]}" if d.key?(:volume)
       r << "IS  - #{d[:issue]}" if d.key?(:issue)
       if d.key?(:page)
-        if d[:page].size == 1
-          r << "SP  - #{d[:page]}"
+        pages = d[:page].split('-')
+        if pages.size == 1
+          r << "SP  - #{pages}"
         else
-          r << "SP  - #{d[:page][0]}"
-          r << "EP  - #{d[:page][1]}"
+          r << "SP  - #{pages[0]}"
+          r << "EP  - #{pages[1]}"
         end
       elsif d.key?(:number)
         r << "SP  - #{d[:number]}"
