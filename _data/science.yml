@@ -1,4 +1,9 @@
 - type: article
+  name: juliano_et_al_2026
+  author: Juliano et al.
+  place: Atmospheric Chemistry and Physics
+
+- type: article
   name: nikulin_et_al_2026
   author: Nikulin et al.
   place: submitted
@@ -7,11 +12,6 @@
   name: goddard_et_al_2026
   author: Goddard et al.
   place: npj Emerging Contaminants
-
-- type: article
-  name: juliano_et_al_2025
-  author: Juliano et al.
-  place: Atmospheric Chemistry and Physics, in press
 
 - type: presentation
   name: kuma_et_al_2026
