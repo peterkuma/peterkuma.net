@@ -5,7 +5,7 @@ code: goddard2026
 document: article
 title: Revised direct radiative forcing of airborne microplastics suggests warming
 authors:
-  - first: Felix
+  - first: Felix W.
     last: Goddard
     affil: 1
     orcid: 0000-0001-6915-6482
