@@ -50,7 +50,8 @@ accepted: 2020-01-20
 published: 2020-01-24
 date: 2020-01-24
 license: Free access / proprietary
-file: https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2019JD032026?download=true
-file_size: 3772680
+file: Hartery et al. (2020), Constraining the Surface Flux of Sea Spray Particles From the Southern Ocean.pdf
+file_size: 3772653
+supplement: Supporting Information.txt
 doc_image: doc.png
 ---
