@@ -216,7 +216,7 @@
                   <text macro="title"/>
                   <text variable="version" prefix="(" suffix=")"/>
                 </group>
-                <text variable="archive" suffix=" [dataset]"/>
+                <text variable="publisher" suffix=" [dataset]"/>
                 <text macro="doi"/>
                 <text macro="status"/>
               </group>
@@ -292,22 +292,18 @@
               </group>
             </else-if>
             <else>
-              <group delimiter=", " suffix="," prefix=" ">
+              <group delimiter=", " prefix=" ">
                 <text macro="title"/>
                 <text macro="editor"/>
-              </group>
-              <group prefix=" ">
                 <text variable="container-title" form="short"/>
-                <group prefix=", " delimiter=", ">
-                  <group>
-                    <text variable="volume"/>
-                    <text macro="published-date"/>
-                  </group>
-                  <text variable="archive"/>
-                  <text macro="pages"/>
-                  <text macro="doi"/>
-                  <text macro="status"/>
+                <group>
+                  <text variable="volume"/>
+                  <text macro="published-date"/>
                 </group>
+                <text variable="publisher"/>
+                <text macro="pages"/>
+                <text macro="doi"/>
+                <text macro="status"/>
               </group>
             </else>
           </choose>
@@ -325,7 +321,7 @@
               </group>
               <group delimiter=", " prefix=" " suffix=".">
                 <text variable="title"/>
-                <text variable="archive" suffix=" [preprint]"/>
+                <text variable="publisher" suffix=" [preprint]"/>
                 <choose>
                   <if match="any" variable="DOI">
                     <text macro="doi"/>

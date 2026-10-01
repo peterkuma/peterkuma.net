@@ -206,10 +206,19 @@
             <text variable="event-place"/>
             <date variable="event-date"/>
             <group delimiter=": ">
-                <text variable="publisher-place"/>
-                <text variable="publisher"/>
+              <text variable="publisher-place"/>
+              <text variable="publisher"/>
             </group>
           </group>
+          <choose>
+            <if type="article article-journal" match="any">
+              <choose>
+                <if match="none" variable="page volume">
+                  <text value="Preprint" prefix="[" suffix="]"/>
+                </if>
+              </choose>
+            </if>
+          </choose>
           <!-- <group prefix="(" suffix=")" delimiter=", ">
             <text variable="collection-title"/>
             <text variable="collection-number"/>
@@ -276,7 +285,7 @@
               <if type="article article-journal" match="any">
                 <choose>
                   <if match="none" variable="page volume">
-                    <!-- <text value="Preprint" prefix="[" suffix="]"/> -->
+                    <text value="Preprint" prefix="[" suffix="]"/>
                   </if>
                 </choose>
               </if>

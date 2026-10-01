@@ -1462,8 +1462,12 @@
       <if match="any" variable="genre medium">
         <group delimiter="; ">
           <choose>
-            <if match="none" variable="number">
-              <text variable="genre" />
+            <if variable="genre">
+              <choose>
+                <if match="none" variable="number">
+                  <text variable="genre" />
+                </if>
+              </choose>
             </if>
             <if variable="medium">
               <text text-case="capitalize-first" variable="medium" />

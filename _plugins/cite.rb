@@ -51,7 +51,7 @@ module Jekyll
 
     def csl(d, format, coding = 'plain')
       type = case d['document']
-             when 'article'
+             when 'article' then \
                d.key?('journal') ? 'article-journal' : 'article'
              when 'poster' then 'speech'
              when 'presentation' then 'speech'
@@ -80,19 +80,23 @@ module Jekyll
         issued = { "date-parts": [[d['date'].year, d['date'].month,
                                    d['date'].day]] }
       end
-      issued = nil if d.key?('status') and d['status'] != 'submitted' and \
+      issued = nil if d.key?('status') and \
                       %w[AGU APA Chicago Nature].include?(format)
+
       status = case format
                when 'Chicago'
                  case d['status']
                  when 'in press' then 'forthcoming'
-                 when 'submitted' then 'preprint, submitted'
                  else d['status']
                  end
                else
                  d['status']
                end
       url = d.key?('doi') ? 'https://doi.org/' + d['doi'] : d['_url']
+      publisher = \
+        if type == 'thesis' and d.key?('school') then d['school']
+        elsif d.key?('archive') and !d.key?('journal') then d['archive']
+        end
       {
         id: d['code'],
         type: type,
@@ -120,8 +124,7 @@ module Jekyll
         author: d['authors'].map do |x|
           { family: x['last'], given: x['first'] }
         end,
-        publisher: type == 'thesis' ? d['school'] : nil,
-        archive: d.key?('journal') && d.key?('volume') ? nil : d['archive'],
+        publisher: publisher,
         "event-title": d['event'],
         "event-place": d['event_place'],
         "event-date": if d.key?('event_date')
@@ -217,7 +220,7 @@ module Jekyll
     def bib(d)
       type = case d[:type]
              when 'article-journal' then 'article'
-             when 'article' then 'unpublished'
+             when 'article' then 'misc'
              when 'book' then 'book'
              else 'misc'
              end
@@ -245,6 +248,8 @@ module Jekyll
         if ["Bachelor's thesis", "Master's thesis"].include?(d[:genre])
       e[:doi] = d[:DOI] if d.key?(:DOI)
       e[:url] = "https://doi.org/#{d[:DOI]}" if d.key?(:DOI)
+      e[:howpublished] = d[:publisher] \
+        if d.key?(:publisher) and d[:type] != 'thesis'
       if d[:type] == 'speech'
         event = []
         event << d[:genre].downcase
@@ -257,12 +262,13 @@ module Jekyll
             bib_event_date(d[:"event-date"])
           ].compact.join(', ')
         end
-        e[:howpublished] = event.join(' ')
+        e[:note] = event.join(' ')
       end
       note = []
+      note << 'preprint' if d[:type] == 'article'
       note << d[:status] if d.key?(:status)
       note << d[:note] if d.key?(:note)
-      e[:note] = note.compact.join('; ') if note.size > 0
+      e[:note] = note.compact.join(', ') if note.size > 0
       if d.key?(:author)
         e[:author] = d[:author].map do |x|
           "#{x[:family]}, #{x[:given]}"
@@ -272,11 +278,8 @@ module Jekyll
     end
 
     def ris(d)
-      r = []
-      r << "ID  - #{d[:id]}" if d.key?(:id)
       type = case d[:type]
              when 'article-journal' then 'JOUR'
-             when 'article' then 'UNPB'
              when 'speech' then case d[:genre]
                                 when 'Slides' then 'SLIDE'
                                 else 'GEN'
@@ -286,6 +289,13 @@ module Jekyll
              end
       type = 'INPR' \
         if d[:type] == 'article-journal' and d[:status] == 'in press'
+      note = []
+      note << 'preprint' if d[:type] == 'article'
+      note << d[:status] if d.key?(:status)
+      note << d[:note] if d.key?(:note)
+      note = note.size > 0 ? note.compact.join(', ') : nil
+      r = []
+      r << "ID  - #{d[:id]}" if d.key?(:id)
       r << "TY  - #{type}"
       if d.key?(:author)
         d[:author].each do |x|
@@ -300,7 +310,7 @@ module Jekyll
                                                            date[2])}"
       end
       r << "TI  - #{d[:title]}" if d.key?(:title)
-      r << "M3  - #{d[:genre].capitalize}" if d.key?(:genre)
+      r << "M1  - #{d[:genre].capitalize}" if d.key?(:genre)
       r << "PB  - #{d[:publisher]}" if d.key?(:publisher)
       r << "T2  - #{d[:"event-title"]}" if d.key?(:"event-title")
       r << "T3  - #{d[:"collection-title"]}" if d.key?(:"collection-title")
@@ -319,10 +329,9 @@ module Jekyll
       elsif d.key?(:number)
         r << "SP  - #{d[:number]}"
       end
-      r << "DB  - #{d[:archive]}" if d.key?(:archive)
       r << "DO  - #{d[:DOI]}" if d.key?(:DOI)
       r << "UR  - #{d[:URL]}" if d.key?(:URL)
-      r << "N1  - #{d[:status].capitalize}" if d.key?(:status)
+      r << "N1  - #{note}" unless note.nil?
       r << 'ER  -'
       r.join("\n")
     end
