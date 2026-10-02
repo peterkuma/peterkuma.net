@@ -17,6 +17,7 @@ published: 2025-10-23
 accepted: 2025-07-27
 submitted: 2025-02-03
 doi: 10.5194/gmd-18-7735-2025
+_url: https://gmd.copernicus.org/articles/18/7735/2025/
 file: "Segura et al. (2025), nextGEMS - entering the era of kilometer-scale Earth system modeling.pdf"
 file_size: 8618996
 doc_image: doc.png
