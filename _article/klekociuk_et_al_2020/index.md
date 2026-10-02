@@ -34,6 +34,7 @@ abstract: The near-surface environment of the Southern Ocean is subject to parti
 journal: "Deep-Sea Research Part II: Topical Studies in Oceanography"
 publisher: Elsevier
 volume: 174
+number: 104550
 issn: 0967-0645
 _url: https://www.sciencedirect.com/science/article/pii/S0967064518301395
 doi: 10.1016/j.dsr2.2019.02.001
