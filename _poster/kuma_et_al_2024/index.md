@@ -74,7 +74,7 @@ file: "Kuma et al. (2024), Ship-based lidar evaluation of Southern Ocean clouds 
 file_size: 5040431
 doc_image: doc.png
 license: CC BY 4.0
-event: The Bolin Days
+event: Bolin Days
 event_place: Stockholm, Sweden
 event_date:
 - 2024-11-13
