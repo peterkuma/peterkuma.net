@@ -50,6 +50,7 @@ pages:
   - 14691
   - 14714
 journal: Atmospheric Chemistry and Physics
+publisher: Copernicus Publications
 _url: https://acp.copernicus.org/articles/23/14691/2023/
 volume: 23
 issue: 23

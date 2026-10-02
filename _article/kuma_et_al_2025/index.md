@@ -81,6 +81,7 @@ volume: 130
 issue: 22
 number: e2024JD043145
 journal: "Journal of Geophysical Research: Atmospheres"
+publisher: John Wiley & Sons
 file: "Kuma et al. (2025), Ship-based lidar evaluation of Southern Ocean low clouds in the storm-resolving general circulation model ICON and the ERA5 and MERRA-2 reanalyses.pdf"
 file_size: 6381249
 supplement: "Supporting information.pdf"

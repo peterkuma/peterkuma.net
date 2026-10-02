@@ -36,6 +36,7 @@ date: 2023-01-13
 published: 2023-01-13
 accepted: 2022-12-05
 journal: Atmospheric Chemistry and Physics
+publisher: Copernicus Publications
 _url: https://acp.copernicus.org/articles/23/523/2023/
 volume: 23
 issue: 1

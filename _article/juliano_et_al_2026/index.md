@@ -10,6 +10,7 @@ submitted: 2026-04-01
 accepted: 2026-07-30
 published: 2026-09-22
 journal: Atmospheric Chemistry and Physics
+publisher: Copernicus Publications
 volume: 26
 issue: 18
 pages:

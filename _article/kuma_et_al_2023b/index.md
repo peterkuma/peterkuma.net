@@ -43,6 +43,7 @@ Future research could extend our analysis to the ocean component, quantify the s
 
 Our work was done at the Department of Meteorology and Bolin Centre for Climate Research at Stockholm University, and funded by the EU projects FORCeS and NextGEMS and the Swedish e-Science Research Centre. The results have been published in the Journal of Advances in Modeling Earth Systems ([https://doi.org/10.1029/2022MS003588](https://doi.org/10.1029/2022MS003588))."
 journal: Journal of Advances in Modeling of Earth Systems
+publisher: John Wiley & Sons
 archive: Zenodo
 archive_url: https://doi.org/10.5281/zenodo.7220768
 doi: 10.1029/2022MS003588
