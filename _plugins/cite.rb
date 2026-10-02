@@ -234,7 +234,14 @@ module Jekyll
       e = BibTeX::Entry.new
       e.type = type
       e.key = d[:id] if d.key?(:id)
+      e[:type] = d[:genre] \
+        if ["Bachelor's thesis", "Master's thesis"].include?(d[:genre])
       e[:title] = d[:title] if d.key?(:title)
+      if d.key?(:author)
+        e[:author] = d[:author].map do |x|
+          "#{x[:family]}, #{x[:given]}"
+        end.join(' and ')
+      end
       e[:year] = d[:issued]&.dig(:"date-parts", 0, 0) if d.key?(:issued)
       e[:journal] = d[:"container-title"] if d.key?(:"container-title")
       e[:volume] = d[:volume] if d.key?(:volume)
@@ -245,10 +252,6 @@ module Jekyll
         e[:pages] = d[:number]
       end
       e[:school] = d[:publisher] if (d[:type] == 'thesis') && d.key?(:publisher)
-      e[:type] = d[:genre] \
-        if ["Bachelor's thesis", "Master's thesis"].include?(d[:genre])
-      e[:doi] = d[:DOI] if d.key?(:DOI)
-      e[:url] = "https://doi.org/#{d[:DOI]}" if d.key?(:DOI)
       e[:howpublished] = d[:publisher] \
         if d.key?(:publisher) and d[:type] != 'thesis' and \
           !d.key?(:"container-title")
@@ -265,17 +268,15 @@ module Jekyll
           ].compact.join(', ')
         end
         e[:note] = event.join(' ')
+      else
+        note = []
+        note << 'preprint' if d[:type] == 'article'
+        note << d[:status] if d.key?(:status)
+        note << d[:note] if d.key?(:note)
+        e[:note] = note.compact.join(', ') if note.size > 0
       end
-      note = []
-      note << 'preprint' if d[:type] == 'article'
-      note << d[:status] if d.key?(:status)
-      note << d[:note] if d.key?(:note)
-      e[:note] = note.compact.join(', ') if note.size > 0
-      if d.key?(:author)
-        e[:author] = d[:author].map do |x|
-          "#{x[:family]}, #{x[:given]}"
-        end.join(' and ')
-      end
+      e[:doi] = d[:DOI] if d.key?(:DOI)
+      e[:url] = "https://doi.org/#{d[:DOI]}" if d.key?(:DOI)
       bib_escape(e.to_s.strip)
     end
 
