@@ -88,4 +88,5 @@ supplement: "Supporting information.pdf"
 supplementary_code: "https://github.com/peterkuma/icon-so-2024"
 doc_image: doc.png
 license: CC BY 4.0
+source: https://github.com/peterkuma/icon-so-2024-paper
 ---
