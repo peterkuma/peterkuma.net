@@ -7,40 +7,40 @@ title: "Evaluation of historical simulations in the HCLIM43-ALADIN regional clim
 authors:  
   - first: Grigory
     last: Nikulin
-    affil: 1
+    affil: 1, 2
     orcid: 0000-0002-4226-8713
   - first: Peter
     last: Kuma
-    affil: 1
+    affil: 1, 2
     orcid: 0000-0002-0910-8646
   - first: Fuxing
     last: Wang
-    affil: 1
+    affil: 1, 2
     orcid: 0000-0001-7582-2752
   - first: Oskar
     last: Landgren
-    affil: 2
+    affil: 3
     orcid: 0000-0002-6264-8502
   - first: Aitor
     last: Aldama Campino
-    affil: 1
+    affil: 1, 2
     orcid: 0000-0001-8453-4322
   - first: Bert
     last: van Ulft
-    affil: 3
+    affil: 4
     orcid: 0000-0001-8653-2312
   - first: Petter
     last: Lind
-    affil: 1
+    affil: 1, 2
     orcid: 0000-0002-2691-2361
   - first: Andreas
     last: Dobler
-    affil: 2
+    affil: 3
     orcid: 0000-0001-9490-0840
   - first: Juan Carlos
     last: Sánchez
     last_tex: S\'{a}nchez
-    affil: 4
+    affil: 5
     orcid: 0000-0003-4916-6709
   - first: Joakim
     last: Löw
@@ -52,21 +52,22 @@ authors:
     affil: 1
   - first: Ole B.
     last: Christensen
-    affil: 5
+    affil: 6
     orcid: 0000-0002-9513-2588
   - first: Fredrik
     last: Boberg
-    affil: 5
+    affil: 6
     orcid: 0000-0002-2589-8422
   - first: Patrick
     last: Samuelsson
-    affil: 1
+    affil: 1, 2
     orcid: 0000-0003-4387-6232
   - first: Carolina
     last: Nilsson
     affil: 1
 affils:
   - Swedish Meteorological and Hydrological Institute (SMHI), Norrköping, Sweden
+  - Bolin Centre for Climate Research, Stockholm University, Stockholm, Sweden
   - Norwegian Meteorological Institute (MET Norway), Oslo, Norway
   - Royal Netherlands Meteorological Institute (KNMI), De Bilt, The Netherlands
   - Agencia Estatal de Meteorología (AEMET), Madrid, Spain
